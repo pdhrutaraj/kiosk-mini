@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HRI.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/HRI.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/HRI.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/HRI.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/HRI.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -132,8 +132,8 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HRI.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \

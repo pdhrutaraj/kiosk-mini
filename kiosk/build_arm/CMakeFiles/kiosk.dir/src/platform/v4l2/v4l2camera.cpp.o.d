@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/string \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/bits/requires_hosted.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/aarch64-poky-linux/bits/c++config.h \

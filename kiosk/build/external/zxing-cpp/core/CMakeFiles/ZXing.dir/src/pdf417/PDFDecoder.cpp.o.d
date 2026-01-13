@@ -1,10 +1,10 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDecoder.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDecoder.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDecoder.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDecoder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDecoder.h \
  /usr/include/c++/11/vector \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecoderResult.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/JSON.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecoderResult.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/JSON.h \
  /usr/include/c++/11/cstring \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/string.h /usr/include/c++/11/optional \
@@ -16,11 +16,11 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDecoder.cpp.o: \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/string \
  /usr/include/c++/11/string_view /usr/include/c++/11/memory \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCustomData.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCustomData.h \
  /usr/include/c++/11/cstdint \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/ZXBigInteger.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/ZXBigInteger.h \
  /usr/include/c++/11/cstdlib \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXTestSupport.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXTestSupport.h \
  /usr/include/c++/11/array /usr/include/c++/11/cassert \
  /usr/include/assert.h /usr/include/features.h \
  /usr/include/c++/11/charconv /usr/include/c++/11/sstream \

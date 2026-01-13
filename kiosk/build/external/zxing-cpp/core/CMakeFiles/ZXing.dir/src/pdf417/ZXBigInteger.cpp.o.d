@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/ZXBigInteger.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/ZXBigInteger.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/ZXBigInteger.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/ZXBigInteger.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/ZXBigInteger.h \
  /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/string /usr/include/c++/11/type_traits \

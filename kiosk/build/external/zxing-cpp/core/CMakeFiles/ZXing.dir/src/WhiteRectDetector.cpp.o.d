@@ -1,8 +1,8 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/WhiteRectDetector.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/WhiteRectDetector.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/WhiteRectDetector.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/WhiteRectDetector.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrixCursor.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/WhiteRectDetector.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrixCursor.h \
  /usr/include/c++/11/climits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
@@ -17,4 +17,4 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/WhiteRectDetector.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h

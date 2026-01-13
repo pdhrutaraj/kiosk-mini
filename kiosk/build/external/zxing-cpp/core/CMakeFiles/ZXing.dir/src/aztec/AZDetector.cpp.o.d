@@ -1,19 +1,19 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetector.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetector.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetector.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetector.h \
  /usr/include/c++/11/vector \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetectorResult.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DetectorResult.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetectorResult.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/DetectorResult.h \
  /usr/include/c++/11/utility \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitArray.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitArray.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/assert.h /usr/include/features.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/stdexcept \
  /usr/include/c++/11/type_traits \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ConcentricFinder.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrixCursor.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ConcentricFinder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrixCursor.h \
  /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -27,7 +27,7 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Pattern.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Pattern.h \
  /usr/include/c++/11/array /usr/include/c++/11/cmath \
  /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
@@ -39,12 +39,12 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.o: \
  /usr/include/c++/11/bits/exception_defines.h \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/stl_construct.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGF.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGFPoly.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GridSampler.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/LogMatrix.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGF.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGFPoly.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/GridSampler.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/LogMatrix.h \
  /usr/include/c++/11/cstdio /usr/include/stdio.h \
  /usr/include/c++/11/string \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReedSolomonDecoder.h
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReedSolomonDecoder.h

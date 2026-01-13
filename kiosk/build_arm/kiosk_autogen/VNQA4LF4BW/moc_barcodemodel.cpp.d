@@ -1,5 +1,5 @@
-/home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/VNQA4LF4BW/moc_barcodemodel.cpp: /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h \
-  /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/moc_predefs.h \
+/home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/VNQA4LF4BW/moc_barcodemodel.cpp: /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/model/barcodemodel.h \
+  /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/moc_predefs.h \
   /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QObject \
   /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QString \
   /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/q20functional.h \

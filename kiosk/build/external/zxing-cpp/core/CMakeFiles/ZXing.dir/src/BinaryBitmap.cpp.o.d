@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BinaryBitmap.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/memory \
  /usr/include/c++/11/vector /usr/include/c++/11/mutex \
  /usr/include/c++/11/tuple /usr/include/c++/11/chrono \

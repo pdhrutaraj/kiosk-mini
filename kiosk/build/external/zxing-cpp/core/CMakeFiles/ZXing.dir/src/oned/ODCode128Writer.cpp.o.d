@@ -1,13 +1,13 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Writer.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Writer.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Writer.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Writer.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Writer.h \
  /usr/include/c++/11/string \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Patterns.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Patterns.h \
  /usr/include/c++/11/array \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODWriterHelper.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODWriterHelper.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/vector \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Utf.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Utf.h \
  /usr/include/c++/11/string_view /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/bits/allocator.h \

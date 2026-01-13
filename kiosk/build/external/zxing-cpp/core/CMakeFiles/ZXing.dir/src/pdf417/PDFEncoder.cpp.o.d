@@ -1,10 +1,10 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFEncoder.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFEncoder.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFEncoder.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFEncoder.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCompaction.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFEncoder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCompaction.h \
  /usr/include/c++/11/string /usr/include/c++/11/vector \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFHighLevelEncoder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFHighLevelEncoder.h \
  /usr/include/c++/11/array /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/bits/cpp_type_traits.h \

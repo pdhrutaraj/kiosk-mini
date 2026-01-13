@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/view/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/view/mainwindow.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/QMainWindow \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qtwidgetsglobal.h \

@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/view/mainwindow.cpp \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/view/mainwindow.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtWidgets/QMainWindow \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtWidgets/qmainwindow.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtWidgets/qtwidgetsglobal.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /home/prakash/kiosk-mini/kiosk
+# Install script for directory: /home/prakash/kiosk-mini/kiosk-mini/kiosk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/prakash/kiosk-mini/kiosk/build/external/zxing-cpp/cmake_install.cmake")
+  include("/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/external/zxing-cpp/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kiosk"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/prakash/kiosk-mini/kiosk/build/kiosk")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kiosk" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/kiosk")
     file(RPATH_CHANGE
@@ -75,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/prakash/kiosk-mini/kiosk/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

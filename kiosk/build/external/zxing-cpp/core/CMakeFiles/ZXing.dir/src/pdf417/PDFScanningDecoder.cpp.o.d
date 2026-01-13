@@ -1,10 +1,10 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFScanningDecoder.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFScanningDecoder.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFScanningDecoder.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFScanningDecoder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFScanningDecoder.h \
  /usr/include/c++/11/vector \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecoderResult.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/JSON.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecoderResult.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/JSON.h \
  /usr/include/c++/11/cstring \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/string.h /usr/include/c++/11/optional \
@@ -16,8 +16,8 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFScanningDecoder.cpp.o
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/string \
  /usr/include/c++/11/string_view /usr/include/c++/11/memory \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBarcodeMetadata.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBarcodeValue.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBarcodeMetadata.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBarcodeValue.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/bits/allocator.h \
@@ -32,21 +32,21 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFScanningDecoder.cpp.o
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCodewordDecoder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCodewordDecoder.h \
  /usr/include/c++/11/array \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDetectionResult.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBoundingBox.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/ZXNullable.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDetectionResult.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBoundingBox.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/ZXNullable.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/stdexcept \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDetectionResultColumn.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCodeword.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDecoder.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCustomData.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDetectionResultColumn.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCodeword.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDecoder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCustomData.h \
  /usr/include/c++/11/cstdint \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFModulusGF.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFModulusPoly.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXTestSupport.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFModulusGF.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFModulusPoly.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXTestSupport.h \
  /usr/include/c++/11/cmath /usr/include/c++/11/ext/type_traits.h \
  /usr/include/math.h /usr/include/c++/11/bits/std_abs.h

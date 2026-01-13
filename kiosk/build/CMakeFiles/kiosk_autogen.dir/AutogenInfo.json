@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/home/prakash/kiosk-mini/kiosk/build/kiosk_autogen",
-	"CMAKE_BINARY_DIR" : "/home/prakash/kiosk-mini/kiosk/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/prakash/kiosk-mini/kiosk/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/prakash/kiosk-mini/kiosk",
+	"BUILD_DIR" : "/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen",
+	"CMAKE_BINARY_DIR" : "/home/prakash/kiosk-mini/kiosk-mini/kiosk/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/prakash/kiosk-mini/kiosk-mini/kiosk/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/prakash/kiosk-mini/kiosk-mini/kiosk",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/prakash/kiosk-mini/kiosk/CMakeLists.txt",
+		"/home/prakash/kiosk-mini/kiosk-mini/kiosk/CMakeLists.txt",
 		"/usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeSystem.cmake.in",
-		"/home/prakash/kiosk-mini/kiosk/build/CMakeFiles/3.22.1/CMakeSystem.cmake",
+		"/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/CMakeFiles/3.22.1/CMakeSystem.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeUnixFindMake.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeDetermineCCompiler.cmake",
@@ -58,7 +58,7 @@
 		"/usr/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake-3.22/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in",
-		"/home/prakash/kiosk-mini/kiosk/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake",
+		"/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeDetermineCompiler.cmake",
 		"/usr/share/cmake-3.22/Modules/Platform/Linux-Determine-CXX.cmake",
@@ -104,7 +104,7 @@
 		"/usr/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake-3.22/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/prakash/kiosk-mini/kiosk/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake",
+		"/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake",
@@ -129,7 +129,7 @@
 		"/usr/share/cmake-3.22/Modules/CMakeDetermineCompileFeatures.cmake",
 		"/usr/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in",
-		"/home/prakash/kiosk-mini/kiosk/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake",
+		"/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake",
 		"/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake",
@@ -148,7 +148,7 @@
 		"/usr/share/cmake-3.22/Modules/CMakeDetermineCompileFeatures.cmake",
 		"/usr/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake-3.22/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/prakash/kiosk-mini/kiosk/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake",
+		"/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake",
 		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -452,51 +452,51 @@
 		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/prakash/kiosk-mini/kiosk",
+	"CMAKE_SOURCE_DIR" : "/home/prakash/kiosk-mini/kiosk-mini/kiosk",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.h",
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/barcodescanner.h",
 			"MU",
 			"KECQXMYYOW/moc_barcodescanner.cpp",
 			null
 		],
 		[
-			"/home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.h",
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/cameracontroller.h",
 			"MU",
 			"KECQXMYYOW/moc_cameracontroller.cpp",
 			null
 		],
 		[
-			"/home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h",
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/model/barcodemodel.h",
 			"MU",
 			"VNQA4LF4BW/moc_barcodemodel.cpp",
 			null
 		],
 		[
-			"/home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h",
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h",
 			"MU",
 			"RJB2OXRZWO/moc_v4l2camera.cpp",
 			null
 		],
 		[
-			"/home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.h",
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/storage/sqliterecorder.h",
 			"MU",
 			"F2ESZRYZMC/moc_sqliterecorder.cpp",
 			null
 		],
 		[
-			"/home/prakash/kiosk-mini/kiosk/src/view/mainwindow.h",
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/view/mainwindow.h",
 			"MU",
 			"3JYSCEOBDA/moc_mainwindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -507,10 +507,10 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/prakash/kiosk-mini/kiosk/src",
-		"/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core",
-		"/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src",
-		"/home/prakash/kiosk-mini/kiosk/build/external/zxing-cpp/core",
+		"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src",
+		"/home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core",
+		"/home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src",
+		"/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/external/zxing-cpp/core",
 		"/home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets",
 		"/home/prakash/Qt/6.5.3/gcc_64/include",
 		"/home/prakash/Qt/6.5.3/gcc_64/include/QtCore",
@@ -542,46 +542,50 @@
 		"-c",
 		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/prakash/kiosk-mini/kiosk/build/CMakeFiles/kiosk_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/CMakeFiles/kiosk_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/prakash/Qt/6.5.3/gcc_64/./libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/home/prakash/Qt/6.5.3/gcc_64/./libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 5,
-	"SETTINGS_FILE" : "/home/prakash/kiosk-mini/kiosk/build/CMakeFiles/kiosk_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/CMakeFiles/kiosk_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.cpp",
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/barcodescanner.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.cpp",
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/cameracontroller.cpp",
 			"MU",
 			null
 		],
-		[ "/home/prakash/kiosk-mini/kiosk/src/main.cpp", "MU", null ],
+		[ "/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/main.cpp", "MU", null ],
 		[
-			"/home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp",
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/model/barcodemodel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp",
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp",
 			"MU",
 			null
 		],
-		[ "/home/prakash/kiosk-mini/kiosk/src/view/mainwindow.cpp", "MU", null ]
+		[
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/view/mainwindow.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

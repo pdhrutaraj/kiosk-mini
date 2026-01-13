@@ -53,10 +53,10 @@ RM = /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk
+CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk-mini/kiosk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk/build_arm
+CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm
 
 # Utility rule file for kiosk_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/kiosk_autogen: kiosk_autogen/timestamp
 kiosk_autogen/timestamp: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/libexec/moc
 kiosk_autogen/timestamp: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/libexec/uic
 kiosk_autogen/timestamp: CMakeFiles/kiosk_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/prakash/kiosk-mini/kiosk/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target kiosk"
-	/opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_autogen /home/prakash/kiosk-mini/kiosk/build_arm/CMakeFiles/kiosk_autogen.dir/AutogenInfo.json Release
-	/opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E touch /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target kiosk"
+	/opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_autogen /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/CMakeFiles/kiosk_autogen.dir/AutogenInfo.json Release
+	/opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E touch /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/timestamp
 
 kiosk_autogen: CMakeFiles/kiosk_autogen
 kiosk_autogen: kiosk_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/kiosk_autogen.dir/clean:
 .PHONY : CMakeFiles/kiosk_autogen.dir/clean
 
 CMakeFiles/kiosk_autogen.dir/depend:
-	cd /home/prakash/kiosk-mini/kiosk/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk/build_arm/CMakeFiles/kiosk_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/CMakeFiles/kiosk_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/kiosk_autogen.dir/depend
 

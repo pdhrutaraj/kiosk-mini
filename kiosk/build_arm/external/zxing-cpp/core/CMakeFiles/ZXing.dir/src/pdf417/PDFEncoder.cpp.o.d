@@ -1,11 +1,11 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFEncoder.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFEncoder.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFEncoder.cpp \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFEncoder.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCompaction.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFEncoder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCompaction.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/string \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/vector \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFHighLevelEncoder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFHighLevelEncoder.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/array \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/cmath \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/bits/requires_hosted.h \

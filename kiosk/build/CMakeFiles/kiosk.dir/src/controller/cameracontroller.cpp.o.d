@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/cameracontroller.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/cameracontroller.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QThread \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qthread.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobject.h \
@@ -344,4 +344,4 @@ CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o: \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qline.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QString \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstring.h \
- /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h

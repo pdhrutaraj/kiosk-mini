@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/cameracontroller.cpp \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/cameracontroller.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QThread \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qthread.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qobject.h \
@@ -433,4 +433,4 @@ CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o: \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qline.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QString \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qstring.h \
- /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h

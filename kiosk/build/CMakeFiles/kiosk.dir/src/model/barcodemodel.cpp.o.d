@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/model/barcodemodel.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/model/barcodemodel.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QObject \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobject.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobjectdefs.h \

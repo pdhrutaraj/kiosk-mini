@@ -1,17 +1,17 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResultColumn.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDetectionResultColumn.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDetectionResultColumn.cpp \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDetectionResultColumn.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBoundingBox.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/ZXNullable.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFDetectionResultColumn.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBoundingBox.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/ZXNullable.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/cstddef \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/stdexcept \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/utility \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCodeword.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCodeword.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/vector \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBarcodeMetadata.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBarcodeValue.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBarcodeMetadata.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBarcodeValue.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/map \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/bits/requires_hosted.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/bits/stl_tree.h \

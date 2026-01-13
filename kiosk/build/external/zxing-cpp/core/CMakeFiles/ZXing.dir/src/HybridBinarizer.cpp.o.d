@@ -1,9 +1,9 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/HybridBinarizer.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/HybridBinarizer.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/HybridBinarizer.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GlobalHistogramBinarizer.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/HybridBinarizer.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/GlobalHistogramBinarizer.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/memory \
  /usr/include/c++/11/vector /usr/include/c++/11/algorithm \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \

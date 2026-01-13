@@ -1,4 +1,4 @@
-# Install script for directory: /home/prakash/kiosk-mini/kiosk/external/zxing-cpp
+# Install script for directory: /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/prakash/kiosk-mini/kiosk/build/external/zxing-cpp/core/cmake_install.cmake")
+  include("/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/external/zxing-cpp/core/cmake_install.cmake")
 endif()
 

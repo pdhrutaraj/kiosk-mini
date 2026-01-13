@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
     MainWindow win;
     BarcodeModel model;
-    SQLiteRecorder db("/root/barcodes.db");
+    SQLiteRecorder db("./barcodes.db");
 
     CameraController camera("/dev/video0");
     BarcodeScanner scanner;

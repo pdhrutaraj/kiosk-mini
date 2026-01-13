@@ -1,9 +1,9 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Utf.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Utf.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Utf.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Utf.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Utf.h \
  /usr/include/c++/11/string /usr/include/c++/11/string_view \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXTestSupport.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXTestSupport.h \
  /usr/include/c++/11/iomanip \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/ios_base.h \

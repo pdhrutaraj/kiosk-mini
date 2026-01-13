@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk
+CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk-mini/kiosk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk/build
+CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk-mini/kiosk/build
 
 # Utility rule file for kiosk_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/kiosk_autogen.dir/compiler_depend.make
 include CMakeFiles/kiosk_autogen.dir/progress.make
 
 CMakeFiles/kiosk_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/prakash/kiosk-mini/kiosk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target kiosk"
-	/usr/bin/cmake -E cmake_autogen /home/prakash/kiosk-mini/kiosk/build/CMakeFiles/kiosk_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target kiosk"
+	/usr/bin/cmake -E cmake_autogen /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/CMakeFiles/kiosk_autogen.dir/AutogenInfo.json Release
 
 kiosk_autogen: CMakeFiles/kiosk_autogen
 kiosk_autogen: CMakeFiles/kiosk_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/kiosk_autogen.dir/clean:
 .PHONY : CMakeFiles/kiosk_autogen.dir/clean
 
 CMakeFiles/kiosk_autogen.dir/depend:
-	cd /home/prakash/kiosk-mini/kiosk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk/build /home/prakash/kiosk-mini/kiosk/build /home/prakash/kiosk-mini/kiosk/build/CMakeFiles/kiosk_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/prakash/kiosk-mini/kiosk-mini/kiosk/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk-mini/kiosk/build /home/prakash/kiosk-mini/kiosk-mini/kiosk/build /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/CMakeFiles/kiosk_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kiosk_autogen.dir/depend
 

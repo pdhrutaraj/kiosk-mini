@@ -1,5 +1,6 @@
 CMakeFiles/kiosk.dir/src/main.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/main.cpp /usr/include/stdc-predef.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/main.cpp \
+ /usr/include/stdc-predef.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/QApplication \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qapplication.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -361,7 +362,7 @@ CMakeFiles/kiosk.dir/src/main.cpp.o: \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qlocale.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qvariant.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qguiapplication_platform.h \
- /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/view/mainwindow.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/QMainWindow \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qwidget.h \
@@ -379,7 +380,7 @@ CMakeFiles/kiosk.dir/src/main.cpp.o: \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qimage.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QString \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstring.h \
- /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/cameracontroller.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QThread \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qthread.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qdeadlinetimer.h \
@@ -390,9 +391,9 @@ CMakeFiles/kiosk.dir/src/main.cpp.o: \
  /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_thread.h \
- /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/barcodescanner.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QObject \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobject.h \
- /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h \
- /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/model/barcodemodel.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
  /usr/include/sqlite3.h

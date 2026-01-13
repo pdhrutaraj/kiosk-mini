@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/barcodescanner.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/barcodescanner.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QObject \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobject.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobjectdefs.h \
@@ -333,23 +333,23 @@ CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o: \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qpolygon.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qregion.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qline.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReadBarcode.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReaderOptions.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReadBarcode.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReaderOptions.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
  /usr/include/c++/11/cassert \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Barcode.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Range.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Barcode.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Range.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h \
  /usr/include/c++/11/charconv \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/StructuredAppend.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXVersion.h \
- /home/prakash/kiosk-mini/kiosk/build/external/zxing-cpp/core/Version.h
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/StructuredAppend.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXVersion.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/external/zxing-cpp/core/Version.h

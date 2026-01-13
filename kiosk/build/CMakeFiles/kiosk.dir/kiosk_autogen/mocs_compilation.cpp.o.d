@@ -1,8 +1,8 @@
 CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/mocs_compilation.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/KECQXMYYOW/moc_barcodescanner.cpp \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/KECQXMYYOW/../../../src/controller/barcodescanner.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/KECQXMYYOW/moc_barcodescanner.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/KECQXMYYOW/../../../src/controller/barcodescanner.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QObject \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobject.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobjectdefs.h \
@@ -335,8 +335,8 @@ CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o: \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qregion.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qline.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtmochelpers.h \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/KECQXMYYOW/moc_cameracontroller.cpp \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/KECQXMYYOW/../../../src/controller/cameracontroller.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/KECQXMYYOW/moc_cameracontroller.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/KECQXMYYOW/../../../src/controller/cameracontroller.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QThread \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qthread.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobject.h \
@@ -350,13 +350,13 @@ CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/bits/std_thread.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QString \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstring.h \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/VNQA4LF4BW/moc_barcodemodel.cpp \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/VNQA4LF4BW/../../../src/model/barcodemodel.h \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/F2ESZRYZMC/moc_sqliterecorder.cpp \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/F2ESZRYZMC/../../../src/storage/sqliterecorder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/VNQA4LF4BW/moc_barcodemodel.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/VNQA4LF4BW/../../../src/model/barcodemodel.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/F2ESZRYZMC/moc_sqliterecorder.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/F2ESZRYZMC/../../../src/storage/sqliterecorder.h \
  /usr/include/sqlite3.h \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/3JYSCEOBDA/moc_mainwindow.cpp \
- /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/3JYSCEOBDA/../../../src/view/mainwindow.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/3JYSCEOBDA/moc_mainwindow.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/3JYSCEOBDA/../../../src/view/mainwindow.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/QMainWindow \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qtwidgetsglobal.h \

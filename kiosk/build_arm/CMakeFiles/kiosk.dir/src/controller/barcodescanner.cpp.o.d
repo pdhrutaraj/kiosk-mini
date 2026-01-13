@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/barcodescanner.cpp \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/barcodescanner.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QObject \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qobject.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qobjectdefs.h \
@@ -421,23 +421,23 @@ CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o: \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtGui/qpolygon.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtGui/qregion.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qline.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReadBarcode.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReaderOptions.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReadBarcode.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReaderOptions.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/cassert \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Barcode.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Range.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Barcode.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Range.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/charconv \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/StructuredAppend.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXVersion.h \
- /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core/Version.h
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/StructuredAppend.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXVersion.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core/Version.h

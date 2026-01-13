@@ -1,5 +1,5 @@
-/home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/KECQXMYYOW/moc_cameracontroller.cpp: /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.h \
-  /home/prakash/kiosk-mini/kiosk/build/kiosk_autogen/moc_predefs.h \
+/home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/KECQXMYYOW/moc_cameracontroller.cpp: /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/cameracontroller.h \
+  /home/prakash/kiosk-mini/kiosk-mini/kiosk/build/kiosk_autogen/moc_predefs.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QString \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QThread \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/q20type_traits.h \

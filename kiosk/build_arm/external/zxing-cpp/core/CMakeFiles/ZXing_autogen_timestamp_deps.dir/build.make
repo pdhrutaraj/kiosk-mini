@@ -53,10 +53,10 @@ RM = /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk
+CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk-mini/kiosk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk/build_arm
+CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm
 
 # Utility rule file for ZXing_autogen_timestamp_deps.
 
@@ -66,8 +66,8 @@ include external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/comp
 # Include the progress variables for this target.
 include external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/progress.make
 
-external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/libexec/uic
 external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/libexec/moc
+external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/libexec/uic
 
 ZXing_autogen_timestamp_deps: external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps
 ZXing_autogen_timestamp_deps: external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/build.make
@@ -78,10 +78,10 @@ external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/build: ZXing
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/build
 
 external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/clean:
-	cd /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core && $(CMAKE_COMMAND) -P CMakeFiles/ZXing_autogen_timestamp_deps.dir/cmake_clean.cmake
+	cd /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core && $(CMAKE_COMMAND) -P CMakeFiles/ZXing_autogen_timestamp_deps.dir/cmake_clean.cmake
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/clean
 
 external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/depend:
-	cd /home/prakash/kiosk-mini/kiosk/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core /home/prakash/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing_autogen_timestamp_deps.dir/depend
 

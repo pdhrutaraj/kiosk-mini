@@ -53,10 +53,10 @@ RM = /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk
+CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk-mini/kiosk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk/build_arm
+CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm
 
 # Utility rule file for ZXing_autogen.
 
@@ -71,9 +71,9 @@ external/zxing-cpp/core/CMakeFiles/ZXing_autogen: external/zxing-cpp/core/ZXing_
 external/zxing-cpp/core/ZXing_autogen/timestamp: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/libexec/moc
 external/zxing-cpp/core/ZXing_autogen/timestamp: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/libexec/uic
 external/zxing-cpp/core/ZXing_autogen/timestamp: external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/prakash/kiosk-mini/kiosk/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ZXing"
-	cd /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core && /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_autogen /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/AutogenInfo.json Release
-	cd /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core && /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E touch /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core/ZXing_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ZXing"
+	cd /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core && /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_autogen /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/AutogenInfo.json Release
+	cd /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core && /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E touch /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core/ZXing_autogen/timestamp
 
 ZXing_autogen: external/zxing-cpp/core/CMakeFiles/ZXing_autogen
 ZXing_autogen: external/zxing-cpp/core/ZXing_autogen/timestamp
@@ -85,10 +85,10 @@ external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/build: ZXing_autogen
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/build
 
 external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/clean:
-	cd /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core && $(CMAKE_COMMAND) -P CMakeFiles/ZXing_autogen.dir/cmake_clean.cmake
+	cd /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core && $(CMAKE_COMMAND) -P CMakeFiles/ZXing_autogen.dir/cmake_clean.cmake
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/clean
 
 external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/depend:
-	cd /home/prakash/kiosk-mini/kiosk/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core /home/prakash/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core /home/prakash/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/depend
 

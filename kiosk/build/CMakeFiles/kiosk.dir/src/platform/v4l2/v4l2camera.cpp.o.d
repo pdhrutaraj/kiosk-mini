@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

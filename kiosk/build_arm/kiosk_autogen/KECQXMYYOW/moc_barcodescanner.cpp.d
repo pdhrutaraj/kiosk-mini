@@ -1,5 +1,5 @@
-/home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/KECQXMYYOW/moc_barcodescanner.cpp: /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.h \
-  /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/moc_predefs.h \
+/home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/KECQXMYYOW/moc_barcodescanner.cpp: /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/barcodescanner.h \
+  /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/moc_predefs.h \
   /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QObject \
   /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/q20functional.h \
   /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/q20memory.h \

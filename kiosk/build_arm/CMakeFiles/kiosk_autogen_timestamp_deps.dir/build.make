@@ -53,10 +53,10 @@ RM = /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk
+CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk-mini/kiosk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk/build_arm
+CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm
 
 # Utility rule file for kiosk_autogen_timestamp_deps.
 
@@ -67,9 +67,9 @@ include CMakeFiles/kiosk_autogen_timestamp_deps.dir/compiler_depend.make
 include CMakeFiles/kiosk_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/kiosk_autogen_timestamp_deps: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/lib/libsqlite3.so
-CMakeFiles/kiosk_autogen_timestamp_deps: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/libexec/uic
 CMakeFiles/kiosk_autogen_timestamp_deps: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/libexec/moc
 CMakeFiles/kiosk_autogen_timestamp_deps: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/lib/libQt6Widgets.so.6.7.0
+CMakeFiles/kiosk_autogen_timestamp_deps: /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/x86_64-pokysdk-linux/usr/libexec/uic
 CMakeFiles/kiosk_autogen_timestamp_deps: external/zxing-cpp/core/libZXing.a
 
 kiosk_autogen_timestamp_deps: CMakeFiles/kiosk_autogen_timestamp_deps
@@ -85,6 +85,6 @@ CMakeFiles/kiosk_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/kiosk_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/kiosk_autogen_timestamp_deps.dir/depend:
-	cd /home/prakash/kiosk-mini/kiosk/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk/build_arm/CMakeFiles/kiosk_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/CMakeFiles/kiosk_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/kiosk_autogen_timestamp_deps.dir/depend
 

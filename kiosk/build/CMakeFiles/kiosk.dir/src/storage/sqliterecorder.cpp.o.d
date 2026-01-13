@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QObject \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobject.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobjectdefs.h \

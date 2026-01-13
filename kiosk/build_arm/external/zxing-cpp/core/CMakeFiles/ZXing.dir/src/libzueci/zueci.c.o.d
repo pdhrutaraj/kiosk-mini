@@ -1,5 +1,5 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/libzueci/zueci.c.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci.c \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci.c \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/assert.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/features.h \
@@ -65,12 +65,12 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/libzueci/zueci.c.o: \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/strings.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/bits/strings_fortified.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/bits/string_fortified.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_common.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_sb.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_big5.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_gb18030.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_gb2312.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_gbk.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_ksx1001.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_sjis.h
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_common.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_sb.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_big5.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_gb18030.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_gb2312.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_gbk.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_ksx1001.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/libzueci/zueci_sjis.h

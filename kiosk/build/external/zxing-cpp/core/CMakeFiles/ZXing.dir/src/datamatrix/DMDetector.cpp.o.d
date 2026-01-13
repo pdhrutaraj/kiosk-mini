@@ -1,8 +1,8 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDetector.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMDetector.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMDetector.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMDetector.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrixCursor.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMDetector.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrixCursor.h \
  /usr/include/c++/11/climits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
@@ -17,24 +17,24 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDetector.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteMatrix.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteMatrix.h \
  /usr/include/c++/11/cstdint \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DetectorResult.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/DetectorResult.h \
  /usr/include/c++/11/utility \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GridSampler.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/LogMatrix.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/GridSampler.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/LogMatrix.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
  /usr/include/c++/11/cstdio /usr/include/stdio.h \
  /usr/include/c++/11/string \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/RegressionLine.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/RegressionLine.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/cmath \
  /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
  /usr/include/c++/11/bits/std_abs.h /usr/include/c++/11/vector \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Scope.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/WhiteRectDetector.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/Scope.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/external/zxing-cpp/core/src/WhiteRectDetector.h \
  /usr/include/c++/11/array /usr/include/c++/11/cstdlib \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \

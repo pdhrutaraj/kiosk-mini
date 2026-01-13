@@ -1,8 +1,8 @@
 CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/mocs_compilation.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/mocs_compilation.cpp \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/KECQXMYYOW/moc_barcodescanner.cpp \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/KECQXMYYOW/../../../src/controller/barcodescanner.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/KECQXMYYOW/moc_barcodescanner.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/KECQXMYYOW/../../../src/controller/barcodescanner.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QObject \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qobject.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qobjectdefs.h \
@@ -423,8 +423,8 @@ CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o: \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtGui/qregion.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qline.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qtmochelpers.h \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/KECQXMYYOW/moc_cameracontroller.cpp \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/KECQXMYYOW/../../../src/controller/cameracontroller.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/KECQXMYYOW/moc_cameracontroller.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/KECQXMYYOW/../../../src/controller/cameracontroller.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QThread \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qthread.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qobject.h \
@@ -439,13 +439,13 @@ CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o: \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/c++/13.3.0/bits/std_thread.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QString \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/qstring.h \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/VNQA4LF4BW/moc_barcodemodel.cpp \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/VNQA4LF4BW/../../../src/model/barcodemodel.h \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/F2ESZRYZMC/moc_sqliterecorder.cpp \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/F2ESZRYZMC/../../../src/storage/sqliterecorder.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/VNQA4LF4BW/moc_barcodemodel.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/VNQA4LF4BW/../../../src/model/barcodemodel.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/F2ESZRYZMC/moc_sqliterecorder.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/F2ESZRYZMC/../../../src/storage/sqliterecorder.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/sqlite3.h \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/3JYSCEOBDA/moc_mainwindow.cpp \
- /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/3JYSCEOBDA/../../../src/view/mainwindow.h \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/3JYSCEOBDA/moc_mainwindow.cpp \
+ /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/3JYSCEOBDA/../../../src/view/mainwindow.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtWidgets/QMainWindow \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtWidgets/qmainwindow.h \
  /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtWidgets/qtwidgetsglobal.h \

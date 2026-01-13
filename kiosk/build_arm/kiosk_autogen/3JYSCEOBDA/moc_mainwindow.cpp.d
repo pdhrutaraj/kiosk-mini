@@ -1,5 +1,5 @@
-/home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/3JYSCEOBDA/moc_mainwindow.cpp: /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.h \
-  /home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/moc_predefs.h \
+/home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/3JYSCEOBDA/moc_mainwindow.cpp: /home/prakash/kiosk-mini/kiosk-mini/kiosk/src/view/mainwindow.h \
+  /home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/moc_predefs.h \
   /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QString \
   /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/q20functional.h \
   /opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/q20memory.h \

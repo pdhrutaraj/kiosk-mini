@@ -1,22 +1,22 @@
 kiosk_autogen/timestamp: \
-	/home/prakash/kiosk-mini/kiosk/CMakeLists.txt \
-	/home/prakash/kiosk-mini/kiosk/build_arm/CMakeFiles/3.28.3/CMakeCCompiler.cmake \
-	/home/prakash/kiosk-mini/kiosk/build_arm/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-	/home/prakash/kiosk-mini/kiosk/build_arm/CMakeFiles/3.28.3/CMakeSystem.cmake \
-	/home/prakash/kiosk-mini/kiosk/build_arm/kiosk_autogen/moc_predefs.h \
-	/home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.cpp \
-	/home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.h \
-	/home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.cpp \
-	/home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.h \
-	/home/prakash/kiosk-mini/kiosk/src/main.cpp \
-	/home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.cpp \
-	/home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h \
-	/home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp \
-	/home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h \
-	/home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp \
-	/home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
-	/home/prakash/kiosk-mini/kiosk/src/view/mainwindow.cpp \
-	/home/prakash/kiosk-mini/kiosk/src/view/mainwindow.h \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/CMakeLists.txt \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/CMakeFiles/3.28.3/CMakeSystem.cmake \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/build_arm/kiosk_autogen/moc_predefs.h \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/barcodescanner.cpp \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/barcodescanner.h \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/cameracontroller.cpp \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/controller/cameracontroller.h \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/main.cpp \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/model/barcodemodel.cpp \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/model/barcodemodel.h \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/view/mainwindow.cpp \
+	/home/prakash/kiosk-mini/kiosk-mini/kiosk/src/view/mainwindow.h \
 	/opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QObject \
 	/opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QString \
 	/opt/fsl-imx-xwayland/6.6-scarthgap/sysroots/armv8a-poky-linux/usr/include/QtCore/QThread \
