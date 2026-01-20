@@ -56,12 +56,16 @@ set(SRC
     # Models
     src/model/barcodemodel.h
     src/model/barcodemodel.cpp
+    src/model/qrgenerator.h
+    src/model/qrgenerator.cpp
 
     # Controllers
     src/controller/cameracontroller.h
     src/controller/cameracontroller.cpp
     src/controller/barcodescanner.h
     src/controller/barcodescanner.cpp
+    src/controller/printcontroller.h
+    src/controller/printcontroller.cpp
 
     # Platform
     src/platform/v4l2/v4l2camera.h

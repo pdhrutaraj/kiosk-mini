@@ -1,3 +1,26 @@
+
+
+Build & install ZXing-cpp
+cd ~
+git clone https://github.com/zxing-cpp/zxing-cpp.git
+cd zxing-cpp
+mkdir build
+cd build
+cmake -DBUILD_SHARED_LIBS=ON ..
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+
+This installs:
+
+/usr/local/include/ZXing/
+    BarcodeWriter.h
+    ReadBarcode.h
+    ImageView.h
+/usr/local/lib/libZXing.so
+/usr/local/lib/cmake/ZXing/ZXingConfig.cmake
+
+
 ✅ Qt 6 Widgets
 ✅ MVC
 ✅ V4L2 only (no QtMultimedia)
