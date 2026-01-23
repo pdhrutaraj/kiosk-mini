@@ -1,7 +1,7 @@
 #include "barcodescanner.h"
 
 #include <ReadBarcode.h>
-#include <ZXVersion.h>
+//#include <ZXVersion.h>
 
 BarcodeScanner::BarcodeScanner(QObject* parent)
     : QObject(parent)
@@ -20,7 +20,8 @@ void BarcodeScanner::onFrame(const QImage& gray)
         return;
 
     emit barcodeDetected(
-        QString::fromStdString(result.text()),
+        //QString::fromStdString(result.text()),
+	QString::fromStdWString(result.text()),
         QString::fromStdString(ZXing::ToString(result.format()))
     );
 }

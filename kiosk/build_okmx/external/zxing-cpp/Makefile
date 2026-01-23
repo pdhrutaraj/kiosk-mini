@@ -57,10 +57,10 @@ RM = /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prakash/kiosk_mini
+CMAKE_SOURCE_DIR = /home/forlinx/kiosk-mini/kiosk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prakash/kiosk_mini/build_okmx
+CMAKE_BINARY_DIR = /home/forlinx/kiosk-mini/kiosk/build_okmx
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/prakash/kiosk_mini/build_okmx && $(CMAKE_COMMAND) -E cmake_progress_start /home/prakash/kiosk_mini/build_okmx/CMakeFiles /home/prakash/kiosk_mini/build_okmx/external/zxing-cpp//CMakeFiles/progress.marks
-	cd /home/prakash/kiosk_mini/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prakash/kiosk_mini/build_okmx/CMakeFiles 0
+	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(CMAKE_COMMAND) -E cmake_progress_start /home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles /home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp//CMakeFiles/progress.marks
+	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/prakash/kiosk_mini/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/clean
+	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/prakash/kiosk_mini/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/preinstall
+	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/prakash/kiosk_mini/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/preinstall
+	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/prakash/kiosk_mini/build_okmx && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/prakash/kiosk_mini/build_okmx && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

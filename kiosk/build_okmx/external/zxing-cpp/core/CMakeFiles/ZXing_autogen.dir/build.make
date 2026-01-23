@@ -53,10 +53,10 @@ RM = /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prakash/kiosk_mini
+CMAKE_SOURCE_DIR = /home/forlinx/kiosk-mini/kiosk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prakash/kiosk_mini/build_okmx
+CMAKE_BINARY_DIR = /home/forlinx/kiosk-mini/kiosk/build_okmx
 
 # Utility rule file for ZXing_autogen.
 
@@ -67,8 +67,8 @@ include external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/compiler_depend.mak
 include external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/progress.make
 
 external/zxing-cpp/core/CMakeFiles/ZXing_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/prakash/kiosk_mini/build_okmx/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ZXing"
-	cd /home/prakash/kiosk_mini/build_okmx/external/zxing-cpp/core && /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_autogen /home/prakash/kiosk_mini/build_okmx/external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ZXing"
+	cd /home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core && /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_autogen /home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/AutogenInfo.json Release
 
 ZXing_autogen: external/zxing-cpp/core/CMakeFiles/ZXing_autogen
 ZXing_autogen: external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/build.make
@@ -79,10 +79,10 @@ external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/build: ZXing_autogen
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/build
 
 external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/clean:
-	cd /home/prakash/kiosk_mini/build_okmx/external/zxing-cpp/core && $(CMAKE_COMMAND) -P CMakeFiles/ZXing_autogen.dir/cmake_clean.cmake
+	cd /home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core && $(CMAKE_COMMAND) -P CMakeFiles/ZXing_autogen.dir/cmake_clean.cmake
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/clean
 
 external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/depend:
-	cd /home/prakash/kiosk_mini/build_okmx && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk_mini /home/prakash/kiosk_mini/external/zxing-cpp/core /home/prakash/kiosk_mini/build_okmx /home/prakash/kiosk_mini/build_okmx/external/zxing-cpp/core /home/prakash/kiosk_mini/build_okmx/external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/forlinx/kiosk-mini/kiosk /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core /home/forlinx/kiosk-mini/kiosk/build_okmx /home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core /home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/depend
 

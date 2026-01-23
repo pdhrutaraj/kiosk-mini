@@ -8,21 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/prakash/kiosk_mini/build_okmx/kiosk_autogen/mocs_compilation.cpp" "CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o.d"
-  "/home/prakash/kiosk_mini/src/controller/barcodescanner.cpp" "CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o.d"
-  "/home/prakash/kiosk_mini/src/controller/cameracontroller.cpp" "CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o.d"
-  "/home/prakash/kiosk_mini/src/controller/printcontroller.cpp" "CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o.d"
-  "/home/prakash/kiosk_mini/src/main.cpp" "CMakeFiles/kiosk.dir/src/main.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/main.cpp.o.d"
-  "/home/prakash/kiosk_mini/src/model/barcodemodel.cpp" "CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o.d"
-  "/home/prakash/kiosk_mini/src/model/qrgenerator.cpp" "CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o.d"
-  "/home/prakash/kiosk_mini/src/platform/v4l2/v4l2camera.cpp" "CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o.d"
-  "/home/prakash/kiosk_mini/src/storage/sqliterecorder.cpp" "CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o.d"
-  "/home/prakash/kiosk_mini/src/view/mainwindow.cpp" "CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o.d"
+  "/home/forlinx/kiosk-mini/kiosk/build_okmx/kiosk_autogen/mocs_compilation.cpp" "CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o.d"
+  "/home/forlinx/kiosk-mini/kiosk/src/controller/barcodescanner.cpp" "CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o.d"
+  "/home/forlinx/kiosk-mini/kiosk/src/controller/cameracontroller.cpp" "CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o.d"
+  "/home/forlinx/kiosk-mini/kiosk/src/controller/printcontroller.cpp" "CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o.d"
+  "/home/forlinx/kiosk-mini/kiosk/src/main.cpp" "CMakeFiles/kiosk.dir/src/main.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/main.cpp.o.d"
+  "/home/forlinx/kiosk-mini/kiosk/src/model/barcodemodel.cpp" "CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o.d"
+  "/home/forlinx/kiosk-mini/kiosk/src/model/qrgenerator.cpp" "CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o.d"
+  "/home/forlinx/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp" "CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o.d"
+  "/home/forlinx/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp" "CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o.d"
+  "/home/forlinx/kiosk-mini/kiosk/src/view/mainwindow.cpp" "CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o" "gcc" "CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/prakash/kiosk_mini/build_okmx/external/zxing-cpp/core/CMakeFiles/ZXing.dir/DependInfo.cmake"
+  "/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/CMakeFiles/ZXing.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

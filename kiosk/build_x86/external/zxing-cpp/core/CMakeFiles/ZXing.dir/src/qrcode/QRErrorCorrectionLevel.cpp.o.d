@@ -1,7 +1,16 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRErrorCorrectionLevel.cpp.o: \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.cpp \
+ /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.cpp \
  /usr/include/stdc-predef.h \
- /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.h \
+ /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.h \
  /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
- /usr/include/assert.h /usr/include/features.h
+ /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+ /usr/include/c++/11/pstl/pstl_config.h /usr/include/assert.h

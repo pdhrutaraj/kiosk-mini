@@ -57,10 +57,10 @@ RM = /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prakash/kiosk_mini
+CMAKE_SOURCE_DIR = /home/forlinx/kiosk-mini/kiosk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prakash/kiosk_mini/build_okmx
+CMAKE_BINARY_DIR = /home/forlinx/kiosk-mini/kiosk/build_okmx
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prakash/kiosk_mini/build_okmx/CMakeFiles /home/prakash/kiosk_mini/build_okmx//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles /home/forlinx/kiosk-mini/kiosk/build_okmx//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prakash/kiosk_mini/build_okmx/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

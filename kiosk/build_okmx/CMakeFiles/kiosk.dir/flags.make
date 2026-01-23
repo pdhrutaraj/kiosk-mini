@@ -4,7 +4,7 @@
 # compile CXX with /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/prakash/kiosk_mini/build_okmx/kiosk_autogen/include -I/home/prakash/kiosk_mini/src -I/home/prakash/kiosk_mini/external/zxing-cpp/core -I/home/prakash/kiosk_mini/external/zxing-cpp/core/src -I/home/prakash/kiosk_mini/build_okmx/external/zxing-cpp/core -isystem /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets -isystem /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore -isystem /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/lib/mkspecs/linux-g++ -isystem /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtGui
+CXX_INCLUDES = -I/home/forlinx/kiosk-mini/kiosk/build_okmx/kiosk_autogen/include -I/home/forlinx/kiosk-mini/kiosk/src -I/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core -I/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src -isystem /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets -isystem /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore -isystem /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/lib/mkspecs/linux-g++ -isystem /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtGui
 
-CXX_FLAGS =  -O2 -pipe -g -feliminate-unused-debug-types  -O3 -DNDEBUG -fPIE -Wall -Wextra -Wno-unused-parameter -DZXING_WITH_1D -DZXING_WITH_AZTEC -DZXING_WITH_DATAMATRIX -DZXING_WITH_MAXICODE -DZXING_WITH_PDF417 -DZXING_WITH_QRCODE -std=gnu++17
+CXX_FLAGS =  -O2 -pipe -g -feliminate-unused-debug-types  -O3 -DNDEBUG -fPIE -Wall -Wextra -Wno-unused-parameter -std=gnu++20
 
