@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/forlinx/kiosk-mini/kiosk/build_x86/external/zxing-cpp/core/ZXing_autogen/include -I/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src
+CXX_INCLUDES = -I/home/prakash/kiosk-mini/kiosk/build_x86/external/zxing-cpp/core/ZXing_autogen/include -I/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src
 
 CXX_FLAGS = -O3 -DNDEBUG -fPIC -DZXING_BUILD_READERS -DZXING_BUILD_WRITERS -DZX_USE_UTF8 -Wall -Wextra -Wno-missing-braces -Werror=undef -Werror=return-type -ffloat-store -std=c++17
 

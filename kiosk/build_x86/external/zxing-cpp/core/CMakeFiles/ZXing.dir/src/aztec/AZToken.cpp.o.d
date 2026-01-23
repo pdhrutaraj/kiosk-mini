@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZToken.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZToken.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZToken.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZToken.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZToken.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -134,9 +134,9 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZToken.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitArray.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitArray.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \

@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/src/model/barcodemodel.cpp \
+ /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/src/model/barcodemodel.h \
+ /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/QObject \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/qobject.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/qobjectdefs.h \

@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextDecoder.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRTextDecoder.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRTextDecoder.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRTextDecoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRTextDecoder.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/vector \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_algobase.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++config.h \
@@ -70,4 +70,4 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextDecoder.cpp.o: 
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/bits/stdint-uintn.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cstddef \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/12.3.0/include/stddef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRHangulMapping.h
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRHangulMapping.h

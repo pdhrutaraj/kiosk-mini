@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextDecoder.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRTextDecoder.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRTextDecoder.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRTextDecoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRTextDecoder.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -54,4 +54,4 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextDecoder.cpp.o: 
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/c++/11/cstddef \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRHangulMapping.h
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/KRHangulMapping.h

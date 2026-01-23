@@ -1,8 +1,8 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDataBlock.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRDataBlock.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRDataBlock.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRDataBlock.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRDataBlock.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -139,12 +139,12 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDataBlock.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRVersion.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRECB.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRVersion.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRECB.h \
  /usr/include/c++/11/array /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \

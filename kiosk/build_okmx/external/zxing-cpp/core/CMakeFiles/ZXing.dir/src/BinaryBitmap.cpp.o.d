@@ -1,8 +1,8 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BinaryBitmap.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/algorithm \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_algobase.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++config.h \

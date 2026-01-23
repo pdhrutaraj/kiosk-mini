@@ -1,9 +1,9 @@
-/home/forlinx/kiosk-mini/kiosk/build_okmx/kiosk_autogen/3JYSCEOBDA/moc_mainwindow.cpp: /home/forlinx/kiosk-mini/kiosk/src/view/mainwindow.h \
-  /home/forlinx/kiosk-mini/kiosk/build_okmx/kiosk_autogen/moc_predefs.h \
-  /home/forlinx/kiosk-mini/kiosk/src/controller/barcodescanner.h \
-  /home/forlinx/kiosk-mini/kiosk/src/controller/cameracontroller.h \
-  /home/forlinx/kiosk-mini/kiosk/src/model/barcodemodel.h \
-  /home/forlinx/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
+/home/prakash/kiosk-mini/kiosk/build_okmx/kiosk_autogen/3JYSCEOBDA/moc_mainwindow.cpp: /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.h \
+  /home/prakash/kiosk-mini/kiosk/build_okmx/kiosk_autogen/moc_predefs.h \
+  /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.h \
+  /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.h \
+  /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h \
+  /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
   /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/QObject \
   /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/QString \
   /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/QThread \

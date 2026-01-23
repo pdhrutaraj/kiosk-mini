@@ -1,8 +1,8 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ECI.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

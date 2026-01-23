@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextEncoder.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/GBTextEncoder.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/GBTextEncoder.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/GBTextEncoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/GBTextEncoder.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -134,5 +134,5 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextEncoder.cpp.o: 
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h \
  /usr/include/c++/11/cstddef

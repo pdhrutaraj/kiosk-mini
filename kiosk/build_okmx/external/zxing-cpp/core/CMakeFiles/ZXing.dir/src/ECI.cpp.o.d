@@ -1,8 +1,8 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ECI.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/string \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++config.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/os_defines.h \

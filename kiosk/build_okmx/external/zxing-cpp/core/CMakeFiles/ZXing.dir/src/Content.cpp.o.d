@@ -1,8 +1,8 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Content.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cstdint \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++config.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/os_defines.h \
@@ -160,13 +160,13 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Content.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_vector.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_bvector.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/vector.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GS1.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextDecoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GS1.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextDecoder.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cstddef \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/algorithm \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_algo.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/algorithmfwd.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/forlinx/kiosk-mini/kiosk
+CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/forlinx/kiosk-mini/kiosk/build_x86
+CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk/build_x86
 
 # Include any dependencies generated for this target.
 include CMakeFiles/kiosk.dir/depend.make
@@ -72,142 +72,142 @@ include CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o: CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o: kiosk_autogen/mocs_compilation.cpp
 CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o: CMakeFiles/kiosk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o -MF CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o -c /home/forlinx/kiosk-mini/kiosk/build_x86/kiosk_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o -MF CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o -c /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/mocs_compilation.cpp
 
 CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forlinx/kiosk-mini/kiosk/build_x86/kiosk_autogen/mocs_compilation.cpp > CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/mocs_compilation.cpp > CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forlinx/kiosk-mini/kiosk/build_x86/kiosk_autogen/mocs_compilation.cpp -o CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/mocs_compilation.cpp -o CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/kiosk.dir/src/main.cpp.o: CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/kiosk.dir/src/main.cpp.o: CMakeFiles/kiosk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kiosk.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/main.cpp.o -MF CMakeFiles/kiosk.dir/src/main.cpp.o.d -o CMakeFiles/kiosk.dir/src/main.cpp.o -c /home/forlinx/kiosk-mini/kiosk/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kiosk.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/main.cpp.o -MF CMakeFiles/kiosk.dir/src/main.cpp.o.d -o CMakeFiles/kiosk.dir/src/main.cpp.o -c /home/prakash/kiosk-mini/kiosk/src/main.cpp
 
 CMakeFiles/kiosk.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiosk.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forlinx/kiosk-mini/kiosk/src/main.cpp > CMakeFiles/kiosk.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prakash/kiosk-mini/kiosk/src/main.cpp > CMakeFiles/kiosk.dir/src/main.cpp.i
 
 CMakeFiles/kiosk.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiosk.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forlinx/kiosk-mini/kiosk/src/main.cpp -o CMakeFiles/kiosk.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prakash/kiosk-mini/kiosk/src/main.cpp -o CMakeFiles/kiosk.dir/src/main.cpp.s
 
 CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o: CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o: ../src/model/barcodemodel.cpp
 CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o: CMakeFiles/kiosk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o -MF CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o.d -o CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o -c /home/forlinx/kiosk-mini/kiosk/src/model/barcodemodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o -MF CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o.d -o CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.o -c /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.cpp
 
 CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forlinx/kiosk-mini/kiosk/src/model/barcodemodel.cpp > CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.cpp > CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.i
 
 CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forlinx/kiosk-mini/kiosk/src/model/barcodemodel.cpp -o CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.cpp -o CMakeFiles/kiosk.dir/src/model/barcodemodel.cpp.s
 
 CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o: CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o: ../src/model/qrgenerator.cpp
 CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o: CMakeFiles/kiosk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o -MF CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o.d -o CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o -c /home/forlinx/kiosk-mini/kiosk/src/model/qrgenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o -MF CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o.d -o CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.o -c /home/prakash/kiosk-mini/kiosk/src/model/qrgenerator.cpp
 
 CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forlinx/kiosk-mini/kiosk/src/model/qrgenerator.cpp > CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prakash/kiosk-mini/kiosk/src/model/qrgenerator.cpp > CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.i
 
 CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forlinx/kiosk-mini/kiosk/src/model/qrgenerator.cpp -o CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prakash/kiosk-mini/kiosk/src/model/qrgenerator.cpp -o CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.s
 
 CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o: CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o: ../src/controller/cameracontroller.cpp
 CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o: CMakeFiles/kiosk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o -MF CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o.d -o CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o -c /home/forlinx/kiosk-mini/kiosk/src/controller/cameracontroller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o -MF CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o.d -o CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.o -c /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.cpp
 
 CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forlinx/kiosk-mini/kiosk/src/controller/cameracontroller.cpp > CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.cpp > CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.i
 
 CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forlinx/kiosk-mini/kiosk/src/controller/cameracontroller.cpp -o CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.cpp -o CMakeFiles/kiosk.dir/src/controller/cameracontroller.cpp.s
 
 CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o: CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o: ../src/controller/barcodescanner.cpp
 CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o: CMakeFiles/kiosk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o -MF CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o.d -o CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o -c /home/forlinx/kiosk-mini/kiosk/src/controller/barcodescanner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o -MF CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o.d -o CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.o -c /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.cpp
 
 CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forlinx/kiosk-mini/kiosk/src/controller/barcodescanner.cpp > CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.cpp > CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.i
 
 CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forlinx/kiosk-mini/kiosk/src/controller/barcodescanner.cpp -o CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.cpp -o CMakeFiles/kiosk.dir/src/controller/barcodescanner.cpp.s
 
 CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o: CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o: ../src/controller/printcontroller.cpp
 CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o: CMakeFiles/kiosk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o -MF CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o.d -o CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o -c /home/forlinx/kiosk-mini/kiosk/src/controller/printcontroller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o -MF CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o.d -o CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o -c /home/prakash/kiosk-mini/kiosk/src/controller/printcontroller.cpp
 
 CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forlinx/kiosk-mini/kiosk/src/controller/printcontroller.cpp > CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prakash/kiosk-mini/kiosk/src/controller/printcontroller.cpp > CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.i
 
 CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forlinx/kiosk-mini/kiosk/src/controller/printcontroller.cpp -o CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prakash/kiosk-mini/kiosk/src/controller/printcontroller.cpp -o CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.s
 
 CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o: CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o: ../src/platform/v4l2/v4l2camera.cpp
 CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o: CMakeFiles/kiosk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o -MF CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o.d -o CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o -c /home/forlinx/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o -MF CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o.d -o CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o -c /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp
 
 CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forlinx/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp > CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp > CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.i
 
 CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forlinx/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp -o CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp -o CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.s
 
 CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o: CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o: ../src/storage/sqliterecorder.cpp
 CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o: CMakeFiles/kiosk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o -MF CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o.d -o CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o -c /home/forlinx/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o -MF CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o.d -o CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o -c /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp
 
 CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forlinx/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp > CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp > CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.i
 
 CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forlinx/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp -o CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp -o CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.s
 
 CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: CMakeFiles/kiosk.dir/flags.make
 CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: ../src/view/mainwindow.cpp
 CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: CMakeFiles/kiosk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o -MF CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o.d -o CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o -c /home/forlinx/kiosk-mini/kiosk/src/view/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o -MF CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o.d -o CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o -c /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.cpp
 
 CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/forlinx/kiosk-mini/kiosk/src/view/mainwindow.cpp > CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.cpp > CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.i
 
 CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/forlinx/kiosk-mini/kiosk/src/view/mainwindow.cpp -o CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.cpp -o CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.s
 
 # Object files for target kiosk
 kiosk_OBJECTS = \
@@ -236,15 +236,15 @@ kiosk: CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o
 kiosk: CMakeFiles/kiosk.dir/src/storage/sqliterecorder.cpp.o
 kiosk: CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o
 kiosk: CMakeFiles/kiosk.dir/build.make
-kiosk: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.2.4
+kiosk: /home/prakash/Qt/6.5.3/gcc_64/lib/libQt6Widgets.so.6.5.3
 kiosk: external/zxing-cpp/core/libZXing.a
 kiosk: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-kiosk: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.2.4
-kiosk: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.2.4
+kiosk: /home/prakash/Qt/6.5.3/gcc_64/lib/libQt6Gui.so.6.5.3
+kiosk: /home/prakash/Qt/6.5.3/gcc_64/lib/libQt6Core.so.6.5.3
 kiosk: /usr/lib/x86_64-linux-gnu/libGLX.so
 kiosk: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 kiosk: CMakeFiles/kiosk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable kiosk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable kiosk"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kiosk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -256,6 +256,6 @@ CMakeFiles/kiosk.dir/clean:
 .PHONY : CMakeFiles/kiosk.dir/clean
 
 CMakeFiles/kiosk.dir/depend:
-	cd /home/forlinx/kiosk-mini/kiosk/build_x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/forlinx/kiosk-mini/kiosk /home/forlinx/kiosk-mini/kiosk /home/forlinx/kiosk-mini/kiosk/build_x86 /home/forlinx/kiosk-mini/kiosk/build_x86 /home/forlinx/kiosk-mini/kiosk/build_x86/CMakeFiles/kiosk.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/prakash/kiosk-mini/kiosk/build_x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prakash/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk /home/prakash/kiosk-mini/kiosk/build_x86 /home/prakash/kiosk-mini/kiosk/build_x86 /home/prakash/kiosk-mini/kiosk/build_x86/CMakeFiles/kiosk.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kiosk.dir/depend
 

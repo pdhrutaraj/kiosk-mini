@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5MapTable.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/Big5MapTable.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/Big5MapTable.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/Big5MapTable.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/Big5MapTable.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

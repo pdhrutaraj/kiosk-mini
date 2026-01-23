@@ -57,10 +57,10 @@ RM = /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/forlinx/kiosk-mini/kiosk
+CMAKE_SOURCE_DIR = /home/prakash/kiosk-mini/kiosk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/forlinx/kiosk-mini/kiosk/build_okmx
+CMAKE_BINARY_DIR = /home/prakash/kiosk-mini/kiosk/build_okmx
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(CMAKE_COMMAND) -E cmake_progress_start /home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles /home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core//CMakeFiles/progress.marks
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles 0
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(CMAKE_COMMAND) -E cmake_progress_start /home/prakash/kiosk-mini/kiosk/build_okmx/CMakeFiles /home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core//CMakeFiles/progress.marks
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/prakash/kiosk-mini/kiosk/build_okmx/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/clean
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/preinstall
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/preinstall
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/rule:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/CMakeFiles/ZXing.dir/rule
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/CMakeFiles/ZXing.dir/rule
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ ZXing: external/zxing-cpp/core/CMakeFiles/ZXing.dir/rule
 
 # fast build rule for target.
 ZXing/fast:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/build
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/build
 .PHONY : ZXing/fast
 
 # Convenience name for target.
 external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/rule:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/rule
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/rule
 .PHONY : external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ ZXing_autogen: external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/rule
 
 # fast build rule for target.
 ZXing_autogen/fast:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/build
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing_autogen.dir/build
 .PHONY : ZXing_autogen/fast
 
 ZXing_autogen/mocs_compilation.o: ZXing_autogen/mocs_compilation.cpp.o
@@ -194,7 +194,7 @@ ZXing_autogen/mocs_compilation.o: ZXing_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 ZXing_autogen/mocs_compilation.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/ZXing_autogen/mocs_compilation.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/ZXing_autogen/mocs_compilation.cpp.o
 .PHONY : ZXing_autogen/mocs_compilation.cpp.o
 
 ZXing_autogen/mocs_compilation.i: ZXing_autogen/mocs_compilation.cpp.i
@@ -202,7 +202,7 @@ ZXing_autogen/mocs_compilation.i: ZXing_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 ZXing_autogen/mocs_compilation.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/ZXing_autogen/mocs_compilation.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/ZXing_autogen/mocs_compilation.cpp.i
 .PHONY : ZXing_autogen/mocs_compilation.cpp.i
 
 ZXing_autogen/mocs_compilation.s: ZXing_autogen/mocs_compilation.cpp.s
@@ -210,7 +210,7 @@ ZXing_autogen/mocs_compilation.s: ZXing_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 ZXing_autogen/mocs_compilation.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/ZXing_autogen/mocs_compilation.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/ZXing_autogen/mocs_compilation.cpp.s
 .PHONY : ZXing_autogen/mocs_compilation.cpp.s
 
 src/BarcodeFormat.o: src/BarcodeFormat.cpp.o
@@ -218,7 +218,7 @@ src/BarcodeFormat.o: src/BarcodeFormat.cpp.o
 
 # target to build an object file
 src/BarcodeFormat.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BarcodeFormat.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BarcodeFormat.cpp.o
 .PHONY : src/BarcodeFormat.cpp.o
 
 src/BarcodeFormat.i: src/BarcodeFormat.cpp.i
@@ -226,7 +226,7 @@ src/BarcodeFormat.i: src/BarcodeFormat.cpp.i
 
 # target to preprocess a source file
 src/BarcodeFormat.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BarcodeFormat.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BarcodeFormat.cpp.i
 .PHONY : src/BarcodeFormat.cpp.i
 
 src/BarcodeFormat.s: src/BarcodeFormat.cpp.s
@@ -234,7 +234,7 @@ src/BarcodeFormat.s: src/BarcodeFormat.cpp.s
 
 # target to generate assembly for a file
 src/BarcodeFormat.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BarcodeFormat.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BarcodeFormat.cpp.s
 .PHONY : src/BarcodeFormat.cpp.s
 
 src/BinaryBitmap.o: src/BinaryBitmap.cpp.o
@@ -242,7 +242,7 @@ src/BinaryBitmap.o: src/BinaryBitmap.cpp.o
 
 # target to build an object file
 src/BinaryBitmap.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BinaryBitmap.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BinaryBitmap.cpp.o
 .PHONY : src/BinaryBitmap.cpp.o
 
 src/BinaryBitmap.i: src/BinaryBitmap.cpp.i
@@ -250,7 +250,7 @@ src/BinaryBitmap.i: src/BinaryBitmap.cpp.i
 
 # target to preprocess a source file
 src/BinaryBitmap.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BinaryBitmap.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BinaryBitmap.cpp.i
 .PHONY : src/BinaryBitmap.cpp.i
 
 src/BinaryBitmap.s: src/BinaryBitmap.cpp.s
@@ -258,7 +258,7 @@ src/BinaryBitmap.s: src/BinaryBitmap.cpp.s
 
 # target to generate assembly for a file
 src/BinaryBitmap.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BinaryBitmap.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BinaryBitmap.cpp.s
 .PHONY : src/BinaryBitmap.cpp.s
 
 src/BitArray.o: src/BitArray.cpp.o
@@ -266,7 +266,7 @@ src/BitArray.o: src/BitArray.cpp.o
 
 # target to build an object file
 src/BitArray.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitArray.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitArray.cpp.o
 .PHONY : src/BitArray.cpp.o
 
 src/BitArray.i: src/BitArray.cpp.i
@@ -274,7 +274,7 @@ src/BitArray.i: src/BitArray.cpp.i
 
 # target to preprocess a source file
 src/BitArray.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitArray.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitArray.cpp.i
 .PHONY : src/BitArray.cpp.i
 
 src/BitArray.s: src/BitArray.cpp.s
@@ -282,7 +282,7 @@ src/BitArray.s: src/BitArray.cpp.s
 
 # target to generate assembly for a file
 src/BitArray.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitArray.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitArray.cpp.s
 .PHONY : src/BitArray.cpp.s
 
 src/BitMatrix.o: src/BitMatrix.cpp.o
@@ -290,7 +290,7 @@ src/BitMatrix.o: src/BitMatrix.cpp.o
 
 # target to build an object file
 src/BitMatrix.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrix.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrix.cpp.o
 .PHONY : src/BitMatrix.cpp.o
 
 src/BitMatrix.i: src/BitMatrix.cpp.i
@@ -298,7 +298,7 @@ src/BitMatrix.i: src/BitMatrix.cpp.i
 
 # target to preprocess a source file
 src/BitMatrix.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrix.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrix.cpp.i
 .PHONY : src/BitMatrix.cpp.i
 
 src/BitMatrix.s: src/BitMatrix.cpp.s
@@ -306,7 +306,7 @@ src/BitMatrix.s: src/BitMatrix.cpp.s
 
 # target to generate assembly for a file
 src/BitMatrix.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrix.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrix.cpp.s
 .PHONY : src/BitMatrix.cpp.s
 
 src/BitMatrixIO.o: src/BitMatrixIO.cpp.o
@@ -314,7 +314,7 @@ src/BitMatrixIO.o: src/BitMatrixIO.cpp.o
 
 # target to build an object file
 src/BitMatrixIO.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrixIO.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrixIO.cpp.o
 .PHONY : src/BitMatrixIO.cpp.o
 
 src/BitMatrixIO.i: src/BitMatrixIO.cpp.i
@@ -322,7 +322,7 @@ src/BitMatrixIO.i: src/BitMatrixIO.cpp.i
 
 # target to preprocess a source file
 src/BitMatrixIO.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrixIO.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrixIO.cpp.i
 .PHONY : src/BitMatrixIO.cpp.i
 
 src/BitMatrixIO.s: src/BitMatrixIO.cpp.s
@@ -330,7 +330,7 @@ src/BitMatrixIO.s: src/BitMatrixIO.cpp.s
 
 # target to generate assembly for a file
 src/BitMatrixIO.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrixIO.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitMatrixIO.cpp.s
 .PHONY : src/BitMatrixIO.cpp.s
 
 src/BitSource.o: src/BitSource.cpp.o
@@ -338,7 +338,7 @@ src/BitSource.o: src/BitSource.cpp.o
 
 # target to build an object file
 src/BitSource.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitSource.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitSource.cpp.o
 .PHONY : src/BitSource.cpp.o
 
 src/BitSource.i: src/BitSource.cpp.i
@@ -346,7 +346,7 @@ src/BitSource.i: src/BitSource.cpp.i
 
 # target to preprocess a source file
 src/BitSource.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitSource.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitSource.cpp.i
 .PHONY : src/BitSource.cpp.i
 
 src/BitSource.s: src/BitSource.cpp.s
@@ -354,7 +354,7 @@ src/BitSource.s: src/BitSource.cpp.s
 
 # target to generate assembly for a file
 src/BitSource.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitSource.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/BitSource.cpp.s
 .PHONY : src/BitSource.cpp.s
 
 src/CharacterSet.o: src/CharacterSet.cpp.o
@@ -362,7 +362,7 @@ src/CharacterSet.o: src/CharacterSet.cpp.o
 
 # target to build an object file
 src/CharacterSet.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/CharacterSet.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/CharacterSet.cpp.o
 .PHONY : src/CharacterSet.cpp.o
 
 src/CharacterSet.i: src/CharacterSet.cpp.i
@@ -370,7 +370,7 @@ src/CharacterSet.i: src/CharacterSet.cpp.i
 
 # target to preprocess a source file
 src/CharacterSet.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/CharacterSet.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/CharacterSet.cpp.i
 .PHONY : src/CharacterSet.cpp.i
 
 src/CharacterSet.s: src/CharacterSet.cpp.s
@@ -378,7 +378,7 @@ src/CharacterSet.s: src/CharacterSet.cpp.s
 
 # target to generate assembly for a file
 src/CharacterSet.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/CharacterSet.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/CharacterSet.cpp.s
 .PHONY : src/CharacterSet.cpp.s
 
 src/ConcentricFinder.o: src/ConcentricFinder.cpp.o
@@ -386,7 +386,7 @@ src/ConcentricFinder.o: src/ConcentricFinder.cpp.o
 
 # target to build an object file
 src/ConcentricFinder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ConcentricFinder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ConcentricFinder.cpp.o
 .PHONY : src/ConcentricFinder.cpp.o
 
 src/ConcentricFinder.i: src/ConcentricFinder.cpp.i
@@ -394,7 +394,7 @@ src/ConcentricFinder.i: src/ConcentricFinder.cpp.i
 
 # target to preprocess a source file
 src/ConcentricFinder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ConcentricFinder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ConcentricFinder.cpp.i
 .PHONY : src/ConcentricFinder.cpp.i
 
 src/ConcentricFinder.s: src/ConcentricFinder.cpp.s
@@ -402,7 +402,7 @@ src/ConcentricFinder.s: src/ConcentricFinder.cpp.s
 
 # target to generate assembly for a file
 src/ConcentricFinder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ConcentricFinder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ConcentricFinder.cpp.s
 .PHONY : src/ConcentricFinder.cpp.s
 
 src/Content.o: src/Content.cpp.o
@@ -410,7 +410,7 @@ src/Content.o: src/Content.cpp.o
 
 # target to build an object file
 src/Content.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Content.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Content.cpp.o
 .PHONY : src/Content.cpp.o
 
 src/Content.i: src/Content.cpp.i
@@ -418,7 +418,7 @@ src/Content.i: src/Content.cpp.i
 
 # target to preprocess a source file
 src/Content.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Content.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Content.cpp.i
 .PHONY : src/Content.cpp.i
 
 src/Content.s: src/Content.cpp.s
@@ -426,7 +426,7 @@ src/Content.s: src/Content.cpp.s
 
 # target to generate assembly for a file
 src/Content.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Content.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Content.cpp.s
 .PHONY : src/Content.cpp.s
 
 src/DecodeHints.o: src/DecodeHints.cpp.o
@@ -434,7 +434,7 @@ src/DecodeHints.o: src/DecodeHints.cpp.o
 
 # target to build an object file
 src/DecodeHints.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeHints.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeHints.cpp.o
 .PHONY : src/DecodeHints.cpp.o
 
 src/DecodeHints.i: src/DecodeHints.cpp.i
@@ -442,7 +442,7 @@ src/DecodeHints.i: src/DecodeHints.cpp.i
 
 # target to preprocess a source file
 src/DecodeHints.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeHints.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeHints.cpp.i
 .PHONY : src/DecodeHints.cpp.i
 
 src/DecodeHints.s: src/DecodeHints.cpp.s
@@ -450,7 +450,7 @@ src/DecodeHints.s: src/DecodeHints.cpp.s
 
 # target to generate assembly for a file
 src/DecodeHints.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeHints.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeHints.cpp.s
 .PHONY : src/DecodeHints.cpp.s
 
 src/DecodeStatus.o: src/DecodeStatus.cpp.o
@@ -458,7 +458,7 @@ src/DecodeStatus.o: src/DecodeStatus.cpp.o
 
 # target to build an object file
 src/DecodeStatus.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeStatus.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeStatus.cpp.o
 .PHONY : src/DecodeStatus.cpp.o
 
 src/DecodeStatus.i: src/DecodeStatus.cpp.i
@@ -466,7 +466,7 @@ src/DecodeStatus.i: src/DecodeStatus.cpp.i
 
 # target to preprocess a source file
 src/DecodeStatus.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeStatus.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeStatus.cpp.i
 .PHONY : src/DecodeStatus.cpp.i
 
 src/DecodeStatus.s: src/DecodeStatus.cpp.s
@@ -474,7 +474,7 @@ src/DecodeStatus.s: src/DecodeStatus.cpp.s
 
 # target to generate assembly for a file
 src/DecodeStatus.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeStatus.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeStatus.cpp.s
 .PHONY : src/DecodeStatus.cpp.s
 
 src/ECI.o: src/ECI.cpp.o
@@ -482,7 +482,7 @@ src/ECI.o: src/ECI.cpp.o
 
 # target to build an object file
 src/ECI.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ECI.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ECI.cpp.o
 .PHONY : src/ECI.cpp.o
 
 src/ECI.i: src/ECI.cpp.i
@@ -490,7 +490,7 @@ src/ECI.i: src/ECI.cpp.i
 
 # target to preprocess a source file
 src/ECI.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ECI.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ECI.cpp.i
 .PHONY : src/ECI.cpp.i
 
 src/ECI.s: src/ECI.cpp.s
@@ -498,7 +498,7 @@ src/ECI.s: src/ECI.cpp.s
 
 # target to generate assembly for a file
 src/ECI.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ECI.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ECI.cpp.s
 .PHONY : src/ECI.cpp.s
 
 src/GS1.o: src/GS1.cpp.o
@@ -506,7 +506,7 @@ src/GS1.o: src/GS1.cpp.o
 
 # target to build an object file
 src/GS1.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GS1.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GS1.cpp.o
 .PHONY : src/GS1.cpp.o
 
 src/GS1.i: src/GS1.cpp.i
@@ -514,7 +514,7 @@ src/GS1.i: src/GS1.cpp.i
 
 # target to preprocess a source file
 src/GS1.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GS1.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GS1.cpp.i
 .PHONY : src/GS1.cpp.i
 
 src/GS1.s: src/GS1.cpp.s
@@ -522,7 +522,7 @@ src/GS1.s: src/GS1.cpp.s
 
 # target to generate assembly for a file
 src/GS1.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GS1.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GS1.cpp.s
 .PHONY : src/GS1.cpp.s
 
 src/GTIN.o: src/GTIN.cpp.o
@@ -530,7 +530,7 @@ src/GTIN.o: src/GTIN.cpp.o
 
 # target to build an object file
 src/GTIN.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GTIN.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GTIN.cpp.o
 .PHONY : src/GTIN.cpp.o
 
 src/GTIN.i: src/GTIN.cpp.i
@@ -538,7 +538,7 @@ src/GTIN.i: src/GTIN.cpp.i
 
 # target to preprocess a source file
 src/GTIN.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GTIN.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GTIN.cpp.i
 .PHONY : src/GTIN.cpp.i
 
 src/GTIN.s: src/GTIN.cpp.s
@@ -546,7 +546,7 @@ src/GTIN.s: src/GTIN.cpp.s
 
 # target to generate assembly for a file
 src/GTIN.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GTIN.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GTIN.cpp.s
 .PHONY : src/GTIN.cpp.s
 
 src/GenericGF.o: src/GenericGF.cpp.o
@@ -554,7 +554,7 @@ src/GenericGF.o: src/GenericGF.cpp.o
 
 # target to build an object file
 src/GenericGF.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGF.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGF.cpp.o
 .PHONY : src/GenericGF.cpp.o
 
 src/GenericGF.i: src/GenericGF.cpp.i
@@ -562,7 +562,7 @@ src/GenericGF.i: src/GenericGF.cpp.i
 
 # target to preprocess a source file
 src/GenericGF.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGF.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGF.cpp.i
 .PHONY : src/GenericGF.cpp.i
 
 src/GenericGF.s: src/GenericGF.cpp.s
@@ -570,7 +570,7 @@ src/GenericGF.s: src/GenericGF.cpp.s
 
 # target to generate assembly for a file
 src/GenericGF.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGF.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGF.cpp.s
 .PHONY : src/GenericGF.cpp.s
 
 src/GenericGFPoly.o: src/GenericGFPoly.cpp.o
@@ -578,7 +578,7 @@ src/GenericGFPoly.o: src/GenericGFPoly.cpp.o
 
 # target to build an object file
 src/GenericGFPoly.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGFPoly.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGFPoly.cpp.o
 .PHONY : src/GenericGFPoly.cpp.o
 
 src/GenericGFPoly.i: src/GenericGFPoly.cpp.i
@@ -586,7 +586,7 @@ src/GenericGFPoly.i: src/GenericGFPoly.cpp.i
 
 # target to preprocess a source file
 src/GenericGFPoly.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGFPoly.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGFPoly.cpp.i
 .PHONY : src/GenericGFPoly.cpp.i
 
 src/GenericGFPoly.s: src/GenericGFPoly.cpp.s
@@ -594,7 +594,7 @@ src/GenericGFPoly.s: src/GenericGFPoly.cpp.s
 
 # target to generate assembly for a file
 src/GenericGFPoly.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGFPoly.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GenericGFPoly.cpp.s
 .PHONY : src/GenericGFPoly.cpp.s
 
 src/GlobalHistogramBinarizer.o: src/GlobalHistogramBinarizer.cpp.o
@@ -602,7 +602,7 @@ src/GlobalHistogramBinarizer.o: src/GlobalHistogramBinarizer.cpp.o
 
 # target to build an object file
 src/GlobalHistogramBinarizer.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GlobalHistogramBinarizer.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GlobalHistogramBinarizer.cpp.o
 .PHONY : src/GlobalHistogramBinarizer.cpp.o
 
 src/GlobalHistogramBinarizer.i: src/GlobalHistogramBinarizer.cpp.i
@@ -610,7 +610,7 @@ src/GlobalHistogramBinarizer.i: src/GlobalHistogramBinarizer.cpp.i
 
 # target to preprocess a source file
 src/GlobalHistogramBinarizer.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GlobalHistogramBinarizer.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GlobalHistogramBinarizer.cpp.i
 .PHONY : src/GlobalHistogramBinarizer.cpp.i
 
 src/GlobalHistogramBinarizer.s: src/GlobalHistogramBinarizer.cpp.s
@@ -618,7 +618,7 @@ src/GlobalHistogramBinarizer.s: src/GlobalHistogramBinarizer.cpp.s
 
 # target to generate assembly for a file
 src/GlobalHistogramBinarizer.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GlobalHistogramBinarizer.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GlobalHistogramBinarizer.cpp.s
 .PHONY : src/GlobalHistogramBinarizer.cpp.s
 
 src/GridSampler.o: src/GridSampler.cpp.o
@@ -626,7 +626,7 @@ src/GridSampler.o: src/GridSampler.cpp.o
 
 # target to build an object file
 src/GridSampler.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GridSampler.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GridSampler.cpp.o
 .PHONY : src/GridSampler.cpp.o
 
 src/GridSampler.i: src/GridSampler.cpp.i
@@ -634,7 +634,7 @@ src/GridSampler.i: src/GridSampler.cpp.i
 
 # target to preprocess a source file
 src/GridSampler.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GridSampler.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GridSampler.cpp.i
 .PHONY : src/GridSampler.cpp.i
 
 src/GridSampler.s: src/GridSampler.cpp.s
@@ -642,7 +642,7 @@ src/GridSampler.s: src/GridSampler.cpp.s
 
 # target to generate assembly for a file
 src/GridSampler.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GridSampler.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GridSampler.cpp.s
 .PHONY : src/GridSampler.cpp.s
 
 src/HybridBinarizer.o: src/HybridBinarizer.cpp.o
@@ -650,7 +650,7 @@ src/HybridBinarizer.o: src/HybridBinarizer.cpp.o
 
 # target to build an object file
 src/HybridBinarizer.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.o
 .PHONY : src/HybridBinarizer.cpp.o
 
 src/HybridBinarizer.i: src/HybridBinarizer.cpp.i
@@ -658,7 +658,7 @@ src/HybridBinarizer.i: src/HybridBinarizer.cpp.i
 
 # target to preprocess a source file
 src/HybridBinarizer.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.i
 .PHONY : src/HybridBinarizer.cpp.i
 
 src/HybridBinarizer.s: src/HybridBinarizer.cpp.s
@@ -666,7 +666,7 @@ src/HybridBinarizer.s: src/HybridBinarizer.cpp.s
 
 # target to generate assembly for a file
 src/HybridBinarizer.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.s
 .PHONY : src/HybridBinarizer.cpp.s
 
 src/MultiFormatReader.o: src/MultiFormatReader.cpp.o
@@ -674,7 +674,7 @@ src/MultiFormatReader.o: src/MultiFormatReader.cpp.o
 
 # target to build an object file
 src/MultiFormatReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatReader.cpp.o
 .PHONY : src/MultiFormatReader.cpp.o
 
 src/MultiFormatReader.i: src/MultiFormatReader.cpp.i
@@ -682,7 +682,7 @@ src/MultiFormatReader.i: src/MultiFormatReader.cpp.i
 
 # target to preprocess a source file
 src/MultiFormatReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatReader.cpp.i
 .PHONY : src/MultiFormatReader.cpp.i
 
 src/MultiFormatReader.s: src/MultiFormatReader.cpp.s
@@ -690,7 +690,7 @@ src/MultiFormatReader.s: src/MultiFormatReader.cpp.s
 
 # target to generate assembly for a file
 src/MultiFormatReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatReader.cpp.s
 .PHONY : src/MultiFormatReader.cpp.s
 
 src/MultiFormatWriter.o: src/MultiFormatWriter.cpp.o
@@ -698,7 +698,7 @@ src/MultiFormatWriter.o: src/MultiFormatWriter.cpp.o
 
 # target to build an object file
 src/MultiFormatWriter.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o
 .PHONY : src/MultiFormatWriter.cpp.o
 
 src/MultiFormatWriter.i: src/MultiFormatWriter.cpp.i
@@ -706,7 +706,7 @@ src/MultiFormatWriter.i: src/MultiFormatWriter.cpp.i
 
 # target to preprocess a source file
 src/MultiFormatWriter.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.i
 .PHONY : src/MultiFormatWriter.cpp.i
 
 src/MultiFormatWriter.s: src/MultiFormatWriter.cpp.s
@@ -714,7 +714,7 @@ src/MultiFormatWriter.s: src/MultiFormatWriter.cpp.s
 
 # target to generate assembly for a file
 src/MultiFormatWriter.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.s
 .PHONY : src/MultiFormatWriter.cpp.s
 
 src/PerspectiveTransform.o: src/PerspectiveTransform.cpp.o
@@ -722,7 +722,7 @@ src/PerspectiveTransform.o: src/PerspectiveTransform.cpp.o
 
 # target to build an object file
 src/PerspectiveTransform.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/PerspectiveTransform.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/PerspectiveTransform.cpp.o
 .PHONY : src/PerspectiveTransform.cpp.o
 
 src/PerspectiveTransform.i: src/PerspectiveTransform.cpp.i
@@ -730,7 +730,7 @@ src/PerspectiveTransform.i: src/PerspectiveTransform.cpp.i
 
 # target to preprocess a source file
 src/PerspectiveTransform.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/PerspectiveTransform.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/PerspectiveTransform.cpp.i
 .PHONY : src/PerspectiveTransform.cpp.i
 
 src/PerspectiveTransform.s: src/PerspectiveTransform.cpp.s
@@ -738,7 +738,7 @@ src/PerspectiveTransform.s: src/PerspectiveTransform.cpp.s
 
 # target to generate assembly for a file
 src/PerspectiveTransform.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/PerspectiveTransform.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/PerspectiveTransform.cpp.s
 .PHONY : src/PerspectiveTransform.cpp.s
 
 src/ReadBarcode.o: src/ReadBarcode.cpp.o
@@ -746,7 +746,7 @@ src/ReadBarcode.o: src/ReadBarcode.cpp.o
 
 # target to build an object file
 src/ReadBarcode.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReadBarcode.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReadBarcode.cpp.o
 .PHONY : src/ReadBarcode.cpp.o
 
 src/ReadBarcode.i: src/ReadBarcode.cpp.i
@@ -754,7 +754,7 @@ src/ReadBarcode.i: src/ReadBarcode.cpp.i
 
 # target to preprocess a source file
 src/ReadBarcode.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReadBarcode.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReadBarcode.cpp.i
 .PHONY : src/ReadBarcode.cpp.i
 
 src/ReadBarcode.s: src/ReadBarcode.cpp.s
@@ -762,7 +762,7 @@ src/ReadBarcode.s: src/ReadBarcode.cpp.s
 
 # target to generate assembly for a file
 src/ReadBarcode.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReadBarcode.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReadBarcode.cpp.s
 .PHONY : src/ReadBarcode.cpp.s
 
 src/ReedSolomonDecoder.o: src/ReedSolomonDecoder.cpp.o
@@ -770,7 +770,7 @@ src/ReedSolomonDecoder.o: src/ReedSolomonDecoder.cpp.o
 
 # target to build an object file
 src/ReedSolomonDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonDecoder.cpp.o
 .PHONY : src/ReedSolomonDecoder.cpp.o
 
 src/ReedSolomonDecoder.i: src/ReedSolomonDecoder.cpp.i
@@ -778,7 +778,7 @@ src/ReedSolomonDecoder.i: src/ReedSolomonDecoder.cpp.i
 
 # target to preprocess a source file
 src/ReedSolomonDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonDecoder.cpp.i
 .PHONY : src/ReedSolomonDecoder.cpp.i
 
 src/ReedSolomonDecoder.s: src/ReedSolomonDecoder.cpp.s
@@ -786,7 +786,7 @@ src/ReedSolomonDecoder.s: src/ReedSolomonDecoder.cpp.s
 
 # target to generate assembly for a file
 src/ReedSolomonDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonDecoder.cpp.s
 .PHONY : src/ReedSolomonDecoder.cpp.s
 
 src/ReedSolomonEncoder.o: src/ReedSolomonEncoder.cpp.o
@@ -794,7 +794,7 @@ src/ReedSolomonEncoder.o: src/ReedSolomonEncoder.cpp.o
 
 # target to build an object file
 src/ReedSolomonEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonEncoder.cpp.o
 .PHONY : src/ReedSolomonEncoder.cpp.o
 
 src/ReedSolomonEncoder.i: src/ReedSolomonEncoder.cpp.i
@@ -802,7 +802,7 @@ src/ReedSolomonEncoder.i: src/ReedSolomonEncoder.cpp.i
 
 # target to preprocess a source file
 src/ReedSolomonEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonEncoder.cpp.i
 .PHONY : src/ReedSolomonEncoder.cpp.i
 
 src/ReedSolomonEncoder.s: src/ReedSolomonEncoder.cpp.s
@@ -810,7 +810,7 @@ src/ReedSolomonEncoder.s: src/ReedSolomonEncoder.cpp.s
 
 # target to generate assembly for a file
 src/ReedSolomonEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonEncoder.cpp.s
 .PHONY : src/ReedSolomonEncoder.cpp.s
 
 src/Result.o: src/Result.cpp.o
@@ -818,7 +818,7 @@ src/Result.o: src/Result.cpp.o
 
 # target to build an object file
 src/Result.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Result.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Result.cpp.o
 .PHONY : src/Result.cpp.o
 
 src/Result.i: src/Result.cpp.i
@@ -826,7 +826,7 @@ src/Result.i: src/Result.cpp.i
 
 # target to preprocess a source file
 src/Result.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Result.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Result.cpp.i
 .PHONY : src/Result.cpp.i
 
 src/Result.s: src/Result.cpp.s
@@ -834,7 +834,7 @@ src/Result.s: src/Result.cpp.s
 
 # target to generate assembly for a file
 src/Result.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Result.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/Result.cpp.s
 .PHONY : src/Result.cpp.s
 
 src/ResultPoint.o: src/ResultPoint.cpp.o
@@ -842,7 +842,7 @@ src/ResultPoint.o: src/ResultPoint.cpp.o
 
 # target to build an object file
 src/ResultPoint.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ResultPoint.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ResultPoint.cpp.o
 .PHONY : src/ResultPoint.cpp.o
 
 src/ResultPoint.i: src/ResultPoint.cpp.i
@@ -850,7 +850,7 @@ src/ResultPoint.i: src/ResultPoint.cpp.i
 
 # target to preprocess a source file
 src/ResultPoint.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ResultPoint.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ResultPoint.cpp.i
 .PHONY : src/ResultPoint.cpp.i
 
 src/ResultPoint.s: src/ResultPoint.cpp.s
@@ -858,7 +858,7 @@ src/ResultPoint.s: src/ResultPoint.cpp.s
 
 # target to generate assembly for a file
 src/ResultPoint.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ResultPoint.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ResultPoint.cpp.s
 .PHONY : src/ResultPoint.cpp.s
 
 src/TextDecoder.o: src/TextDecoder.cpp.o
@@ -866,7 +866,7 @@ src/TextDecoder.o: src/TextDecoder.cpp.o
 
 # target to build an object file
 src/TextDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextDecoder.cpp.o
 .PHONY : src/TextDecoder.cpp.o
 
 src/TextDecoder.i: src/TextDecoder.cpp.i
@@ -874,7 +874,7 @@ src/TextDecoder.i: src/TextDecoder.cpp.i
 
 # target to preprocess a source file
 src/TextDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextDecoder.cpp.i
 .PHONY : src/TextDecoder.cpp.i
 
 src/TextDecoder.s: src/TextDecoder.cpp.s
@@ -882,7 +882,7 @@ src/TextDecoder.s: src/TextDecoder.cpp.s
 
 # target to generate assembly for a file
 src/TextDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextDecoder.cpp.s
 .PHONY : src/TextDecoder.cpp.s
 
 src/TextEncoder.o: src/TextEncoder.cpp.o
@@ -890,7 +890,7 @@ src/TextEncoder.o: src/TextEncoder.cpp.o
 
 # target to build an object file
 src/TextEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextEncoder.cpp.o
 .PHONY : src/TextEncoder.cpp.o
 
 src/TextEncoder.i: src/TextEncoder.cpp.i
@@ -898,7 +898,7 @@ src/TextEncoder.i: src/TextEncoder.cpp.i
 
 # target to preprocess a source file
 src/TextEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextEncoder.cpp.i
 .PHONY : src/TextEncoder.cpp.i
 
 src/TextEncoder.s: src/TextEncoder.cpp.s
@@ -906,7 +906,7 @@ src/TextEncoder.s: src/TextEncoder.cpp.s
 
 # target to generate assembly for a file
 src/TextEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextEncoder.cpp.s
 .PHONY : src/TextEncoder.cpp.s
 
 src/TextUtfEncoding.o: src/TextUtfEncoding.cpp.o
@@ -914,7 +914,7 @@ src/TextUtfEncoding.o: src/TextUtfEncoding.cpp.o
 
 # target to build an object file
 src/TextUtfEncoding.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextUtfEncoding.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextUtfEncoding.cpp.o
 .PHONY : src/TextUtfEncoding.cpp.o
 
 src/TextUtfEncoding.i: src/TextUtfEncoding.cpp.i
@@ -922,7 +922,7 @@ src/TextUtfEncoding.i: src/TextUtfEncoding.cpp.i
 
 # target to preprocess a source file
 src/TextUtfEncoding.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextUtfEncoding.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextUtfEncoding.cpp.i
 .PHONY : src/TextUtfEncoding.cpp.i
 
 src/TextUtfEncoding.s: src/TextUtfEncoding.cpp.s
@@ -930,7 +930,7 @@ src/TextUtfEncoding.s: src/TextUtfEncoding.cpp.s
 
 # target to generate assembly for a file
 src/TextUtfEncoding.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextUtfEncoding.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextUtfEncoding.cpp.s
 .PHONY : src/TextUtfEncoding.cpp.s
 
 src/WhiteRectDetector.o: src/WhiteRectDetector.cpp.o
@@ -938,7 +938,7 @@ src/WhiteRectDetector.o: src/WhiteRectDetector.cpp.o
 
 # target to build an object file
 src/WhiteRectDetector.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/WhiteRectDetector.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/WhiteRectDetector.cpp.o
 .PHONY : src/WhiteRectDetector.cpp.o
 
 src/WhiteRectDetector.i: src/WhiteRectDetector.cpp.i
@@ -946,7 +946,7 @@ src/WhiteRectDetector.i: src/WhiteRectDetector.cpp.i
 
 # target to preprocess a source file
 src/WhiteRectDetector.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/WhiteRectDetector.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/WhiteRectDetector.cpp.i
 .PHONY : src/WhiteRectDetector.cpp.i
 
 src/WhiteRectDetector.s: src/WhiteRectDetector.cpp.s
@@ -954,7 +954,7 @@ src/WhiteRectDetector.s: src/WhiteRectDetector.cpp.s
 
 # target to generate assembly for a file
 src/WhiteRectDetector.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/WhiteRectDetector.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/WhiteRectDetector.cpp.s
 .PHONY : src/WhiteRectDetector.cpp.s
 
 src/ZXBigInteger.o: src/ZXBigInteger.cpp.o
@@ -962,7 +962,7 @@ src/ZXBigInteger.o: src/ZXBigInteger.cpp.o
 
 # target to build an object file
 src/ZXBigInteger.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ZXBigInteger.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ZXBigInteger.cpp.o
 .PHONY : src/ZXBigInteger.cpp.o
 
 src/ZXBigInteger.i: src/ZXBigInteger.cpp.i
@@ -970,7 +970,7 @@ src/ZXBigInteger.i: src/ZXBigInteger.cpp.i
 
 # target to preprocess a source file
 src/ZXBigInteger.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ZXBigInteger.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ZXBigInteger.cpp.i
 .PHONY : src/ZXBigInteger.cpp.i
 
 src/ZXBigInteger.s: src/ZXBigInteger.cpp.s
@@ -978,7 +978,7 @@ src/ZXBigInteger.s: src/ZXBigInteger.cpp.s
 
 # target to generate assembly for a file
 src/ZXBigInteger.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ZXBigInteger.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ZXBigInteger.cpp.s
 .PHONY : src/ZXBigInteger.cpp.s
 
 src/aztec/AZDecoder.o: src/aztec/AZDecoder.cpp.o
@@ -986,7 +986,7 @@ src/aztec/AZDecoder.o: src/aztec/AZDecoder.cpp.o
 
 # target to build an object file
 src/aztec/AZDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDecoder.cpp.o
 .PHONY : src/aztec/AZDecoder.cpp.o
 
 src/aztec/AZDecoder.i: src/aztec/AZDecoder.cpp.i
@@ -994,7 +994,7 @@ src/aztec/AZDecoder.i: src/aztec/AZDecoder.cpp.i
 
 # target to preprocess a source file
 src/aztec/AZDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDecoder.cpp.i
 .PHONY : src/aztec/AZDecoder.cpp.i
 
 src/aztec/AZDecoder.s: src/aztec/AZDecoder.cpp.s
@@ -1002,7 +1002,7 @@ src/aztec/AZDecoder.s: src/aztec/AZDecoder.cpp.s
 
 # target to generate assembly for a file
 src/aztec/AZDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDecoder.cpp.s
 .PHONY : src/aztec/AZDecoder.cpp.s
 
 src/aztec/AZDetector.o: src/aztec/AZDetector.cpp.o
@@ -1010,7 +1010,7 @@ src/aztec/AZDetector.o: src/aztec/AZDetector.cpp.o
 
 # target to build an object file
 src/aztec/AZDetector.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.o
 .PHONY : src/aztec/AZDetector.cpp.o
 
 src/aztec/AZDetector.i: src/aztec/AZDetector.cpp.i
@@ -1018,7 +1018,7 @@ src/aztec/AZDetector.i: src/aztec/AZDetector.cpp.i
 
 # target to preprocess a source file
 src/aztec/AZDetector.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.i
 .PHONY : src/aztec/AZDetector.cpp.i
 
 src/aztec/AZDetector.s: src/aztec/AZDetector.cpp.s
@@ -1026,7 +1026,7 @@ src/aztec/AZDetector.s: src/aztec/AZDetector.cpp.s
 
 # target to generate assembly for a file
 src/aztec/AZDetector.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.s
 .PHONY : src/aztec/AZDetector.cpp.s
 
 src/aztec/AZEncoder.o: src/aztec/AZEncoder.cpp.o
@@ -1034,7 +1034,7 @@ src/aztec/AZEncoder.o: src/aztec/AZEncoder.cpp.o
 
 # target to build an object file
 src/aztec/AZEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZEncoder.cpp.o
 .PHONY : src/aztec/AZEncoder.cpp.o
 
 src/aztec/AZEncoder.i: src/aztec/AZEncoder.cpp.i
@@ -1042,7 +1042,7 @@ src/aztec/AZEncoder.i: src/aztec/AZEncoder.cpp.i
 
 # target to preprocess a source file
 src/aztec/AZEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZEncoder.cpp.i
 .PHONY : src/aztec/AZEncoder.cpp.i
 
 src/aztec/AZEncoder.s: src/aztec/AZEncoder.cpp.s
@@ -1050,7 +1050,7 @@ src/aztec/AZEncoder.s: src/aztec/AZEncoder.cpp.s
 
 # target to generate assembly for a file
 src/aztec/AZEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZEncoder.cpp.s
 .PHONY : src/aztec/AZEncoder.cpp.s
 
 src/aztec/AZHighLevelEncoder.o: src/aztec/AZHighLevelEncoder.cpp.o
@@ -1058,7 +1058,7 @@ src/aztec/AZHighLevelEncoder.o: src/aztec/AZHighLevelEncoder.cpp.o
 
 # target to build an object file
 src/aztec/AZHighLevelEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZHighLevelEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZHighLevelEncoder.cpp.o
 .PHONY : src/aztec/AZHighLevelEncoder.cpp.o
 
 src/aztec/AZHighLevelEncoder.i: src/aztec/AZHighLevelEncoder.cpp.i
@@ -1066,7 +1066,7 @@ src/aztec/AZHighLevelEncoder.i: src/aztec/AZHighLevelEncoder.cpp.i
 
 # target to preprocess a source file
 src/aztec/AZHighLevelEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZHighLevelEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZHighLevelEncoder.cpp.i
 .PHONY : src/aztec/AZHighLevelEncoder.cpp.i
 
 src/aztec/AZHighLevelEncoder.s: src/aztec/AZHighLevelEncoder.cpp.s
@@ -1074,7 +1074,7 @@ src/aztec/AZHighLevelEncoder.s: src/aztec/AZHighLevelEncoder.cpp.s
 
 # target to generate assembly for a file
 src/aztec/AZHighLevelEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZHighLevelEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZHighLevelEncoder.cpp.s
 .PHONY : src/aztec/AZHighLevelEncoder.cpp.s
 
 src/aztec/AZReader.o: src/aztec/AZReader.cpp.o
@@ -1082,7 +1082,7 @@ src/aztec/AZReader.o: src/aztec/AZReader.cpp.o
 
 # target to build an object file
 src/aztec/AZReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZReader.cpp.o
 .PHONY : src/aztec/AZReader.cpp.o
 
 src/aztec/AZReader.i: src/aztec/AZReader.cpp.i
@@ -1090,7 +1090,7 @@ src/aztec/AZReader.i: src/aztec/AZReader.cpp.i
 
 # target to preprocess a source file
 src/aztec/AZReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZReader.cpp.i
 .PHONY : src/aztec/AZReader.cpp.i
 
 src/aztec/AZReader.s: src/aztec/AZReader.cpp.s
@@ -1098,7 +1098,7 @@ src/aztec/AZReader.s: src/aztec/AZReader.cpp.s
 
 # target to generate assembly for a file
 src/aztec/AZReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZReader.cpp.s
 .PHONY : src/aztec/AZReader.cpp.s
 
 src/aztec/AZToken.o: src/aztec/AZToken.cpp.o
@@ -1106,7 +1106,7 @@ src/aztec/AZToken.o: src/aztec/AZToken.cpp.o
 
 # target to build an object file
 src/aztec/AZToken.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZToken.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZToken.cpp.o
 .PHONY : src/aztec/AZToken.cpp.o
 
 src/aztec/AZToken.i: src/aztec/AZToken.cpp.i
@@ -1114,7 +1114,7 @@ src/aztec/AZToken.i: src/aztec/AZToken.cpp.i
 
 # target to preprocess a source file
 src/aztec/AZToken.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZToken.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZToken.cpp.i
 .PHONY : src/aztec/AZToken.cpp.i
 
 src/aztec/AZToken.s: src/aztec/AZToken.cpp.s
@@ -1122,7 +1122,7 @@ src/aztec/AZToken.s: src/aztec/AZToken.cpp.s
 
 # target to generate assembly for a file
 src/aztec/AZToken.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZToken.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZToken.cpp.s
 .PHONY : src/aztec/AZToken.cpp.s
 
 src/aztec/AZWriter.o: src/aztec/AZWriter.cpp.o
@@ -1130,7 +1130,7 @@ src/aztec/AZWriter.o: src/aztec/AZWriter.cpp.o
 
 # target to build an object file
 src/aztec/AZWriter.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZWriter.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZWriter.cpp.o
 .PHONY : src/aztec/AZWriter.cpp.o
 
 src/aztec/AZWriter.i: src/aztec/AZWriter.cpp.i
@@ -1138,7 +1138,7 @@ src/aztec/AZWriter.i: src/aztec/AZWriter.cpp.i
 
 # target to preprocess a source file
 src/aztec/AZWriter.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZWriter.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZWriter.cpp.i
 .PHONY : src/aztec/AZWriter.cpp.i
 
 src/aztec/AZWriter.s: src/aztec/AZWriter.cpp.s
@@ -1146,7 +1146,7 @@ src/aztec/AZWriter.s: src/aztec/AZWriter.cpp.s
 
 # target to generate assembly for a file
 src/aztec/AZWriter.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZWriter.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZWriter.cpp.s
 .PHONY : src/aztec/AZWriter.cpp.s
 
 src/datamatrix/DMBitLayout.o: src/datamatrix/DMBitLayout.cpp.o
@@ -1154,7 +1154,7 @@ src/datamatrix/DMBitLayout.o: src/datamatrix/DMBitLayout.cpp.o
 
 # target to build an object file
 src/datamatrix/DMBitLayout.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMBitLayout.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMBitLayout.cpp.o
 .PHONY : src/datamatrix/DMBitLayout.cpp.o
 
 src/datamatrix/DMBitLayout.i: src/datamatrix/DMBitLayout.cpp.i
@@ -1162,7 +1162,7 @@ src/datamatrix/DMBitLayout.i: src/datamatrix/DMBitLayout.cpp.i
 
 # target to preprocess a source file
 src/datamatrix/DMBitLayout.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMBitLayout.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMBitLayout.cpp.i
 .PHONY : src/datamatrix/DMBitLayout.cpp.i
 
 src/datamatrix/DMBitLayout.s: src/datamatrix/DMBitLayout.cpp.s
@@ -1170,7 +1170,7 @@ src/datamatrix/DMBitLayout.s: src/datamatrix/DMBitLayout.cpp.s
 
 # target to generate assembly for a file
 src/datamatrix/DMBitLayout.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMBitLayout.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMBitLayout.cpp.s
 .PHONY : src/datamatrix/DMBitLayout.cpp.s
 
 src/datamatrix/DMDataBlock.o: src/datamatrix/DMDataBlock.cpp.o
@@ -1178,7 +1178,7 @@ src/datamatrix/DMDataBlock.o: src/datamatrix/DMDataBlock.cpp.o
 
 # target to build an object file
 src/datamatrix/DMDataBlock.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDataBlock.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDataBlock.cpp.o
 .PHONY : src/datamatrix/DMDataBlock.cpp.o
 
 src/datamatrix/DMDataBlock.i: src/datamatrix/DMDataBlock.cpp.i
@@ -1186,7 +1186,7 @@ src/datamatrix/DMDataBlock.i: src/datamatrix/DMDataBlock.cpp.i
 
 # target to preprocess a source file
 src/datamatrix/DMDataBlock.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDataBlock.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDataBlock.cpp.i
 .PHONY : src/datamatrix/DMDataBlock.cpp.i
 
 src/datamatrix/DMDataBlock.s: src/datamatrix/DMDataBlock.cpp.s
@@ -1194,7 +1194,7 @@ src/datamatrix/DMDataBlock.s: src/datamatrix/DMDataBlock.cpp.s
 
 # target to generate assembly for a file
 src/datamatrix/DMDataBlock.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDataBlock.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDataBlock.cpp.s
 .PHONY : src/datamatrix/DMDataBlock.cpp.s
 
 src/datamatrix/DMDecoder.o: src/datamatrix/DMDecoder.cpp.o
@@ -1202,7 +1202,7 @@ src/datamatrix/DMDecoder.o: src/datamatrix/DMDecoder.cpp.o
 
 # target to build an object file
 src/datamatrix/DMDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDecoder.cpp.o
 .PHONY : src/datamatrix/DMDecoder.cpp.o
 
 src/datamatrix/DMDecoder.i: src/datamatrix/DMDecoder.cpp.i
@@ -1210,7 +1210,7 @@ src/datamatrix/DMDecoder.i: src/datamatrix/DMDecoder.cpp.i
 
 # target to preprocess a source file
 src/datamatrix/DMDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDecoder.cpp.i
 .PHONY : src/datamatrix/DMDecoder.cpp.i
 
 src/datamatrix/DMDecoder.s: src/datamatrix/DMDecoder.cpp.s
@@ -1218,7 +1218,7 @@ src/datamatrix/DMDecoder.s: src/datamatrix/DMDecoder.cpp.s
 
 # target to generate assembly for a file
 src/datamatrix/DMDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDecoder.cpp.s
 .PHONY : src/datamatrix/DMDecoder.cpp.s
 
 src/datamatrix/DMDetector.o: src/datamatrix/DMDetector.cpp.o
@@ -1226,7 +1226,7 @@ src/datamatrix/DMDetector.o: src/datamatrix/DMDetector.cpp.o
 
 # target to build an object file
 src/datamatrix/DMDetector.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDetector.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDetector.cpp.o
 .PHONY : src/datamatrix/DMDetector.cpp.o
 
 src/datamatrix/DMDetector.i: src/datamatrix/DMDetector.cpp.i
@@ -1234,7 +1234,7 @@ src/datamatrix/DMDetector.i: src/datamatrix/DMDetector.cpp.i
 
 # target to preprocess a source file
 src/datamatrix/DMDetector.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDetector.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDetector.cpp.i
 .PHONY : src/datamatrix/DMDetector.cpp.i
 
 src/datamatrix/DMDetector.s: src/datamatrix/DMDetector.cpp.s
@@ -1242,7 +1242,7 @@ src/datamatrix/DMDetector.s: src/datamatrix/DMDetector.cpp.s
 
 # target to generate assembly for a file
 src/datamatrix/DMDetector.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDetector.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMDetector.cpp.s
 .PHONY : src/datamatrix/DMDetector.cpp.s
 
 src/datamatrix/DMECEncoder.o: src/datamatrix/DMECEncoder.cpp.o
@@ -1250,7 +1250,7 @@ src/datamatrix/DMECEncoder.o: src/datamatrix/DMECEncoder.cpp.o
 
 # target to build an object file
 src/datamatrix/DMECEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMECEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMECEncoder.cpp.o
 .PHONY : src/datamatrix/DMECEncoder.cpp.o
 
 src/datamatrix/DMECEncoder.i: src/datamatrix/DMECEncoder.cpp.i
@@ -1258,7 +1258,7 @@ src/datamatrix/DMECEncoder.i: src/datamatrix/DMECEncoder.cpp.i
 
 # target to preprocess a source file
 src/datamatrix/DMECEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMECEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMECEncoder.cpp.i
 .PHONY : src/datamatrix/DMECEncoder.cpp.i
 
 src/datamatrix/DMECEncoder.s: src/datamatrix/DMECEncoder.cpp.s
@@ -1266,7 +1266,7 @@ src/datamatrix/DMECEncoder.s: src/datamatrix/DMECEncoder.cpp.s
 
 # target to generate assembly for a file
 src/datamatrix/DMECEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMECEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMECEncoder.cpp.s
 .PHONY : src/datamatrix/DMECEncoder.cpp.s
 
 src/datamatrix/DMHighLevelEncoder.o: src/datamatrix/DMHighLevelEncoder.cpp.o
@@ -1274,7 +1274,7 @@ src/datamatrix/DMHighLevelEncoder.o: src/datamatrix/DMHighLevelEncoder.cpp.o
 
 # target to build an object file
 src/datamatrix/DMHighLevelEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMHighLevelEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMHighLevelEncoder.cpp.o
 .PHONY : src/datamatrix/DMHighLevelEncoder.cpp.o
 
 src/datamatrix/DMHighLevelEncoder.i: src/datamatrix/DMHighLevelEncoder.cpp.i
@@ -1282,7 +1282,7 @@ src/datamatrix/DMHighLevelEncoder.i: src/datamatrix/DMHighLevelEncoder.cpp.i
 
 # target to preprocess a source file
 src/datamatrix/DMHighLevelEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMHighLevelEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMHighLevelEncoder.cpp.i
 .PHONY : src/datamatrix/DMHighLevelEncoder.cpp.i
 
 src/datamatrix/DMHighLevelEncoder.s: src/datamatrix/DMHighLevelEncoder.cpp.s
@@ -1290,7 +1290,7 @@ src/datamatrix/DMHighLevelEncoder.s: src/datamatrix/DMHighLevelEncoder.cpp.s
 
 # target to generate assembly for a file
 src/datamatrix/DMHighLevelEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMHighLevelEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMHighLevelEncoder.cpp.s
 .PHONY : src/datamatrix/DMHighLevelEncoder.cpp.s
 
 src/datamatrix/DMReader.o: src/datamatrix/DMReader.cpp.o
@@ -1298,7 +1298,7 @@ src/datamatrix/DMReader.o: src/datamatrix/DMReader.cpp.o
 
 # target to build an object file
 src/datamatrix/DMReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMReader.cpp.o
 .PHONY : src/datamatrix/DMReader.cpp.o
 
 src/datamatrix/DMReader.i: src/datamatrix/DMReader.cpp.i
@@ -1306,7 +1306,7 @@ src/datamatrix/DMReader.i: src/datamatrix/DMReader.cpp.i
 
 # target to preprocess a source file
 src/datamatrix/DMReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMReader.cpp.i
 .PHONY : src/datamatrix/DMReader.cpp.i
 
 src/datamatrix/DMReader.s: src/datamatrix/DMReader.cpp.s
@@ -1314,7 +1314,7 @@ src/datamatrix/DMReader.s: src/datamatrix/DMReader.cpp.s
 
 # target to generate assembly for a file
 src/datamatrix/DMReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMReader.cpp.s
 .PHONY : src/datamatrix/DMReader.cpp.s
 
 src/datamatrix/DMSymbolInfo.o: src/datamatrix/DMSymbolInfo.cpp.o
@@ -1322,7 +1322,7 @@ src/datamatrix/DMSymbolInfo.o: src/datamatrix/DMSymbolInfo.cpp.o
 
 # target to build an object file
 src/datamatrix/DMSymbolInfo.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMSymbolInfo.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMSymbolInfo.cpp.o
 .PHONY : src/datamatrix/DMSymbolInfo.cpp.o
 
 src/datamatrix/DMSymbolInfo.i: src/datamatrix/DMSymbolInfo.cpp.i
@@ -1330,7 +1330,7 @@ src/datamatrix/DMSymbolInfo.i: src/datamatrix/DMSymbolInfo.cpp.i
 
 # target to preprocess a source file
 src/datamatrix/DMSymbolInfo.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMSymbolInfo.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMSymbolInfo.cpp.i
 .PHONY : src/datamatrix/DMSymbolInfo.cpp.i
 
 src/datamatrix/DMSymbolInfo.s: src/datamatrix/DMSymbolInfo.cpp.s
@@ -1338,7 +1338,7 @@ src/datamatrix/DMSymbolInfo.s: src/datamatrix/DMSymbolInfo.cpp.s
 
 # target to generate assembly for a file
 src/datamatrix/DMSymbolInfo.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMSymbolInfo.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMSymbolInfo.cpp.s
 .PHONY : src/datamatrix/DMSymbolInfo.cpp.s
 
 src/datamatrix/DMVersion.o: src/datamatrix/DMVersion.cpp.o
@@ -1346,7 +1346,7 @@ src/datamatrix/DMVersion.o: src/datamatrix/DMVersion.cpp.o
 
 # target to build an object file
 src/datamatrix/DMVersion.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMVersion.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMVersion.cpp.o
 .PHONY : src/datamatrix/DMVersion.cpp.o
 
 src/datamatrix/DMVersion.i: src/datamatrix/DMVersion.cpp.i
@@ -1354,7 +1354,7 @@ src/datamatrix/DMVersion.i: src/datamatrix/DMVersion.cpp.i
 
 # target to preprocess a source file
 src/datamatrix/DMVersion.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMVersion.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMVersion.cpp.i
 .PHONY : src/datamatrix/DMVersion.cpp.i
 
 src/datamatrix/DMVersion.s: src/datamatrix/DMVersion.cpp.s
@@ -1362,7 +1362,7 @@ src/datamatrix/DMVersion.s: src/datamatrix/DMVersion.cpp.s
 
 # target to generate assembly for a file
 src/datamatrix/DMVersion.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMVersion.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMVersion.cpp.s
 .PHONY : src/datamatrix/DMVersion.cpp.s
 
 src/datamatrix/DMWriter.o: src/datamatrix/DMWriter.cpp.o
@@ -1370,7 +1370,7 @@ src/datamatrix/DMWriter.o: src/datamatrix/DMWriter.cpp.o
 
 # target to build an object file
 src/datamatrix/DMWriter.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMWriter.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMWriter.cpp.o
 .PHONY : src/datamatrix/DMWriter.cpp.o
 
 src/datamatrix/DMWriter.i: src/datamatrix/DMWriter.cpp.i
@@ -1378,7 +1378,7 @@ src/datamatrix/DMWriter.i: src/datamatrix/DMWriter.cpp.i
 
 # target to preprocess a source file
 src/datamatrix/DMWriter.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMWriter.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMWriter.cpp.i
 .PHONY : src/datamatrix/DMWriter.cpp.i
 
 src/datamatrix/DMWriter.s: src/datamatrix/DMWriter.cpp.s
@@ -1386,7 +1386,7 @@ src/datamatrix/DMWriter.s: src/datamatrix/DMWriter.cpp.s
 
 # target to generate assembly for a file
 src/datamatrix/DMWriter.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMWriter.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMWriter.cpp.s
 .PHONY : src/datamatrix/DMWriter.cpp.s
 
 src/maxicode/MCBitMatrixParser.o: src/maxicode/MCBitMatrixParser.cpp.o
@@ -1394,7 +1394,7 @@ src/maxicode/MCBitMatrixParser.o: src/maxicode/MCBitMatrixParser.cpp.o
 
 # target to build an object file
 src/maxicode/MCBitMatrixParser.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCBitMatrixParser.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCBitMatrixParser.cpp.o
 .PHONY : src/maxicode/MCBitMatrixParser.cpp.o
 
 src/maxicode/MCBitMatrixParser.i: src/maxicode/MCBitMatrixParser.cpp.i
@@ -1402,7 +1402,7 @@ src/maxicode/MCBitMatrixParser.i: src/maxicode/MCBitMatrixParser.cpp.i
 
 # target to preprocess a source file
 src/maxicode/MCBitMatrixParser.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCBitMatrixParser.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCBitMatrixParser.cpp.i
 .PHONY : src/maxicode/MCBitMatrixParser.cpp.i
 
 src/maxicode/MCBitMatrixParser.s: src/maxicode/MCBitMatrixParser.cpp.s
@@ -1410,7 +1410,7 @@ src/maxicode/MCBitMatrixParser.s: src/maxicode/MCBitMatrixParser.cpp.s
 
 # target to generate assembly for a file
 src/maxicode/MCBitMatrixParser.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCBitMatrixParser.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCBitMatrixParser.cpp.s
 .PHONY : src/maxicode/MCBitMatrixParser.cpp.s
 
 src/maxicode/MCDecoder.o: src/maxicode/MCDecoder.cpp.o
@@ -1418,7 +1418,7 @@ src/maxicode/MCDecoder.o: src/maxicode/MCDecoder.cpp.o
 
 # target to build an object file
 src/maxicode/MCDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCDecoder.cpp.o
 .PHONY : src/maxicode/MCDecoder.cpp.o
 
 src/maxicode/MCDecoder.i: src/maxicode/MCDecoder.cpp.i
@@ -1426,7 +1426,7 @@ src/maxicode/MCDecoder.i: src/maxicode/MCDecoder.cpp.i
 
 # target to preprocess a source file
 src/maxicode/MCDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCDecoder.cpp.i
 .PHONY : src/maxicode/MCDecoder.cpp.i
 
 src/maxicode/MCDecoder.s: src/maxicode/MCDecoder.cpp.s
@@ -1434,7 +1434,7 @@ src/maxicode/MCDecoder.s: src/maxicode/MCDecoder.cpp.s
 
 # target to generate assembly for a file
 src/maxicode/MCDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCDecoder.cpp.s
 .PHONY : src/maxicode/MCDecoder.cpp.s
 
 src/maxicode/MCReader.o: src/maxicode/MCReader.cpp.o
@@ -1442,7 +1442,7 @@ src/maxicode/MCReader.o: src/maxicode/MCReader.cpp.o
 
 # target to build an object file
 src/maxicode/MCReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCReader.cpp.o
 .PHONY : src/maxicode/MCReader.cpp.o
 
 src/maxicode/MCReader.i: src/maxicode/MCReader.cpp.i
@@ -1450,7 +1450,7 @@ src/maxicode/MCReader.i: src/maxicode/MCReader.cpp.i
 
 # target to preprocess a source file
 src/maxicode/MCReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCReader.cpp.i
 .PHONY : src/maxicode/MCReader.cpp.i
 
 src/maxicode/MCReader.s: src/maxicode/MCReader.cpp.s
@@ -1458,7 +1458,7 @@ src/maxicode/MCReader.s: src/maxicode/MCReader.cpp.s
 
 # target to generate assembly for a file
 src/maxicode/MCReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/maxicode/MCReader.cpp.s
 .PHONY : src/maxicode/MCReader.cpp.s
 
 src/oned/ODCodabarReader.o: src/oned/ODCodabarReader.cpp.o
@@ -1466,7 +1466,7 @@ src/oned/ODCodabarReader.o: src/oned/ODCodabarReader.cpp.o
 
 # target to build an object file
 src/oned/ODCodabarReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarReader.cpp.o
 .PHONY : src/oned/ODCodabarReader.cpp.o
 
 src/oned/ODCodabarReader.i: src/oned/ODCodabarReader.cpp.i
@@ -1474,7 +1474,7 @@ src/oned/ODCodabarReader.i: src/oned/ODCodabarReader.cpp.i
 
 # target to preprocess a source file
 src/oned/ODCodabarReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarReader.cpp.i
 .PHONY : src/oned/ODCodabarReader.cpp.i
 
 src/oned/ODCodabarReader.s: src/oned/ODCodabarReader.cpp.s
@@ -1482,7 +1482,7 @@ src/oned/ODCodabarReader.s: src/oned/ODCodabarReader.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODCodabarReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarReader.cpp.s
 .PHONY : src/oned/ODCodabarReader.cpp.s
 
 src/oned/ODCodabarWriter.o: src/oned/ODCodabarWriter.cpp.o
@@ -1490,7 +1490,7 @@ src/oned/ODCodabarWriter.o: src/oned/ODCodabarWriter.cpp.o
 
 # target to build an object file
 src/oned/ODCodabarWriter.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarWriter.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarWriter.cpp.o
 .PHONY : src/oned/ODCodabarWriter.cpp.o
 
 src/oned/ODCodabarWriter.i: src/oned/ODCodabarWriter.cpp.i
@@ -1498,7 +1498,7 @@ src/oned/ODCodabarWriter.i: src/oned/ODCodabarWriter.cpp.i
 
 # target to preprocess a source file
 src/oned/ODCodabarWriter.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarWriter.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarWriter.cpp.i
 .PHONY : src/oned/ODCodabarWriter.cpp.i
 
 src/oned/ODCodabarWriter.s: src/oned/ODCodabarWriter.cpp.s
@@ -1506,7 +1506,7 @@ src/oned/ODCodabarWriter.s: src/oned/ODCodabarWriter.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODCodabarWriter.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarWriter.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCodabarWriter.cpp.s
 .PHONY : src/oned/ODCodabarWriter.cpp.s
 
 src/oned/ODCode128Patterns.o: src/oned/ODCode128Patterns.cpp.o
@@ -1514,7 +1514,7 @@ src/oned/ODCode128Patterns.o: src/oned/ODCode128Patterns.cpp.o
 
 # target to build an object file
 src/oned/ODCode128Patterns.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Patterns.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Patterns.cpp.o
 .PHONY : src/oned/ODCode128Patterns.cpp.o
 
 src/oned/ODCode128Patterns.i: src/oned/ODCode128Patterns.cpp.i
@@ -1522,7 +1522,7 @@ src/oned/ODCode128Patterns.i: src/oned/ODCode128Patterns.cpp.i
 
 # target to preprocess a source file
 src/oned/ODCode128Patterns.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Patterns.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Patterns.cpp.i
 .PHONY : src/oned/ODCode128Patterns.cpp.i
 
 src/oned/ODCode128Patterns.s: src/oned/ODCode128Patterns.cpp.s
@@ -1530,7 +1530,7 @@ src/oned/ODCode128Patterns.s: src/oned/ODCode128Patterns.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODCode128Patterns.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Patterns.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Patterns.cpp.s
 .PHONY : src/oned/ODCode128Patterns.cpp.s
 
 src/oned/ODCode128Reader.o: src/oned/ODCode128Reader.cpp.o
@@ -1538,7 +1538,7 @@ src/oned/ODCode128Reader.o: src/oned/ODCode128Reader.cpp.o
 
 # target to build an object file
 src/oned/ODCode128Reader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Reader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Reader.cpp.o
 .PHONY : src/oned/ODCode128Reader.cpp.o
 
 src/oned/ODCode128Reader.i: src/oned/ODCode128Reader.cpp.i
@@ -1546,7 +1546,7 @@ src/oned/ODCode128Reader.i: src/oned/ODCode128Reader.cpp.i
 
 # target to preprocess a source file
 src/oned/ODCode128Reader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Reader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Reader.cpp.i
 .PHONY : src/oned/ODCode128Reader.cpp.i
 
 src/oned/ODCode128Reader.s: src/oned/ODCode128Reader.cpp.s
@@ -1554,7 +1554,7 @@ src/oned/ODCode128Reader.s: src/oned/ODCode128Reader.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODCode128Reader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Reader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Reader.cpp.s
 .PHONY : src/oned/ODCode128Reader.cpp.s
 
 src/oned/ODCode128Writer.o: src/oned/ODCode128Writer.cpp.o
@@ -1562,7 +1562,7 @@ src/oned/ODCode128Writer.o: src/oned/ODCode128Writer.cpp.o
 
 # target to build an object file
 src/oned/ODCode128Writer.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Writer.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Writer.cpp.o
 .PHONY : src/oned/ODCode128Writer.cpp.o
 
 src/oned/ODCode128Writer.i: src/oned/ODCode128Writer.cpp.i
@@ -1570,7 +1570,7 @@ src/oned/ODCode128Writer.i: src/oned/ODCode128Writer.cpp.i
 
 # target to preprocess a source file
 src/oned/ODCode128Writer.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Writer.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Writer.cpp.i
 .PHONY : src/oned/ODCode128Writer.cpp.i
 
 src/oned/ODCode128Writer.s: src/oned/ODCode128Writer.cpp.s
@@ -1578,7 +1578,7 @@ src/oned/ODCode128Writer.s: src/oned/ODCode128Writer.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODCode128Writer.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Writer.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Writer.cpp.s
 .PHONY : src/oned/ODCode128Writer.cpp.s
 
 src/oned/ODCode39Reader.o: src/oned/ODCode39Reader.cpp.o
@@ -1586,7 +1586,7 @@ src/oned/ODCode39Reader.o: src/oned/ODCode39Reader.cpp.o
 
 # target to build an object file
 src/oned/ODCode39Reader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Reader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Reader.cpp.o
 .PHONY : src/oned/ODCode39Reader.cpp.o
 
 src/oned/ODCode39Reader.i: src/oned/ODCode39Reader.cpp.i
@@ -1594,7 +1594,7 @@ src/oned/ODCode39Reader.i: src/oned/ODCode39Reader.cpp.i
 
 # target to preprocess a source file
 src/oned/ODCode39Reader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Reader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Reader.cpp.i
 .PHONY : src/oned/ODCode39Reader.cpp.i
 
 src/oned/ODCode39Reader.s: src/oned/ODCode39Reader.cpp.s
@@ -1602,7 +1602,7 @@ src/oned/ODCode39Reader.s: src/oned/ODCode39Reader.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODCode39Reader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Reader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Reader.cpp.s
 .PHONY : src/oned/ODCode39Reader.cpp.s
 
 src/oned/ODCode39Writer.o: src/oned/ODCode39Writer.cpp.o
@@ -1610,7 +1610,7 @@ src/oned/ODCode39Writer.o: src/oned/ODCode39Writer.cpp.o
 
 # target to build an object file
 src/oned/ODCode39Writer.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Writer.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Writer.cpp.o
 .PHONY : src/oned/ODCode39Writer.cpp.o
 
 src/oned/ODCode39Writer.i: src/oned/ODCode39Writer.cpp.i
@@ -1618,7 +1618,7 @@ src/oned/ODCode39Writer.i: src/oned/ODCode39Writer.cpp.i
 
 # target to preprocess a source file
 src/oned/ODCode39Writer.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Writer.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Writer.cpp.i
 .PHONY : src/oned/ODCode39Writer.cpp.i
 
 src/oned/ODCode39Writer.s: src/oned/ODCode39Writer.cpp.s
@@ -1626,7 +1626,7 @@ src/oned/ODCode39Writer.s: src/oned/ODCode39Writer.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODCode39Writer.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Writer.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode39Writer.cpp.s
 .PHONY : src/oned/ODCode39Writer.cpp.s
 
 src/oned/ODCode93Reader.o: src/oned/ODCode93Reader.cpp.o
@@ -1634,7 +1634,7 @@ src/oned/ODCode93Reader.o: src/oned/ODCode93Reader.cpp.o
 
 # target to build an object file
 src/oned/ODCode93Reader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Reader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Reader.cpp.o
 .PHONY : src/oned/ODCode93Reader.cpp.o
 
 src/oned/ODCode93Reader.i: src/oned/ODCode93Reader.cpp.i
@@ -1642,7 +1642,7 @@ src/oned/ODCode93Reader.i: src/oned/ODCode93Reader.cpp.i
 
 # target to preprocess a source file
 src/oned/ODCode93Reader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Reader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Reader.cpp.i
 .PHONY : src/oned/ODCode93Reader.cpp.i
 
 src/oned/ODCode93Reader.s: src/oned/ODCode93Reader.cpp.s
@@ -1650,7 +1650,7 @@ src/oned/ODCode93Reader.s: src/oned/ODCode93Reader.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODCode93Reader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Reader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Reader.cpp.s
 .PHONY : src/oned/ODCode93Reader.cpp.s
 
 src/oned/ODCode93Writer.o: src/oned/ODCode93Writer.cpp.o
@@ -1658,7 +1658,7 @@ src/oned/ODCode93Writer.o: src/oned/ODCode93Writer.cpp.o
 
 # target to build an object file
 src/oned/ODCode93Writer.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Writer.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Writer.cpp.o
 .PHONY : src/oned/ODCode93Writer.cpp.o
 
 src/oned/ODCode93Writer.i: src/oned/ODCode93Writer.cpp.i
@@ -1666,7 +1666,7 @@ src/oned/ODCode93Writer.i: src/oned/ODCode93Writer.cpp.i
 
 # target to preprocess a source file
 src/oned/ODCode93Writer.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Writer.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Writer.cpp.i
 .PHONY : src/oned/ODCode93Writer.cpp.i
 
 src/oned/ODCode93Writer.s: src/oned/ODCode93Writer.cpp.s
@@ -1674,7 +1674,7 @@ src/oned/ODCode93Writer.s: src/oned/ODCode93Writer.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODCode93Writer.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Writer.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode93Writer.cpp.s
 .PHONY : src/oned/ODCode93Writer.cpp.s
 
 src/oned/ODDataBarCommon.o: src/oned/ODDataBarCommon.cpp.o
@@ -1682,7 +1682,7 @@ src/oned/ODDataBarCommon.o: src/oned/ODDataBarCommon.cpp.o
 
 # target to build an object file
 src/oned/ODDataBarCommon.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarCommon.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarCommon.cpp.o
 .PHONY : src/oned/ODDataBarCommon.cpp.o
 
 src/oned/ODDataBarCommon.i: src/oned/ODDataBarCommon.cpp.i
@@ -1690,7 +1690,7 @@ src/oned/ODDataBarCommon.i: src/oned/ODDataBarCommon.cpp.i
 
 # target to preprocess a source file
 src/oned/ODDataBarCommon.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarCommon.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarCommon.cpp.i
 .PHONY : src/oned/ODDataBarCommon.cpp.i
 
 src/oned/ODDataBarCommon.s: src/oned/ODDataBarCommon.cpp.s
@@ -1698,7 +1698,7 @@ src/oned/ODDataBarCommon.s: src/oned/ODDataBarCommon.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODDataBarCommon.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarCommon.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarCommon.cpp.s
 .PHONY : src/oned/ODDataBarCommon.cpp.s
 
 src/oned/ODDataBarExpandedBitDecoder.o: src/oned/ODDataBarExpandedBitDecoder.cpp.o
@@ -1706,7 +1706,7 @@ src/oned/ODDataBarExpandedBitDecoder.o: src/oned/ODDataBarExpandedBitDecoder.cpp
 
 # target to build an object file
 src/oned/ODDataBarExpandedBitDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedBitDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedBitDecoder.cpp.o
 .PHONY : src/oned/ODDataBarExpandedBitDecoder.cpp.o
 
 src/oned/ODDataBarExpandedBitDecoder.i: src/oned/ODDataBarExpandedBitDecoder.cpp.i
@@ -1714,7 +1714,7 @@ src/oned/ODDataBarExpandedBitDecoder.i: src/oned/ODDataBarExpandedBitDecoder.cpp
 
 # target to preprocess a source file
 src/oned/ODDataBarExpandedBitDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedBitDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedBitDecoder.cpp.i
 .PHONY : src/oned/ODDataBarExpandedBitDecoder.cpp.i
 
 src/oned/ODDataBarExpandedBitDecoder.s: src/oned/ODDataBarExpandedBitDecoder.cpp.s
@@ -1722,7 +1722,7 @@ src/oned/ODDataBarExpandedBitDecoder.s: src/oned/ODDataBarExpandedBitDecoder.cpp
 
 # target to generate assembly for a file
 src/oned/ODDataBarExpandedBitDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedBitDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedBitDecoder.cpp.s
 .PHONY : src/oned/ODDataBarExpandedBitDecoder.cpp.s
 
 src/oned/ODDataBarExpandedReader.o: src/oned/ODDataBarExpandedReader.cpp.o
@@ -1730,7 +1730,7 @@ src/oned/ODDataBarExpandedReader.o: src/oned/ODDataBarExpandedReader.cpp.o
 
 # target to build an object file
 src/oned/ODDataBarExpandedReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedReader.cpp.o
 .PHONY : src/oned/ODDataBarExpandedReader.cpp.o
 
 src/oned/ODDataBarExpandedReader.i: src/oned/ODDataBarExpandedReader.cpp.i
@@ -1738,7 +1738,7 @@ src/oned/ODDataBarExpandedReader.i: src/oned/ODDataBarExpandedReader.cpp.i
 
 # target to preprocess a source file
 src/oned/ODDataBarExpandedReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedReader.cpp.i
 .PHONY : src/oned/ODDataBarExpandedReader.cpp.i
 
 src/oned/ODDataBarExpandedReader.s: src/oned/ODDataBarExpandedReader.cpp.s
@@ -1746,7 +1746,7 @@ src/oned/ODDataBarExpandedReader.s: src/oned/ODDataBarExpandedReader.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODDataBarExpandedReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarExpandedReader.cpp.s
 .PHONY : src/oned/ODDataBarExpandedReader.cpp.s
 
 src/oned/ODDataBarReader.o: src/oned/ODDataBarReader.cpp.o
@@ -1754,7 +1754,7 @@ src/oned/ODDataBarReader.o: src/oned/ODDataBarReader.cpp.o
 
 # target to build an object file
 src/oned/ODDataBarReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarReader.cpp.o
 .PHONY : src/oned/ODDataBarReader.cpp.o
 
 src/oned/ODDataBarReader.i: src/oned/ODDataBarReader.cpp.i
@@ -1762,7 +1762,7 @@ src/oned/ODDataBarReader.i: src/oned/ODDataBarReader.cpp.i
 
 # target to preprocess a source file
 src/oned/ODDataBarReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarReader.cpp.i
 .PHONY : src/oned/ODDataBarReader.cpp.i
 
 src/oned/ODDataBarReader.s: src/oned/ODDataBarReader.cpp.s
@@ -1770,7 +1770,7 @@ src/oned/ODDataBarReader.s: src/oned/ODDataBarReader.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODDataBarReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarReader.cpp.s
 .PHONY : src/oned/ODDataBarReader.cpp.s
 
 src/oned/ODEAN13Writer.o: src/oned/ODEAN13Writer.cpp.o
@@ -1778,7 +1778,7 @@ src/oned/ODEAN13Writer.o: src/oned/ODEAN13Writer.cpp.o
 
 # target to build an object file
 src/oned/ODEAN13Writer.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN13Writer.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN13Writer.cpp.o
 .PHONY : src/oned/ODEAN13Writer.cpp.o
 
 src/oned/ODEAN13Writer.i: src/oned/ODEAN13Writer.cpp.i
@@ -1786,7 +1786,7 @@ src/oned/ODEAN13Writer.i: src/oned/ODEAN13Writer.cpp.i
 
 # target to preprocess a source file
 src/oned/ODEAN13Writer.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN13Writer.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN13Writer.cpp.i
 .PHONY : src/oned/ODEAN13Writer.cpp.i
 
 src/oned/ODEAN13Writer.s: src/oned/ODEAN13Writer.cpp.s
@@ -1794,7 +1794,7 @@ src/oned/ODEAN13Writer.s: src/oned/ODEAN13Writer.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODEAN13Writer.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN13Writer.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN13Writer.cpp.s
 .PHONY : src/oned/ODEAN13Writer.cpp.s
 
 src/oned/ODEAN8Writer.o: src/oned/ODEAN8Writer.cpp.o
@@ -1802,7 +1802,7 @@ src/oned/ODEAN8Writer.o: src/oned/ODEAN8Writer.cpp.o
 
 # target to build an object file
 src/oned/ODEAN8Writer.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN8Writer.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN8Writer.cpp.o
 .PHONY : src/oned/ODEAN8Writer.cpp.o
 
 src/oned/ODEAN8Writer.i: src/oned/ODEAN8Writer.cpp.i
@@ -1810,7 +1810,7 @@ src/oned/ODEAN8Writer.i: src/oned/ODEAN8Writer.cpp.i
 
 # target to preprocess a source file
 src/oned/ODEAN8Writer.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN8Writer.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN8Writer.cpp.i
 .PHONY : src/oned/ODEAN8Writer.cpp.i
 
 src/oned/ODEAN8Writer.s: src/oned/ODEAN8Writer.cpp.s
@@ -1818,7 +1818,7 @@ src/oned/ODEAN8Writer.s: src/oned/ODEAN8Writer.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODEAN8Writer.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN8Writer.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODEAN8Writer.cpp.s
 .PHONY : src/oned/ODEAN8Writer.cpp.s
 
 src/oned/ODITFReader.o: src/oned/ODITFReader.cpp.o
@@ -1826,7 +1826,7 @@ src/oned/ODITFReader.o: src/oned/ODITFReader.cpp.o
 
 # target to build an object file
 src/oned/ODITFReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFReader.cpp.o
 .PHONY : src/oned/ODITFReader.cpp.o
 
 src/oned/ODITFReader.i: src/oned/ODITFReader.cpp.i
@@ -1834,7 +1834,7 @@ src/oned/ODITFReader.i: src/oned/ODITFReader.cpp.i
 
 # target to preprocess a source file
 src/oned/ODITFReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFReader.cpp.i
 .PHONY : src/oned/ODITFReader.cpp.i
 
 src/oned/ODITFReader.s: src/oned/ODITFReader.cpp.s
@@ -1842,7 +1842,7 @@ src/oned/ODITFReader.s: src/oned/ODITFReader.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODITFReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFReader.cpp.s
 .PHONY : src/oned/ODITFReader.cpp.s
 
 src/oned/ODITFWriter.o: src/oned/ODITFWriter.cpp.o
@@ -1850,7 +1850,7 @@ src/oned/ODITFWriter.o: src/oned/ODITFWriter.cpp.o
 
 # target to build an object file
 src/oned/ODITFWriter.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFWriter.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFWriter.cpp.o
 .PHONY : src/oned/ODITFWriter.cpp.o
 
 src/oned/ODITFWriter.i: src/oned/ODITFWriter.cpp.i
@@ -1858,7 +1858,7 @@ src/oned/ODITFWriter.i: src/oned/ODITFWriter.cpp.i
 
 # target to preprocess a source file
 src/oned/ODITFWriter.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFWriter.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFWriter.cpp.i
 .PHONY : src/oned/ODITFWriter.cpp.i
 
 src/oned/ODITFWriter.s: src/oned/ODITFWriter.cpp.s
@@ -1866,7 +1866,7 @@ src/oned/ODITFWriter.s: src/oned/ODITFWriter.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODITFWriter.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFWriter.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODITFWriter.cpp.s
 .PHONY : src/oned/ODITFWriter.cpp.s
 
 src/oned/ODMultiUPCEANReader.o: src/oned/ODMultiUPCEANReader.cpp.o
@@ -1874,7 +1874,7 @@ src/oned/ODMultiUPCEANReader.o: src/oned/ODMultiUPCEANReader.cpp.o
 
 # target to build an object file
 src/oned/ODMultiUPCEANReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODMultiUPCEANReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODMultiUPCEANReader.cpp.o
 .PHONY : src/oned/ODMultiUPCEANReader.cpp.o
 
 src/oned/ODMultiUPCEANReader.i: src/oned/ODMultiUPCEANReader.cpp.i
@@ -1882,7 +1882,7 @@ src/oned/ODMultiUPCEANReader.i: src/oned/ODMultiUPCEANReader.cpp.i
 
 # target to preprocess a source file
 src/oned/ODMultiUPCEANReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODMultiUPCEANReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODMultiUPCEANReader.cpp.i
 .PHONY : src/oned/ODMultiUPCEANReader.cpp.i
 
 src/oned/ODMultiUPCEANReader.s: src/oned/ODMultiUPCEANReader.cpp.s
@@ -1890,7 +1890,7 @@ src/oned/ODMultiUPCEANReader.s: src/oned/ODMultiUPCEANReader.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODMultiUPCEANReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODMultiUPCEANReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODMultiUPCEANReader.cpp.s
 .PHONY : src/oned/ODMultiUPCEANReader.cpp.s
 
 src/oned/ODReader.o: src/oned/ODReader.cpp.o
@@ -1898,7 +1898,7 @@ src/oned/ODReader.o: src/oned/ODReader.cpp.o
 
 # target to build an object file
 src/oned/ODReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODReader.cpp.o
 .PHONY : src/oned/ODReader.cpp.o
 
 src/oned/ODReader.i: src/oned/ODReader.cpp.i
@@ -1906,7 +1906,7 @@ src/oned/ODReader.i: src/oned/ODReader.cpp.i
 
 # target to preprocess a source file
 src/oned/ODReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODReader.cpp.i
 .PHONY : src/oned/ODReader.cpp.i
 
 src/oned/ODReader.s: src/oned/ODReader.cpp.s
@@ -1914,7 +1914,7 @@ src/oned/ODReader.s: src/oned/ODReader.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODReader.cpp.s
 .PHONY : src/oned/ODReader.cpp.s
 
 src/oned/ODRowReader.o: src/oned/ODRowReader.cpp.o
@@ -1922,7 +1922,7 @@ src/oned/ODRowReader.o: src/oned/ODRowReader.cpp.o
 
 # target to build an object file
 src/oned/ODRowReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODRowReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODRowReader.cpp.o
 .PHONY : src/oned/ODRowReader.cpp.o
 
 src/oned/ODRowReader.i: src/oned/ODRowReader.cpp.i
@@ -1930,7 +1930,7 @@ src/oned/ODRowReader.i: src/oned/ODRowReader.cpp.i
 
 # target to preprocess a source file
 src/oned/ODRowReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODRowReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODRowReader.cpp.i
 .PHONY : src/oned/ODRowReader.cpp.i
 
 src/oned/ODRowReader.s: src/oned/ODRowReader.cpp.s
@@ -1938,7 +1938,7 @@ src/oned/ODRowReader.s: src/oned/ODRowReader.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODRowReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODRowReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODRowReader.cpp.s
 .PHONY : src/oned/ODRowReader.cpp.s
 
 src/oned/ODUPCAWriter.o: src/oned/ODUPCAWriter.cpp.o
@@ -1946,7 +1946,7 @@ src/oned/ODUPCAWriter.o: src/oned/ODUPCAWriter.cpp.o
 
 # target to build an object file
 src/oned/ODUPCAWriter.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCAWriter.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCAWriter.cpp.o
 .PHONY : src/oned/ODUPCAWriter.cpp.o
 
 src/oned/ODUPCAWriter.i: src/oned/ODUPCAWriter.cpp.i
@@ -1954,7 +1954,7 @@ src/oned/ODUPCAWriter.i: src/oned/ODUPCAWriter.cpp.i
 
 # target to preprocess a source file
 src/oned/ODUPCAWriter.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCAWriter.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCAWriter.cpp.i
 .PHONY : src/oned/ODUPCAWriter.cpp.i
 
 src/oned/ODUPCAWriter.s: src/oned/ODUPCAWriter.cpp.s
@@ -1962,7 +1962,7 @@ src/oned/ODUPCAWriter.s: src/oned/ODUPCAWriter.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODUPCAWriter.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCAWriter.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCAWriter.cpp.s
 .PHONY : src/oned/ODUPCAWriter.cpp.s
 
 src/oned/ODUPCEANCommon.o: src/oned/ODUPCEANCommon.cpp.o
@@ -1970,7 +1970,7 @@ src/oned/ODUPCEANCommon.o: src/oned/ODUPCEANCommon.cpp.o
 
 # target to build an object file
 src/oned/ODUPCEANCommon.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEANCommon.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEANCommon.cpp.o
 .PHONY : src/oned/ODUPCEANCommon.cpp.o
 
 src/oned/ODUPCEANCommon.i: src/oned/ODUPCEANCommon.cpp.i
@@ -1978,7 +1978,7 @@ src/oned/ODUPCEANCommon.i: src/oned/ODUPCEANCommon.cpp.i
 
 # target to preprocess a source file
 src/oned/ODUPCEANCommon.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEANCommon.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEANCommon.cpp.i
 .PHONY : src/oned/ODUPCEANCommon.cpp.i
 
 src/oned/ODUPCEANCommon.s: src/oned/ODUPCEANCommon.cpp.s
@@ -1986,7 +1986,7 @@ src/oned/ODUPCEANCommon.s: src/oned/ODUPCEANCommon.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODUPCEANCommon.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEANCommon.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEANCommon.cpp.s
 .PHONY : src/oned/ODUPCEANCommon.cpp.s
 
 src/oned/ODUPCEWriter.o: src/oned/ODUPCEWriter.cpp.o
@@ -1994,7 +1994,7 @@ src/oned/ODUPCEWriter.o: src/oned/ODUPCEWriter.cpp.o
 
 # target to build an object file
 src/oned/ODUPCEWriter.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEWriter.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEWriter.cpp.o
 .PHONY : src/oned/ODUPCEWriter.cpp.o
 
 src/oned/ODUPCEWriter.i: src/oned/ODUPCEWriter.cpp.i
@@ -2002,7 +2002,7 @@ src/oned/ODUPCEWriter.i: src/oned/ODUPCEWriter.cpp.i
 
 # target to preprocess a source file
 src/oned/ODUPCEWriter.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEWriter.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEWriter.cpp.i
 .PHONY : src/oned/ODUPCEWriter.cpp.i
 
 src/oned/ODUPCEWriter.s: src/oned/ODUPCEWriter.cpp.s
@@ -2010,7 +2010,7 @@ src/oned/ODUPCEWriter.s: src/oned/ODUPCEWriter.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODUPCEWriter.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEWriter.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODUPCEWriter.cpp.s
 .PHONY : src/oned/ODUPCEWriter.cpp.s
 
 src/oned/ODWriterHelper.o: src/oned/ODWriterHelper.cpp.o
@@ -2018,7 +2018,7 @@ src/oned/ODWriterHelper.o: src/oned/ODWriterHelper.cpp.o
 
 # target to build an object file
 src/oned/ODWriterHelper.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODWriterHelper.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODWriterHelper.cpp.o
 .PHONY : src/oned/ODWriterHelper.cpp.o
 
 src/oned/ODWriterHelper.i: src/oned/ODWriterHelper.cpp.i
@@ -2026,7 +2026,7 @@ src/oned/ODWriterHelper.i: src/oned/ODWriterHelper.cpp.i
 
 # target to preprocess a source file
 src/oned/ODWriterHelper.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODWriterHelper.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODWriterHelper.cpp.i
 .PHONY : src/oned/ODWriterHelper.cpp.i
 
 src/oned/ODWriterHelper.s: src/oned/ODWriterHelper.cpp.s
@@ -2034,7 +2034,7 @@ src/oned/ODWriterHelper.s: src/oned/ODWriterHelper.cpp.s
 
 # target to generate assembly for a file
 src/oned/ODWriterHelper.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODWriterHelper.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODWriterHelper.cpp.s
 .PHONY : src/oned/ODWriterHelper.cpp.s
 
 src/pdf417/PDFBarcodeValue.o: src/pdf417/PDFBarcodeValue.cpp.o
@@ -2042,7 +2042,7 @@ src/pdf417/PDFBarcodeValue.o: src/pdf417/PDFBarcodeValue.cpp.o
 
 # target to build an object file
 src/pdf417/PDFBarcodeValue.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBarcodeValue.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBarcodeValue.cpp.o
 .PHONY : src/pdf417/PDFBarcodeValue.cpp.o
 
 src/pdf417/PDFBarcodeValue.i: src/pdf417/PDFBarcodeValue.cpp.i
@@ -2050,7 +2050,7 @@ src/pdf417/PDFBarcodeValue.i: src/pdf417/PDFBarcodeValue.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFBarcodeValue.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBarcodeValue.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBarcodeValue.cpp.i
 .PHONY : src/pdf417/PDFBarcodeValue.cpp.i
 
 src/pdf417/PDFBarcodeValue.s: src/pdf417/PDFBarcodeValue.cpp.s
@@ -2058,7 +2058,7 @@ src/pdf417/PDFBarcodeValue.s: src/pdf417/PDFBarcodeValue.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFBarcodeValue.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBarcodeValue.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBarcodeValue.cpp.s
 .PHONY : src/pdf417/PDFBarcodeValue.cpp.s
 
 src/pdf417/PDFBoundingBox.o: src/pdf417/PDFBoundingBox.cpp.o
@@ -2066,7 +2066,7 @@ src/pdf417/PDFBoundingBox.o: src/pdf417/PDFBoundingBox.cpp.o
 
 # target to build an object file
 src/pdf417/PDFBoundingBox.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBoundingBox.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBoundingBox.cpp.o
 .PHONY : src/pdf417/PDFBoundingBox.cpp.o
 
 src/pdf417/PDFBoundingBox.i: src/pdf417/PDFBoundingBox.cpp.i
@@ -2074,7 +2074,7 @@ src/pdf417/PDFBoundingBox.i: src/pdf417/PDFBoundingBox.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFBoundingBox.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBoundingBox.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBoundingBox.cpp.i
 .PHONY : src/pdf417/PDFBoundingBox.cpp.i
 
 src/pdf417/PDFBoundingBox.s: src/pdf417/PDFBoundingBox.cpp.s
@@ -2082,7 +2082,7 @@ src/pdf417/PDFBoundingBox.s: src/pdf417/PDFBoundingBox.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFBoundingBox.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBoundingBox.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBoundingBox.cpp.s
 .PHONY : src/pdf417/PDFBoundingBox.cpp.s
 
 src/pdf417/PDFCodewordDecoder.o: src/pdf417/PDFCodewordDecoder.cpp.o
@@ -2090,7 +2090,7 @@ src/pdf417/PDFCodewordDecoder.o: src/pdf417/PDFCodewordDecoder.cpp.o
 
 # target to build an object file
 src/pdf417/PDFCodewordDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFCodewordDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFCodewordDecoder.cpp.o
 .PHONY : src/pdf417/PDFCodewordDecoder.cpp.o
 
 src/pdf417/PDFCodewordDecoder.i: src/pdf417/PDFCodewordDecoder.cpp.i
@@ -2098,7 +2098,7 @@ src/pdf417/PDFCodewordDecoder.i: src/pdf417/PDFCodewordDecoder.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFCodewordDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFCodewordDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFCodewordDecoder.cpp.i
 .PHONY : src/pdf417/PDFCodewordDecoder.cpp.i
 
 src/pdf417/PDFCodewordDecoder.s: src/pdf417/PDFCodewordDecoder.cpp.s
@@ -2106,7 +2106,7 @@ src/pdf417/PDFCodewordDecoder.s: src/pdf417/PDFCodewordDecoder.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFCodewordDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFCodewordDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFCodewordDecoder.cpp.s
 .PHONY : src/pdf417/PDFCodewordDecoder.cpp.s
 
 src/pdf417/PDFDecodedBitStreamParser.o: src/pdf417/PDFDecodedBitStreamParser.cpp.o
@@ -2114,7 +2114,7 @@ src/pdf417/PDFDecodedBitStreamParser.o: src/pdf417/PDFDecodedBitStreamParser.cpp
 
 # target to build an object file
 src/pdf417/PDFDecodedBitStreamParser.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDecodedBitStreamParser.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDecodedBitStreamParser.cpp.o
 .PHONY : src/pdf417/PDFDecodedBitStreamParser.cpp.o
 
 src/pdf417/PDFDecodedBitStreamParser.i: src/pdf417/PDFDecodedBitStreamParser.cpp.i
@@ -2122,7 +2122,7 @@ src/pdf417/PDFDecodedBitStreamParser.i: src/pdf417/PDFDecodedBitStreamParser.cpp
 
 # target to preprocess a source file
 src/pdf417/PDFDecodedBitStreamParser.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDecodedBitStreamParser.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDecodedBitStreamParser.cpp.i
 .PHONY : src/pdf417/PDFDecodedBitStreamParser.cpp.i
 
 src/pdf417/PDFDecodedBitStreamParser.s: src/pdf417/PDFDecodedBitStreamParser.cpp.s
@@ -2130,7 +2130,7 @@ src/pdf417/PDFDecodedBitStreamParser.s: src/pdf417/PDFDecodedBitStreamParser.cpp
 
 # target to generate assembly for a file
 src/pdf417/PDFDecodedBitStreamParser.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDecodedBitStreamParser.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDecodedBitStreamParser.cpp.s
 .PHONY : src/pdf417/PDFDecodedBitStreamParser.cpp.s
 
 src/pdf417/PDFDetectionResult.o: src/pdf417/PDFDetectionResult.cpp.o
@@ -2138,7 +2138,7 @@ src/pdf417/PDFDetectionResult.o: src/pdf417/PDFDetectionResult.cpp.o
 
 # target to build an object file
 src/pdf417/PDFDetectionResult.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResult.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResult.cpp.o
 .PHONY : src/pdf417/PDFDetectionResult.cpp.o
 
 src/pdf417/PDFDetectionResult.i: src/pdf417/PDFDetectionResult.cpp.i
@@ -2146,7 +2146,7 @@ src/pdf417/PDFDetectionResult.i: src/pdf417/PDFDetectionResult.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFDetectionResult.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResult.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResult.cpp.i
 .PHONY : src/pdf417/PDFDetectionResult.cpp.i
 
 src/pdf417/PDFDetectionResult.s: src/pdf417/PDFDetectionResult.cpp.s
@@ -2154,7 +2154,7 @@ src/pdf417/PDFDetectionResult.s: src/pdf417/PDFDetectionResult.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFDetectionResult.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResult.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResult.cpp.s
 .PHONY : src/pdf417/PDFDetectionResult.cpp.s
 
 src/pdf417/PDFDetectionResultColumn.o: src/pdf417/PDFDetectionResultColumn.cpp.o
@@ -2162,7 +2162,7 @@ src/pdf417/PDFDetectionResultColumn.o: src/pdf417/PDFDetectionResultColumn.cpp.o
 
 # target to build an object file
 src/pdf417/PDFDetectionResultColumn.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResultColumn.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResultColumn.cpp.o
 .PHONY : src/pdf417/PDFDetectionResultColumn.cpp.o
 
 src/pdf417/PDFDetectionResultColumn.i: src/pdf417/PDFDetectionResultColumn.cpp.i
@@ -2170,7 +2170,7 @@ src/pdf417/PDFDetectionResultColumn.i: src/pdf417/PDFDetectionResultColumn.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFDetectionResultColumn.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResultColumn.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResultColumn.cpp.i
 .PHONY : src/pdf417/PDFDetectionResultColumn.cpp.i
 
 src/pdf417/PDFDetectionResultColumn.s: src/pdf417/PDFDetectionResultColumn.cpp.s
@@ -2178,7 +2178,7 @@ src/pdf417/PDFDetectionResultColumn.s: src/pdf417/PDFDetectionResultColumn.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFDetectionResultColumn.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResultColumn.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetectionResultColumn.cpp.s
 .PHONY : src/pdf417/PDFDetectionResultColumn.cpp.s
 
 src/pdf417/PDFDetector.o: src/pdf417/PDFDetector.cpp.o
@@ -2186,7 +2186,7 @@ src/pdf417/PDFDetector.o: src/pdf417/PDFDetector.cpp.o
 
 # target to build an object file
 src/pdf417/PDFDetector.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetector.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetector.cpp.o
 .PHONY : src/pdf417/PDFDetector.cpp.o
 
 src/pdf417/PDFDetector.i: src/pdf417/PDFDetector.cpp.i
@@ -2194,7 +2194,7 @@ src/pdf417/PDFDetector.i: src/pdf417/PDFDetector.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFDetector.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetector.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetector.cpp.i
 .PHONY : src/pdf417/PDFDetector.cpp.i
 
 src/pdf417/PDFDetector.s: src/pdf417/PDFDetector.cpp.s
@@ -2202,7 +2202,7 @@ src/pdf417/PDFDetector.s: src/pdf417/PDFDetector.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFDetector.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetector.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFDetector.cpp.s
 .PHONY : src/pdf417/PDFDetector.cpp.s
 
 src/pdf417/PDFEncoder.o: src/pdf417/PDFEncoder.cpp.o
@@ -2210,7 +2210,7 @@ src/pdf417/PDFEncoder.o: src/pdf417/PDFEncoder.cpp.o
 
 # target to build an object file
 src/pdf417/PDFEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFEncoder.cpp.o
 .PHONY : src/pdf417/PDFEncoder.cpp.o
 
 src/pdf417/PDFEncoder.i: src/pdf417/PDFEncoder.cpp.i
@@ -2218,7 +2218,7 @@ src/pdf417/PDFEncoder.i: src/pdf417/PDFEncoder.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFEncoder.cpp.i
 .PHONY : src/pdf417/PDFEncoder.cpp.i
 
 src/pdf417/PDFEncoder.s: src/pdf417/PDFEncoder.cpp.s
@@ -2226,7 +2226,7 @@ src/pdf417/PDFEncoder.s: src/pdf417/PDFEncoder.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFEncoder.cpp.s
 .PHONY : src/pdf417/PDFEncoder.cpp.s
 
 src/pdf417/PDFHighLevelEncoder.o: src/pdf417/PDFHighLevelEncoder.cpp.o
@@ -2234,7 +2234,7 @@ src/pdf417/PDFHighLevelEncoder.o: src/pdf417/PDFHighLevelEncoder.cpp.o
 
 # target to build an object file
 src/pdf417/PDFHighLevelEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFHighLevelEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFHighLevelEncoder.cpp.o
 .PHONY : src/pdf417/PDFHighLevelEncoder.cpp.o
 
 src/pdf417/PDFHighLevelEncoder.i: src/pdf417/PDFHighLevelEncoder.cpp.i
@@ -2242,7 +2242,7 @@ src/pdf417/PDFHighLevelEncoder.i: src/pdf417/PDFHighLevelEncoder.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFHighLevelEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFHighLevelEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFHighLevelEncoder.cpp.i
 .PHONY : src/pdf417/PDFHighLevelEncoder.cpp.i
 
 src/pdf417/PDFHighLevelEncoder.s: src/pdf417/PDFHighLevelEncoder.cpp.s
@@ -2250,7 +2250,7 @@ src/pdf417/PDFHighLevelEncoder.s: src/pdf417/PDFHighLevelEncoder.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFHighLevelEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFHighLevelEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFHighLevelEncoder.cpp.s
 .PHONY : src/pdf417/PDFHighLevelEncoder.cpp.s
 
 src/pdf417/PDFModulusGF.o: src/pdf417/PDFModulusGF.cpp.o
@@ -2258,7 +2258,7 @@ src/pdf417/PDFModulusGF.o: src/pdf417/PDFModulusGF.cpp.o
 
 # target to build an object file
 src/pdf417/PDFModulusGF.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusGF.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusGF.cpp.o
 .PHONY : src/pdf417/PDFModulusGF.cpp.o
 
 src/pdf417/PDFModulusGF.i: src/pdf417/PDFModulusGF.cpp.i
@@ -2266,7 +2266,7 @@ src/pdf417/PDFModulusGF.i: src/pdf417/PDFModulusGF.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFModulusGF.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusGF.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusGF.cpp.i
 .PHONY : src/pdf417/PDFModulusGF.cpp.i
 
 src/pdf417/PDFModulusGF.s: src/pdf417/PDFModulusGF.cpp.s
@@ -2274,7 +2274,7 @@ src/pdf417/PDFModulusGF.s: src/pdf417/PDFModulusGF.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFModulusGF.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusGF.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusGF.cpp.s
 .PHONY : src/pdf417/PDFModulusGF.cpp.s
 
 src/pdf417/PDFModulusPoly.o: src/pdf417/PDFModulusPoly.cpp.o
@@ -2282,7 +2282,7 @@ src/pdf417/PDFModulusPoly.o: src/pdf417/PDFModulusPoly.cpp.o
 
 # target to build an object file
 src/pdf417/PDFModulusPoly.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusPoly.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusPoly.cpp.o
 .PHONY : src/pdf417/PDFModulusPoly.cpp.o
 
 src/pdf417/PDFModulusPoly.i: src/pdf417/PDFModulusPoly.cpp.i
@@ -2290,7 +2290,7 @@ src/pdf417/PDFModulusPoly.i: src/pdf417/PDFModulusPoly.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFModulusPoly.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusPoly.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusPoly.cpp.i
 .PHONY : src/pdf417/PDFModulusPoly.cpp.i
 
 src/pdf417/PDFModulusPoly.s: src/pdf417/PDFModulusPoly.cpp.s
@@ -2298,7 +2298,7 @@ src/pdf417/PDFModulusPoly.s: src/pdf417/PDFModulusPoly.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFModulusPoly.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusPoly.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusPoly.cpp.s
 .PHONY : src/pdf417/PDFModulusPoly.cpp.s
 
 src/pdf417/PDFReader.o: src/pdf417/PDFReader.cpp.o
@@ -2306,7 +2306,7 @@ src/pdf417/PDFReader.o: src/pdf417/PDFReader.cpp.o
 
 # target to build an object file
 src/pdf417/PDFReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFReader.cpp.o
 .PHONY : src/pdf417/PDFReader.cpp.o
 
 src/pdf417/PDFReader.i: src/pdf417/PDFReader.cpp.i
@@ -2314,7 +2314,7 @@ src/pdf417/PDFReader.i: src/pdf417/PDFReader.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFReader.cpp.i
 .PHONY : src/pdf417/PDFReader.cpp.i
 
 src/pdf417/PDFReader.s: src/pdf417/PDFReader.cpp.s
@@ -2322,7 +2322,7 @@ src/pdf417/PDFReader.s: src/pdf417/PDFReader.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFReader.cpp.s
 .PHONY : src/pdf417/PDFReader.cpp.s
 
 src/pdf417/PDFScanningDecoder.o: src/pdf417/PDFScanningDecoder.cpp.o
@@ -2330,7 +2330,7 @@ src/pdf417/PDFScanningDecoder.o: src/pdf417/PDFScanningDecoder.cpp.o
 
 # target to build an object file
 src/pdf417/PDFScanningDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFScanningDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFScanningDecoder.cpp.o
 .PHONY : src/pdf417/PDFScanningDecoder.cpp.o
 
 src/pdf417/PDFScanningDecoder.i: src/pdf417/PDFScanningDecoder.cpp.i
@@ -2338,7 +2338,7 @@ src/pdf417/PDFScanningDecoder.i: src/pdf417/PDFScanningDecoder.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFScanningDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFScanningDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFScanningDecoder.cpp.i
 .PHONY : src/pdf417/PDFScanningDecoder.cpp.i
 
 src/pdf417/PDFScanningDecoder.s: src/pdf417/PDFScanningDecoder.cpp.s
@@ -2346,7 +2346,7 @@ src/pdf417/PDFScanningDecoder.s: src/pdf417/PDFScanningDecoder.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFScanningDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFScanningDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFScanningDecoder.cpp.s
 .PHONY : src/pdf417/PDFScanningDecoder.cpp.s
 
 src/pdf417/PDFWriter.o: src/pdf417/PDFWriter.cpp.o
@@ -2354,7 +2354,7 @@ src/pdf417/PDFWriter.o: src/pdf417/PDFWriter.cpp.o
 
 # target to build an object file
 src/pdf417/PDFWriter.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFWriter.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFWriter.cpp.o
 .PHONY : src/pdf417/PDFWriter.cpp.o
 
 src/pdf417/PDFWriter.i: src/pdf417/PDFWriter.cpp.i
@@ -2362,7 +2362,7 @@ src/pdf417/PDFWriter.i: src/pdf417/PDFWriter.cpp.i
 
 # target to preprocess a source file
 src/pdf417/PDFWriter.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFWriter.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFWriter.cpp.i
 .PHONY : src/pdf417/PDFWriter.cpp.i
 
 src/pdf417/PDFWriter.s: src/pdf417/PDFWriter.cpp.s
@@ -2370,7 +2370,7 @@ src/pdf417/PDFWriter.s: src/pdf417/PDFWriter.cpp.s
 
 # target to generate assembly for a file
 src/pdf417/PDFWriter.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFWriter.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFWriter.cpp.s
 .PHONY : src/pdf417/PDFWriter.cpp.s
 
 src/qrcode/QRBitMatrixParser.o: src/qrcode/QRBitMatrixParser.cpp.o
@@ -2378,7 +2378,7 @@ src/qrcode/QRBitMatrixParser.o: src/qrcode/QRBitMatrixParser.cpp.o
 
 # target to build an object file
 src/qrcode/QRBitMatrixParser.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRBitMatrixParser.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRBitMatrixParser.cpp.o
 .PHONY : src/qrcode/QRBitMatrixParser.cpp.o
 
 src/qrcode/QRBitMatrixParser.i: src/qrcode/QRBitMatrixParser.cpp.i
@@ -2386,7 +2386,7 @@ src/qrcode/QRBitMatrixParser.i: src/qrcode/QRBitMatrixParser.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRBitMatrixParser.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRBitMatrixParser.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRBitMatrixParser.cpp.i
 .PHONY : src/qrcode/QRBitMatrixParser.cpp.i
 
 src/qrcode/QRBitMatrixParser.s: src/qrcode/QRBitMatrixParser.cpp.s
@@ -2394,7 +2394,7 @@ src/qrcode/QRBitMatrixParser.s: src/qrcode/QRBitMatrixParser.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRBitMatrixParser.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRBitMatrixParser.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRBitMatrixParser.cpp.s
 .PHONY : src/qrcode/QRBitMatrixParser.cpp.s
 
 src/qrcode/QRCodecMode.o: src/qrcode/QRCodecMode.cpp.o
@@ -2402,7 +2402,7 @@ src/qrcode/QRCodecMode.o: src/qrcode/QRCodecMode.cpp.o
 
 # target to build an object file
 src/qrcode/QRCodecMode.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRCodecMode.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRCodecMode.cpp.o
 .PHONY : src/qrcode/QRCodecMode.cpp.o
 
 src/qrcode/QRCodecMode.i: src/qrcode/QRCodecMode.cpp.i
@@ -2410,7 +2410,7 @@ src/qrcode/QRCodecMode.i: src/qrcode/QRCodecMode.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRCodecMode.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRCodecMode.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRCodecMode.cpp.i
 .PHONY : src/qrcode/QRCodecMode.cpp.i
 
 src/qrcode/QRCodecMode.s: src/qrcode/QRCodecMode.cpp.s
@@ -2418,7 +2418,7 @@ src/qrcode/QRCodecMode.s: src/qrcode/QRCodecMode.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRCodecMode.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRCodecMode.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRCodecMode.cpp.s
 .PHONY : src/qrcode/QRCodecMode.cpp.s
 
 src/qrcode/QRDataBlock.o: src/qrcode/QRDataBlock.cpp.o
@@ -2426,7 +2426,7 @@ src/qrcode/QRDataBlock.o: src/qrcode/QRDataBlock.cpp.o
 
 # target to build an object file
 src/qrcode/QRDataBlock.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDataBlock.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDataBlock.cpp.o
 .PHONY : src/qrcode/QRDataBlock.cpp.o
 
 src/qrcode/QRDataBlock.i: src/qrcode/QRDataBlock.cpp.i
@@ -2434,7 +2434,7 @@ src/qrcode/QRDataBlock.i: src/qrcode/QRDataBlock.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRDataBlock.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDataBlock.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDataBlock.cpp.i
 .PHONY : src/qrcode/QRDataBlock.cpp.i
 
 src/qrcode/QRDataBlock.s: src/qrcode/QRDataBlock.cpp.s
@@ -2442,7 +2442,7 @@ src/qrcode/QRDataBlock.s: src/qrcode/QRDataBlock.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRDataBlock.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDataBlock.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDataBlock.cpp.s
 .PHONY : src/qrcode/QRDataBlock.cpp.s
 
 src/qrcode/QRDecoder.o: src/qrcode/QRDecoder.cpp.o
@@ -2450,7 +2450,7 @@ src/qrcode/QRDecoder.o: src/qrcode/QRDecoder.cpp.o
 
 # target to build an object file
 src/qrcode/QRDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDecoder.cpp.o
 .PHONY : src/qrcode/QRDecoder.cpp.o
 
 src/qrcode/QRDecoder.i: src/qrcode/QRDecoder.cpp.i
@@ -2458,7 +2458,7 @@ src/qrcode/QRDecoder.i: src/qrcode/QRDecoder.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDecoder.cpp.i
 .PHONY : src/qrcode/QRDecoder.cpp.i
 
 src/qrcode/QRDecoder.s: src/qrcode/QRDecoder.cpp.s
@@ -2466,7 +2466,7 @@ src/qrcode/QRDecoder.s: src/qrcode/QRDecoder.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDecoder.cpp.s
 .PHONY : src/qrcode/QRDecoder.cpp.s
 
 src/qrcode/QRDetector.o: src/qrcode/QRDetector.cpp.o
@@ -2474,7 +2474,7 @@ src/qrcode/QRDetector.o: src/qrcode/QRDetector.cpp.o
 
 # target to build an object file
 src/qrcode/QRDetector.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDetector.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDetector.cpp.o
 .PHONY : src/qrcode/QRDetector.cpp.o
 
 src/qrcode/QRDetector.i: src/qrcode/QRDetector.cpp.i
@@ -2482,7 +2482,7 @@ src/qrcode/QRDetector.i: src/qrcode/QRDetector.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRDetector.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDetector.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDetector.cpp.i
 .PHONY : src/qrcode/QRDetector.cpp.i
 
 src/qrcode/QRDetector.s: src/qrcode/QRDetector.cpp.s
@@ -2490,7 +2490,7 @@ src/qrcode/QRDetector.s: src/qrcode/QRDetector.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRDetector.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDetector.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRDetector.cpp.s
 .PHONY : src/qrcode/QRDetector.cpp.s
 
 src/qrcode/QREncoder.o: src/qrcode/QREncoder.cpp.o
@@ -2498,7 +2498,7 @@ src/qrcode/QREncoder.o: src/qrcode/QREncoder.cpp.o
 
 # target to build an object file
 src/qrcode/QREncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QREncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QREncoder.cpp.o
 .PHONY : src/qrcode/QREncoder.cpp.o
 
 src/qrcode/QREncoder.i: src/qrcode/QREncoder.cpp.i
@@ -2506,7 +2506,7 @@ src/qrcode/QREncoder.i: src/qrcode/QREncoder.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QREncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QREncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QREncoder.cpp.i
 .PHONY : src/qrcode/QREncoder.cpp.i
 
 src/qrcode/QREncoder.s: src/qrcode/QREncoder.cpp.s
@@ -2514,7 +2514,7 @@ src/qrcode/QREncoder.s: src/qrcode/QREncoder.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QREncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QREncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QREncoder.cpp.s
 .PHONY : src/qrcode/QREncoder.cpp.s
 
 src/qrcode/QRErrorCorrectionLevel.o: src/qrcode/QRErrorCorrectionLevel.cpp.o
@@ -2522,7 +2522,7 @@ src/qrcode/QRErrorCorrectionLevel.o: src/qrcode/QRErrorCorrectionLevel.cpp.o
 
 # target to build an object file
 src/qrcode/QRErrorCorrectionLevel.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRErrorCorrectionLevel.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRErrorCorrectionLevel.cpp.o
 .PHONY : src/qrcode/QRErrorCorrectionLevel.cpp.o
 
 src/qrcode/QRErrorCorrectionLevel.i: src/qrcode/QRErrorCorrectionLevel.cpp.i
@@ -2530,7 +2530,7 @@ src/qrcode/QRErrorCorrectionLevel.i: src/qrcode/QRErrorCorrectionLevel.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRErrorCorrectionLevel.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRErrorCorrectionLevel.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRErrorCorrectionLevel.cpp.i
 .PHONY : src/qrcode/QRErrorCorrectionLevel.cpp.i
 
 src/qrcode/QRErrorCorrectionLevel.s: src/qrcode/QRErrorCorrectionLevel.cpp.s
@@ -2538,7 +2538,7 @@ src/qrcode/QRErrorCorrectionLevel.s: src/qrcode/QRErrorCorrectionLevel.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRErrorCorrectionLevel.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRErrorCorrectionLevel.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRErrorCorrectionLevel.cpp.s
 .PHONY : src/qrcode/QRErrorCorrectionLevel.cpp.s
 
 src/qrcode/QRFormatInformation.o: src/qrcode/QRFormatInformation.cpp.o
@@ -2546,7 +2546,7 @@ src/qrcode/QRFormatInformation.o: src/qrcode/QRFormatInformation.cpp.o
 
 # target to build an object file
 src/qrcode/QRFormatInformation.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRFormatInformation.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRFormatInformation.cpp.o
 .PHONY : src/qrcode/QRFormatInformation.cpp.o
 
 src/qrcode/QRFormatInformation.i: src/qrcode/QRFormatInformation.cpp.i
@@ -2554,7 +2554,7 @@ src/qrcode/QRFormatInformation.i: src/qrcode/QRFormatInformation.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRFormatInformation.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRFormatInformation.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRFormatInformation.cpp.i
 .PHONY : src/qrcode/QRFormatInformation.cpp.i
 
 src/qrcode/QRFormatInformation.s: src/qrcode/QRFormatInformation.cpp.s
@@ -2562,7 +2562,7 @@ src/qrcode/QRFormatInformation.s: src/qrcode/QRFormatInformation.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRFormatInformation.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRFormatInformation.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRFormatInformation.cpp.s
 .PHONY : src/qrcode/QRFormatInformation.cpp.s
 
 src/qrcode/QRMaskUtil.o: src/qrcode/QRMaskUtil.cpp.o
@@ -2570,7 +2570,7 @@ src/qrcode/QRMaskUtil.o: src/qrcode/QRMaskUtil.cpp.o
 
 # target to build an object file
 src/qrcode/QRMaskUtil.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMaskUtil.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMaskUtil.cpp.o
 .PHONY : src/qrcode/QRMaskUtil.cpp.o
 
 src/qrcode/QRMaskUtil.i: src/qrcode/QRMaskUtil.cpp.i
@@ -2578,7 +2578,7 @@ src/qrcode/QRMaskUtil.i: src/qrcode/QRMaskUtil.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRMaskUtil.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMaskUtil.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMaskUtil.cpp.i
 .PHONY : src/qrcode/QRMaskUtil.cpp.i
 
 src/qrcode/QRMaskUtil.s: src/qrcode/QRMaskUtil.cpp.s
@@ -2586,7 +2586,7 @@ src/qrcode/QRMaskUtil.s: src/qrcode/QRMaskUtil.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRMaskUtil.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMaskUtil.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMaskUtil.cpp.s
 .PHONY : src/qrcode/QRMaskUtil.cpp.s
 
 src/qrcode/QRMatrixUtil.o: src/qrcode/QRMatrixUtil.cpp.o
@@ -2594,7 +2594,7 @@ src/qrcode/QRMatrixUtil.o: src/qrcode/QRMatrixUtil.cpp.o
 
 # target to build an object file
 src/qrcode/QRMatrixUtil.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMatrixUtil.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMatrixUtil.cpp.o
 .PHONY : src/qrcode/QRMatrixUtil.cpp.o
 
 src/qrcode/QRMatrixUtil.i: src/qrcode/QRMatrixUtil.cpp.i
@@ -2602,7 +2602,7 @@ src/qrcode/QRMatrixUtil.i: src/qrcode/QRMatrixUtil.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRMatrixUtil.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMatrixUtil.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMatrixUtil.cpp.i
 .PHONY : src/qrcode/QRMatrixUtil.cpp.i
 
 src/qrcode/QRMatrixUtil.s: src/qrcode/QRMatrixUtil.cpp.s
@@ -2610,7 +2610,7 @@ src/qrcode/QRMatrixUtil.s: src/qrcode/QRMatrixUtil.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRMatrixUtil.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMatrixUtil.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRMatrixUtil.cpp.s
 .PHONY : src/qrcode/QRMatrixUtil.cpp.s
 
 src/qrcode/QRReader.o: src/qrcode/QRReader.cpp.o
@@ -2618,7 +2618,7 @@ src/qrcode/QRReader.o: src/qrcode/QRReader.cpp.o
 
 # target to build an object file
 src/qrcode/QRReader.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRReader.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRReader.cpp.o
 .PHONY : src/qrcode/QRReader.cpp.o
 
 src/qrcode/QRReader.i: src/qrcode/QRReader.cpp.i
@@ -2626,7 +2626,7 @@ src/qrcode/QRReader.i: src/qrcode/QRReader.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRReader.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRReader.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRReader.cpp.i
 .PHONY : src/qrcode/QRReader.cpp.i
 
 src/qrcode/QRReader.s: src/qrcode/QRReader.cpp.s
@@ -2634,7 +2634,7 @@ src/qrcode/QRReader.s: src/qrcode/QRReader.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRReader.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRReader.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRReader.cpp.s
 .PHONY : src/qrcode/QRReader.cpp.s
 
 src/qrcode/QRVersion.o: src/qrcode/QRVersion.cpp.o
@@ -2642,7 +2642,7 @@ src/qrcode/QRVersion.o: src/qrcode/QRVersion.cpp.o
 
 # target to build an object file
 src/qrcode/QRVersion.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.o
 .PHONY : src/qrcode/QRVersion.cpp.o
 
 src/qrcode/QRVersion.i: src/qrcode/QRVersion.cpp.i
@@ -2650,7 +2650,7 @@ src/qrcode/QRVersion.i: src/qrcode/QRVersion.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRVersion.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.i
 .PHONY : src/qrcode/QRVersion.cpp.i
 
 src/qrcode/QRVersion.s: src/qrcode/QRVersion.cpp.s
@@ -2658,7 +2658,7 @@ src/qrcode/QRVersion.s: src/qrcode/QRVersion.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRVersion.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.s
 .PHONY : src/qrcode/QRVersion.cpp.s
 
 src/qrcode/QRWriter.o: src/qrcode/QRWriter.cpp.o
@@ -2666,7 +2666,7 @@ src/qrcode/QRWriter.o: src/qrcode/QRWriter.cpp.o
 
 # target to build an object file
 src/qrcode/QRWriter.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRWriter.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRWriter.cpp.o
 .PHONY : src/qrcode/QRWriter.cpp.o
 
 src/qrcode/QRWriter.i: src/qrcode/QRWriter.cpp.i
@@ -2674,7 +2674,7 @@ src/qrcode/QRWriter.i: src/qrcode/QRWriter.cpp.i
 
 # target to preprocess a source file
 src/qrcode/QRWriter.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRWriter.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRWriter.cpp.i
 .PHONY : src/qrcode/QRWriter.cpp.i
 
 src/qrcode/QRWriter.s: src/qrcode/QRWriter.cpp.s
@@ -2682,7 +2682,7 @@ src/qrcode/QRWriter.s: src/qrcode/QRWriter.cpp.s
 
 # target to generate assembly for a file
 src/qrcode/QRWriter.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRWriter.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRWriter.cpp.s
 .PHONY : src/qrcode/QRWriter.cpp.s
 
 src/textcodec/Big5MapTable.o: src/textcodec/Big5MapTable.cpp.o
@@ -2690,7 +2690,7 @@ src/textcodec/Big5MapTable.o: src/textcodec/Big5MapTable.cpp.o
 
 # target to build an object file
 src/textcodec/Big5MapTable.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5MapTable.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5MapTable.cpp.o
 .PHONY : src/textcodec/Big5MapTable.cpp.o
 
 src/textcodec/Big5MapTable.i: src/textcodec/Big5MapTable.cpp.i
@@ -2698,7 +2698,7 @@ src/textcodec/Big5MapTable.i: src/textcodec/Big5MapTable.cpp.i
 
 # target to preprocess a source file
 src/textcodec/Big5MapTable.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5MapTable.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5MapTable.cpp.i
 .PHONY : src/textcodec/Big5MapTable.cpp.i
 
 src/textcodec/Big5MapTable.s: src/textcodec/Big5MapTable.cpp.s
@@ -2706,7 +2706,7 @@ src/textcodec/Big5MapTable.s: src/textcodec/Big5MapTable.cpp.s
 
 # target to generate assembly for a file
 src/textcodec/Big5MapTable.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5MapTable.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5MapTable.cpp.s
 .PHONY : src/textcodec/Big5MapTable.cpp.s
 
 src/textcodec/Big5TextDecoder.o: src/textcodec/Big5TextDecoder.cpp.o
@@ -2714,7 +2714,7 @@ src/textcodec/Big5TextDecoder.o: src/textcodec/Big5TextDecoder.cpp.o
 
 # target to build an object file
 src/textcodec/Big5TextDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextDecoder.cpp.o
 .PHONY : src/textcodec/Big5TextDecoder.cpp.o
 
 src/textcodec/Big5TextDecoder.i: src/textcodec/Big5TextDecoder.cpp.i
@@ -2722,7 +2722,7 @@ src/textcodec/Big5TextDecoder.i: src/textcodec/Big5TextDecoder.cpp.i
 
 # target to preprocess a source file
 src/textcodec/Big5TextDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextDecoder.cpp.i
 .PHONY : src/textcodec/Big5TextDecoder.cpp.i
 
 src/textcodec/Big5TextDecoder.s: src/textcodec/Big5TextDecoder.cpp.s
@@ -2730,7 +2730,7 @@ src/textcodec/Big5TextDecoder.s: src/textcodec/Big5TextDecoder.cpp.s
 
 # target to generate assembly for a file
 src/textcodec/Big5TextDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextDecoder.cpp.s
 .PHONY : src/textcodec/Big5TextDecoder.cpp.s
 
 src/textcodec/Big5TextEncoder.o: src/textcodec/Big5TextEncoder.cpp.o
@@ -2738,7 +2738,7 @@ src/textcodec/Big5TextEncoder.o: src/textcodec/Big5TextEncoder.cpp.o
 
 # target to build an object file
 src/textcodec/Big5TextEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextEncoder.cpp.o
 .PHONY : src/textcodec/Big5TextEncoder.cpp.o
 
 src/textcodec/Big5TextEncoder.i: src/textcodec/Big5TextEncoder.cpp.i
@@ -2746,7 +2746,7 @@ src/textcodec/Big5TextEncoder.i: src/textcodec/Big5TextEncoder.cpp.i
 
 # target to preprocess a source file
 src/textcodec/Big5TextEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextEncoder.cpp.i
 .PHONY : src/textcodec/Big5TextEncoder.cpp.i
 
 src/textcodec/Big5TextEncoder.s: src/textcodec/Big5TextEncoder.cpp.s
@@ -2754,7 +2754,7 @@ src/textcodec/Big5TextEncoder.s: src/textcodec/Big5TextEncoder.cpp.s
 
 # target to generate assembly for a file
 src/textcodec/Big5TextEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextEncoder.cpp.s
 .PHONY : src/textcodec/Big5TextEncoder.cpp.s
 
 src/textcodec/GBTextDecoder.o: src/textcodec/GBTextDecoder.cpp.o
@@ -2762,7 +2762,7 @@ src/textcodec/GBTextDecoder.o: src/textcodec/GBTextDecoder.cpp.o
 
 # target to build an object file
 src/textcodec/GBTextDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextDecoder.cpp.o
 .PHONY : src/textcodec/GBTextDecoder.cpp.o
 
 src/textcodec/GBTextDecoder.i: src/textcodec/GBTextDecoder.cpp.i
@@ -2770,7 +2770,7 @@ src/textcodec/GBTextDecoder.i: src/textcodec/GBTextDecoder.cpp.i
 
 # target to preprocess a source file
 src/textcodec/GBTextDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextDecoder.cpp.i
 .PHONY : src/textcodec/GBTextDecoder.cpp.i
 
 src/textcodec/GBTextDecoder.s: src/textcodec/GBTextDecoder.cpp.s
@@ -2778,7 +2778,7 @@ src/textcodec/GBTextDecoder.s: src/textcodec/GBTextDecoder.cpp.s
 
 # target to generate assembly for a file
 src/textcodec/GBTextDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextDecoder.cpp.s
 .PHONY : src/textcodec/GBTextDecoder.cpp.s
 
 src/textcodec/GBTextEncoder.o: src/textcodec/GBTextEncoder.cpp.o
@@ -2786,7 +2786,7 @@ src/textcodec/GBTextEncoder.o: src/textcodec/GBTextEncoder.cpp.o
 
 # target to build an object file
 src/textcodec/GBTextEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextEncoder.cpp.o
 .PHONY : src/textcodec/GBTextEncoder.cpp.o
 
 src/textcodec/GBTextEncoder.i: src/textcodec/GBTextEncoder.cpp.i
@@ -2794,7 +2794,7 @@ src/textcodec/GBTextEncoder.i: src/textcodec/GBTextEncoder.cpp.i
 
 # target to preprocess a source file
 src/textcodec/GBTextEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextEncoder.cpp.i
 .PHONY : src/textcodec/GBTextEncoder.cpp.i
 
 src/textcodec/GBTextEncoder.s: src/textcodec/GBTextEncoder.cpp.s
@@ -2802,7 +2802,7 @@ src/textcodec/GBTextEncoder.s: src/textcodec/GBTextEncoder.cpp.s
 
 # target to generate assembly for a file
 src/textcodec/GBTextEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/GBTextEncoder.cpp.s
 .PHONY : src/textcodec/GBTextEncoder.cpp.s
 
 src/textcodec/JPTextDecoder.o: src/textcodec/JPTextDecoder.cpp.o
@@ -2810,7 +2810,7 @@ src/textcodec/JPTextDecoder.o: src/textcodec/JPTextDecoder.cpp.o
 
 # target to build an object file
 src/textcodec/JPTextDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextDecoder.cpp.o
 .PHONY : src/textcodec/JPTextDecoder.cpp.o
 
 src/textcodec/JPTextDecoder.i: src/textcodec/JPTextDecoder.cpp.i
@@ -2818,7 +2818,7 @@ src/textcodec/JPTextDecoder.i: src/textcodec/JPTextDecoder.cpp.i
 
 # target to preprocess a source file
 src/textcodec/JPTextDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextDecoder.cpp.i
 .PHONY : src/textcodec/JPTextDecoder.cpp.i
 
 src/textcodec/JPTextDecoder.s: src/textcodec/JPTextDecoder.cpp.s
@@ -2826,7 +2826,7 @@ src/textcodec/JPTextDecoder.s: src/textcodec/JPTextDecoder.cpp.s
 
 # target to generate assembly for a file
 src/textcodec/JPTextDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextDecoder.cpp.s
 .PHONY : src/textcodec/JPTextDecoder.cpp.s
 
 src/textcodec/JPTextEncoder.o: src/textcodec/JPTextEncoder.cpp.o
@@ -2834,7 +2834,7 @@ src/textcodec/JPTextEncoder.o: src/textcodec/JPTextEncoder.cpp.o
 
 # target to build an object file
 src/textcodec/JPTextEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextEncoder.cpp.o
 .PHONY : src/textcodec/JPTextEncoder.cpp.o
 
 src/textcodec/JPTextEncoder.i: src/textcodec/JPTextEncoder.cpp.i
@@ -2842,7 +2842,7 @@ src/textcodec/JPTextEncoder.i: src/textcodec/JPTextEncoder.cpp.i
 
 # target to preprocess a source file
 src/textcodec/JPTextEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextEncoder.cpp.i
 .PHONY : src/textcodec/JPTextEncoder.cpp.i
 
 src/textcodec/JPTextEncoder.s: src/textcodec/JPTextEncoder.cpp.s
@@ -2850,7 +2850,7 @@ src/textcodec/JPTextEncoder.s: src/textcodec/JPTextEncoder.cpp.s
 
 # target to generate assembly for a file
 src/textcodec/JPTextEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/JPTextEncoder.cpp.s
 .PHONY : src/textcodec/JPTextEncoder.cpp.s
 
 src/textcodec/KRHangulMapping.o: src/textcodec/KRHangulMapping.cpp.o
@@ -2858,7 +2858,7 @@ src/textcodec/KRHangulMapping.o: src/textcodec/KRHangulMapping.cpp.o
 
 # target to build an object file
 src/textcodec/KRHangulMapping.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRHangulMapping.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRHangulMapping.cpp.o
 .PHONY : src/textcodec/KRHangulMapping.cpp.o
 
 src/textcodec/KRHangulMapping.i: src/textcodec/KRHangulMapping.cpp.i
@@ -2866,7 +2866,7 @@ src/textcodec/KRHangulMapping.i: src/textcodec/KRHangulMapping.cpp.i
 
 # target to preprocess a source file
 src/textcodec/KRHangulMapping.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRHangulMapping.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRHangulMapping.cpp.i
 .PHONY : src/textcodec/KRHangulMapping.cpp.i
 
 src/textcodec/KRHangulMapping.s: src/textcodec/KRHangulMapping.cpp.s
@@ -2874,7 +2874,7 @@ src/textcodec/KRHangulMapping.s: src/textcodec/KRHangulMapping.cpp.s
 
 # target to generate assembly for a file
 src/textcodec/KRHangulMapping.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRHangulMapping.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRHangulMapping.cpp.s
 .PHONY : src/textcodec/KRHangulMapping.cpp.s
 
 src/textcodec/KRTextDecoder.o: src/textcodec/KRTextDecoder.cpp.o
@@ -2882,7 +2882,7 @@ src/textcodec/KRTextDecoder.o: src/textcodec/KRTextDecoder.cpp.o
 
 # target to build an object file
 src/textcodec/KRTextDecoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextDecoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextDecoder.cpp.o
 .PHONY : src/textcodec/KRTextDecoder.cpp.o
 
 src/textcodec/KRTextDecoder.i: src/textcodec/KRTextDecoder.cpp.i
@@ -2890,7 +2890,7 @@ src/textcodec/KRTextDecoder.i: src/textcodec/KRTextDecoder.cpp.i
 
 # target to preprocess a source file
 src/textcodec/KRTextDecoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextDecoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextDecoder.cpp.i
 .PHONY : src/textcodec/KRTextDecoder.cpp.i
 
 src/textcodec/KRTextDecoder.s: src/textcodec/KRTextDecoder.cpp.s
@@ -2898,7 +2898,7 @@ src/textcodec/KRTextDecoder.s: src/textcodec/KRTextDecoder.cpp.s
 
 # target to generate assembly for a file
 src/textcodec/KRTextDecoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextDecoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextDecoder.cpp.s
 .PHONY : src/textcodec/KRTextDecoder.cpp.s
 
 src/textcodec/KRTextEncoder.o: src/textcodec/KRTextEncoder.cpp.o
@@ -2906,7 +2906,7 @@ src/textcodec/KRTextEncoder.o: src/textcodec/KRTextEncoder.cpp.o
 
 # target to build an object file
 src/textcodec/KRTextEncoder.cpp.o:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextEncoder.cpp.o
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextEncoder.cpp.o
 .PHONY : src/textcodec/KRTextEncoder.cpp.o
 
 src/textcodec/KRTextEncoder.i: src/textcodec/KRTextEncoder.cpp.i
@@ -2914,7 +2914,7 @@ src/textcodec/KRTextEncoder.i: src/textcodec/KRTextEncoder.cpp.i
 
 # target to preprocess a source file
 src/textcodec/KRTextEncoder.cpp.i:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextEncoder.cpp.i
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextEncoder.cpp.i
 .PHONY : src/textcodec/KRTextEncoder.cpp.i
 
 src/textcodec/KRTextEncoder.s: src/textcodec/KRTextEncoder.cpp.s
@@ -2922,7 +2922,7 @@ src/textcodec/KRTextEncoder.s: src/textcodec/KRTextEncoder.cpp.s
 
 # target to generate assembly for a file
 src/textcodec/KRTextEncoder.cpp.s:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextEncoder.cpp.s
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(MAKE) $(MAKESILENT) -f external/zxing-cpp/core/CMakeFiles/ZXing.dir/build.make external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/KRTextEncoder.cpp.s
 .PHONY : src/textcodec/KRTextEncoder.cpp.s
 
 # Help Target
@@ -3292,6 +3292,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/forlinx/kiosk-mini/kiosk/build_okmx && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/prakash/kiosk-mini/kiosk/build_okmx && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

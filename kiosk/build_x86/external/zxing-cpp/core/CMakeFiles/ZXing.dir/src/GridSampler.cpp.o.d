@@ -1,11 +1,11 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GridSampler.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GridSampler.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GridSampler.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GridSampler.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DetectorResult.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GridSampler.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DetectorResult.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -130,7 +130,7 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GridSampler.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
@@ -200,6 +200,6 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/GridSampler.cpp.o: \
  /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.h
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.h

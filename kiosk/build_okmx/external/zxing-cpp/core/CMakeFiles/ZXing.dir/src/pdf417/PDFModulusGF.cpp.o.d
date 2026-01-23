@@ -1,9 +1,9 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusGF.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFModulusGF.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFModulusGF.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFModulusGF.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFModulusPoly.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFModulusGF.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFModulusPoly.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/algorithm \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_algobase.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++config.h \
@@ -215,4 +215,4 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFModulusGF.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_vector.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_bvector.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/vector.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h

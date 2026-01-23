@@ -1,10 +1,10 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeHints.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cassert \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++config.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/os_defines.h \

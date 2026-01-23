@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-e8288e1917dec6de867beff29d1f91da CMakeFiles/kiosk_autogen
-fc90ce5f526e8a0d15c4c5d7476cd277 external/zxing-cpp/core/CMakeFiles/ZXing_autogen

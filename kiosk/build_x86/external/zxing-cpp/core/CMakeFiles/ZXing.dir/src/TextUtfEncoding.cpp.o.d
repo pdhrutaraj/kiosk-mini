@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/TextUtfEncoding.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

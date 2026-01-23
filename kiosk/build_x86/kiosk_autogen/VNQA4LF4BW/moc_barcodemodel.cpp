@@ -1,51 +1,86 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'barcodemodel.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.2.4)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include <memory>
 #include "../../../src/model/barcodemodel.h"
-#include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
+
+#if __has_include(<QtCore/qtmochelpers.h>)
+#include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
+
+#include <memory>
+
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'barcodemodel.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.2.4. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-QT_BEGIN_MOC_NAMESPACE
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_BarcodeModel_t {
-    const uint offsetsAndSize[12];
-    char stringdata0[52];
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSBarcodeModelENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSBarcodeModelENDCLASS = QtMocHelpers::stringData(
+    "BarcodeModel",
+    "barcodeChanged",
+    "",
+    "setBarcode",
+    "text",
+    "format"
+);
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSBarcodeModelENDCLASS_t {
+    uint offsetsAndSizes[12];
+    char stringdata0[13];
+    char stringdata1[15];
+    char stringdata2[1];
+    char stringdata3[11];
+    char stringdata4[5];
+    char stringdata5[7];
 };
 #define QT_MOC_LITERAL(ofs, len) \
-    uint(offsetof(qt_meta_stringdata_BarcodeModel_t, stringdata0) + ofs), len 
-static const qt_meta_stringdata_BarcodeModel_t qt_meta_stringdata_BarcodeModel = {
+    uint(sizeof(qt_meta_stringdata_CLASSBarcodeModelENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSBarcodeModelENDCLASS_t qt_meta_stringdata_CLASSBarcodeModelENDCLASS = {
     {
-QT_MOC_LITERAL(0, 12), // "BarcodeModel"
-QT_MOC_LITERAL(13, 14), // "barcodeChanged"
-QT_MOC_LITERAL(28, 0), // ""
-QT_MOC_LITERAL(29, 10), // "setBarcode"
-QT_MOC_LITERAL(40, 4), // "text"
-QT_MOC_LITERAL(45, 6) // "format"
-
+        QT_MOC_LITERAL(0, 12),  // "BarcodeModel"
+        QT_MOC_LITERAL(13, 14),  // "barcodeChanged"
+        QT_MOC_LITERAL(28, 0),  // ""
+        QT_MOC_LITERAL(29, 10),  // "setBarcode"
+        QT_MOC_LITERAL(40, 4),  // "text"
+        QT_MOC_LITERAL(45, 6)   // "format"
     },
-    "BarcodeModel\0barcodeChanged\0\0setBarcode\0"
-    "text\0format"
+    "BarcodeModel",
+    "barcodeChanged",
+    "",
+    "setBarcode",
+    "text",
+    "format"
 };
 #undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
+} // unnamed namespace
 
-static const uint qt_meta_data_BarcodeModel[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSBarcodeModelENDCLASS[] = {
 
  // content:
-      10,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods
@@ -70,6 +105,25 @@ static const uint qt_meta_data_BarcodeModel[] = {
        0        // eod
 };
 
+Q_CONSTINIT const QMetaObject BarcodeModel::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_CLASSBarcodeModelENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSBarcodeModelENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSBarcodeModelENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<BarcodeModel, std::true_type>,
+        // method 'barcodeChanged'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'setBarcode'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
+    >,
+    nullptr
+} };
+
 void BarcodeModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -84,29 +138,13 @@ void BarcodeModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         int *result = reinterpret_cast<int *>(_a[0]);
         {
             using _t = void (BarcodeModel::*)();
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&BarcodeModel::barcodeChanged)) {
+            if (_t _q_method = &BarcodeModel::barcodeChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
         }
     }
 }
-
-const QMetaObject BarcodeModel::staticMetaObject = { {
-    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_BarcodeModel.offsetsAndSize,
-    qt_meta_data_BarcodeModel,
-    qt_static_metacall,
-    nullptr,
-qt_incomplete_metaTypeArray<qt_meta_stringdata_BarcodeModel_t
-, QtPrivate::TypeAndForceComplete<BarcodeModel, std::true_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
-
-
->,
-    nullptr
-} };
-
 
 const QMetaObject *BarcodeModel::metaObject() const
 {
@@ -116,7 +154,7 @@ const QMetaObject *BarcodeModel::metaObject() const
 void *BarcodeModel::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_BarcodeModel.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSBarcodeModelENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
@@ -144,4 +182,3 @@ void BarcodeModel::barcodeChanged()
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 QT_WARNING_POP
-QT_END_MOC_NAMESPACE

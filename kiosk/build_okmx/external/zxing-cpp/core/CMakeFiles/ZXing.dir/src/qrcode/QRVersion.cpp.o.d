@@ -1,8 +1,8 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRVersion.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRVersion.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRVersion.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRECB.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRVersion.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRECB.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/array \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/compare \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/initializer_list \
@@ -40,7 +40,7 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/debug/debug.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/predefined_ops.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/range_access.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/vector \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/allocator.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++allocator.h \
@@ -61,7 +61,7 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_function.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/backward/binders.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/vector.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cassert \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/assert.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cstdint \
@@ -75,9 +75,9 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/bits/wchar.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/bits/stdint-intn.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/bits/stdint-uintn.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/algorithm \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_algo.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/algorithmfwd.h \
@@ -155,7 +155,7 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/tr1/poly_hermite.tcc \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/tr1/poly_laguerre.tcc \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/tr1/riemann_zeta.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cstring \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/string.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/strings.h \
@@ -248,6 +248,6 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/qrcode/QRVersion.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_numeric.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bit \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/pstl/glue_numeric_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/utility \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_relops.h

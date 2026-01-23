@@ -1,10 +1,10 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/DecodeHints.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
  /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

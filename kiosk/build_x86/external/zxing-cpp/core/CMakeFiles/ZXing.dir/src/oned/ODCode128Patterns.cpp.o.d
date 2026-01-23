@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODCode128Patterns.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Patterns.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Patterns.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Patterns.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Patterns.h \
  /usr/include/c++/11/array /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

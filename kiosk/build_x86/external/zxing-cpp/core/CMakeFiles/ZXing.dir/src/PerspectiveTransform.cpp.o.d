@@ -1,8 +1,8 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/PerspectiveTransform.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -127,8 +127,8 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/PerspectiveTransform.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp
+# Install script for directory: /home/prakash/kiosk-mini/kiosk/external/zxing-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,14 +44,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/cmake_install.cmake")
+  include("/home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ZXing/ZXingTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ZXing/ZXingTargets.cmake"
-         "/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/CMakeFiles/Export/f9e04a807b27a41299a115186893fdf1/ZXingTargets.cmake")
+         "/home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/CMakeFiles/Export/f9e04a807b27a41299a115186893fdf1/ZXingTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/ZXing/ZXingTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -64,20 +64,20 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ZXing" TYPE FILE FILES "/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/CMakeFiles/Export/f9e04a807b27a41299a115186893fdf1/ZXingTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ZXing" TYPE FILE FILES "/home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/CMakeFiles/Export/f9e04a807b27a41299a115186893fdf1/ZXingTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ZXing" TYPE FILE FILES "/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/CMakeFiles/Export/f9e04a807b27a41299a115186893fdf1/ZXingTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ZXing" TYPE FILE FILES "/home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/CMakeFiles/Export/f9e04a807b27a41299a115186893fdf1/ZXingTargets-release.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/zxing.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/zxing.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ZXing" TYPE FILE FILES
-    "/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/ZXingConfig.cmake"
-    "/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/ZXingConfigVersion.cmake"
+    "/home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/ZXingConfig.cmake"
+    "/home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/ZXingConfigVersion.cmake"
     )
 endif()
 

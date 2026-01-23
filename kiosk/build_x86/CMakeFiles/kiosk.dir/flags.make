@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/forlinx/kiosk-mini/kiosk/build_x86/kiosk_autogen/include -I/home/forlinx/kiosk-mini/kiosk/src -I/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core -I/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui
+CXX_INCLUDES = -I/home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/include -I/home/prakash/kiosk-mini/kiosk/src -I/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core -I/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src -isystem /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets -isystem /home/prakash/Qt/6.5.3/gcc_64/include -isystem /home/prakash/Qt/6.5.3/gcc_64/include/QtCore -isystem /home/prakash/Qt/6.5.3/gcc_64/mkspecs/linux-g++ -isystem /home/prakash/Qt/6.5.3/gcc_64/include/QtGui
 
 CXX_FLAGS = -O3 -DNDEBUG -fPIE -Wall -Wextra -Wno-unused-parameter -fPIC -std=gnu++20
 

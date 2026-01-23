@@ -1,9 +1,9 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonEncoder.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReedSolomonEncoder.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReedSolomonEncoder.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReedSolomonEncoder.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGFPoly.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReedSolomonEncoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGFPoly.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/algorithm \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_algobase.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++config.h \
@@ -221,5 +221,5 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/ReedSolomonEncoder.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/allocated_ptr.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/ext/aligned_buffer.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/list.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGF.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGF.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h

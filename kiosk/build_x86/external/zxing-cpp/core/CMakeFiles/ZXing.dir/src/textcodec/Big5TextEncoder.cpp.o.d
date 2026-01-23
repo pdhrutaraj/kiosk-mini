@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextEncoder.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/Big5TextEncoder.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/Big5TextEncoder.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/Big5TextEncoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/Big5TextEncoder.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -134,4 +134,4 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/textcodec/Big5TextEncoder.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/Big5MapTable.h
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/textcodec/Big5MapTable.h

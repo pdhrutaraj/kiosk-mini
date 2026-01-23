@@ -1,50 +1,82 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'cameracontroller.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.2.4)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include <memory>
 #include "../../../src/controller/cameracontroller.h"
-#include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
+
+#if __has_include(<QtCore/qtmochelpers.h>)
+#include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
+
+#include <memory>
+
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'cameracontroller.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.2.4. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-QT_BEGIN_MOC_NAMESPACE
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_CameraController_t {
-    const uint offsetsAndSize[10];
-    char stringdata0[53];
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSCameraControllerENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSCameraControllerENDCLASS = QtMocHelpers::stringData(
+    "CameraController",
+    "frameColorReady",
+    "",
+    "img",
+    "frameGrayReady"
+);
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSCameraControllerENDCLASS_t {
+    uint offsetsAndSizes[10];
+    char stringdata0[17];
+    char stringdata1[16];
+    char stringdata2[1];
+    char stringdata3[4];
+    char stringdata4[15];
 };
 #define QT_MOC_LITERAL(ofs, len) \
-    uint(offsetof(qt_meta_stringdata_CameraController_t, stringdata0) + ofs), len 
-static const qt_meta_stringdata_CameraController_t qt_meta_stringdata_CameraController = {
+    uint(sizeof(qt_meta_stringdata_CLASSCameraControllerENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSCameraControllerENDCLASS_t qt_meta_stringdata_CLASSCameraControllerENDCLASS = {
     {
-QT_MOC_LITERAL(0, 16), // "CameraController"
-QT_MOC_LITERAL(17, 15), // "frameColorReady"
-QT_MOC_LITERAL(33, 0), // ""
-QT_MOC_LITERAL(34, 3), // "img"
-QT_MOC_LITERAL(38, 14) // "frameGrayReady"
-
+        QT_MOC_LITERAL(0, 16),  // "CameraController"
+        QT_MOC_LITERAL(17, 15),  // "frameColorReady"
+        QT_MOC_LITERAL(33, 0),  // ""
+        QT_MOC_LITERAL(34, 3),  // "img"
+        QT_MOC_LITERAL(38, 14)   // "frameGrayReady"
     },
-    "CameraController\0frameColorReady\0\0img\0"
+    "CameraController",
+    "frameColorReady",
+    "",
+    "img",
     "frameGrayReady"
 };
 #undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
+} // unnamed namespace
 
-static const uint qt_meta_data_CameraController[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSCameraControllerENDCLASS[] = {
 
  // content:
-      10,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods
@@ -65,6 +97,25 @@ static const uint qt_meta_data_CameraController[] = {
        0        // eod
 };
 
+Q_CONSTINIT const QMetaObject CameraController::staticMetaObject = { {
+    QMetaObject::SuperData::link<QThread::staticMetaObject>(),
+    qt_meta_stringdata_CLASSCameraControllerENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSCameraControllerENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSCameraControllerENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<CameraController, std::true_type>,
+        // method 'frameColorReady'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QImage &, std::false_type>,
+        // method 'frameGrayReady'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QImage &, std::false_type>
+    >,
+    nullptr
+} };
+
 void CameraController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -79,36 +130,20 @@ void CameraController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         int *result = reinterpret_cast<int *>(_a[0]);
         {
             using _t = void (CameraController::*)(const QImage & );
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CameraController::frameColorReady)) {
+            if (_t _q_method = &CameraController::frameColorReady; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
         }
         {
             using _t = void (CameraController::*)(const QImage & );
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CameraController::frameGrayReady)) {
+            if (_t _q_method = &CameraController::frameGrayReady; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 1;
                 return;
             }
         }
     }
 }
-
-const QMetaObject CameraController::staticMetaObject = { {
-    QMetaObject::SuperData::link<QThread::staticMetaObject>(),
-    qt_meta_stringdata_CameraController.offsetsAndSize,
-    qt_meta_data_CameraController,
-    qt_static_metacall,
-    nullptr,
-qt_incomplete_metaTypeArray<qt_meta_stringdata_CameraController_t
-, QtPrivate::TypeAndForceComplete<CameraController, std::true_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QImage &, std::false_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QImage &, std::false_type>
-
-
-
->,
-    nullptr
-} };
-
 
 const QMetaObject *CameraController::metaObject() const
 {
@@ -118,7 +153,7 @@ const QMetaObject *CameraController::metaObject() const
 void *CameraController::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CameraController.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSCameraControllerENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QThread::qt_metacast(_clname);
 }
@@ -154,4 +189,3 @@ void CameraController::frameGrayReady(const QImage & _t1)
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 QT_WARNING_POP
-QT_END_MOC_NAMESPACE

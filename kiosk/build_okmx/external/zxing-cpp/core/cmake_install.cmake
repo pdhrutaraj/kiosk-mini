@@ -1,4 +1,4 @@
-# Install script for directory: /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core
+# Install script for directory: /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,39 +43,39 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/libZXing.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/libZXing.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ZXing" TYPE FILE FILES
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSetECI.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GTIN.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeStatus.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReadBarcode.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Result.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/StructuredAppend.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrixIO.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h"
-    "/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/MultiFormatWriter.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSetECI.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GTIN.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeStatus.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReadBarcode.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Result.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/StructuredAppend.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrixIO.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h"
+    "/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/MultiFormatWriter.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ZXing" TYPE FILE FILES "/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/ZXVersion.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ZXing" TYPE FILE FILES "/home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/ZXVersion.h")
 endif()
 

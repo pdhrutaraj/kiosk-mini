@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp \
+ /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h \
+ /home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -148,56 +148,47 @@ CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/cstddef \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/QImage \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/QImage \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qimage.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qtguiglobal.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qglobal.h \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
- /usr/include/assert.h /usr/include/x86_64-linux-gnu/qt6/QtCore/qconfig.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtcore-config.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsystemdetection.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qprocessordetection.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcompilerdetection.h \
- /usr/include/c++/11/algorithm /usr/include/c++/11/bits/ranges_algo.h \
- /usr/include/c++/11/bits/ranges_algobase.h /usr/include/c++/11/iterator \
- /usr/include/c++/11/bits/stream_iterator.h \
- /usr/include/c++/11/bits/streambuf_iterator.h \
- /usr/include/c++/11/streambuf /usr/include/c++/11/bits/ios_base.h \
- /usr/include/c++/11/bits/locale_classes.h \
- /usr/include/c++/11/bits/locale_classes.tcc \
- /usr/include/c++/11/system_error \
- /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
- /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
- /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/assert.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtversionchecks.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qconfig.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtcore-config.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtconfigmacros.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtcoreexports.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtnoop.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qsystemdetection.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qprocessordetection.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qcompilerdetection.h \
+ /usr/include/c++/11/version \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qassert.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtypes.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtclasshelpermacros.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtversion.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtypeinfo.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qcontainerfwd.h \
+ /usr/include/c++/11/variant \
+ /usr/include/c++/11/bits/enable_special_members.h \
+ /usr/include/c++/11/bits/invoke.h \
+ /usr/include/c++/11/ext/aligned_buffer.h \
+ /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/optional \
+ /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
- /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/bits/invoke.h \
- /usr/include/c++/11/bits/ranges_util.h \
- /usr/include/c++/11/pstl/glue_algorithm_defs.h \
- /usr/include/c++/11/functional /usr/include/c++/11/tuple \
- /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
- /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/bits/std_function.h \
- /usr/include/c++/11/unordered_map \
- /usr/include/c++/11/ext/aligned_buffer.h \
- /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/enable_special_members.h \
- /usr/include/c++/11/bits/node_handle.h \
- /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h \
- /usr/include/c++/11/pstl/execution_defs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerfwd.h \
- /usr/include/c++/11/variant /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/c++/11/optional \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsysinfo.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qlogging.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasicatomic.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qatomic_cxx11.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h \
+ /usr/include/c++/11/tuple /usr/include/c++/11/array \
+ /usr/include/c++/11/bits/uses_allocator.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qsysinfo.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qlogging.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qflags.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qcompare_impl.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qatomic.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbasicatomic.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qatomic_cxx11.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qgenericatomic.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/bits/atomic_wait.h /usr/include/c++/11/climits \
@@ -221,9 +212,20 @@ CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/unistd.h \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
  /usr/include/x86_64-linux-gnu/bits/syscall.h \
- /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qnumeric.h \
+ /usr/include/c++/11/bits/std_mutex.h /usr/include/c++/11/system_error \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+ /usr/include/c++/11/stdexcept \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qconstructormacros.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qdarwinhelpers.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qexceptionhandling.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qforeach.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qttypetraits.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qfunctionpointer.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qglobalstatic.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qmalloc.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qminmax.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qnumeric.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -247,23 +249,36 @@ CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtgui-config.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgb.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qnamespace.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringlist.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydatapointer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydataops.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qpair.h /usr/include/string.h \
- /usr/include/strings.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qoverload.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qswap.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtenvironmentvariables.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtresource.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qttranslation.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qversiontagging.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qtgui-config.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qtguiexports.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qcolor.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qrgb.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qnamespace.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtmetamacros.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstringlist.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qlist.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qarraydatapointer.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qarraydataops.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qarraydata.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qpair.h \
+ /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainertools_impl.h \
- /usr/include/c++/11/cstring /usr/include/c++/11/memory \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qcontainertools_impl.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qxptype_traits.h \
+ /usr/include/c++/11/cstring /usr/include/c++/11/iterator \
+ /usr/include/c++/11/bits/stream_iterator.h \
+ /usr/include/c++/11/bits/streambuf_iterator.h \
+ /usr/include/c++/11/streambuf /usr/include/c++/11/bits/ios_base.h \
+ /usr/include/c++/11/bits/locale_classes.h \
+ /usr/include/c++/11/bits/locale_classes.tcc \
+ /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
  /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/ostream \
@@ -278,50 +293,64 @@ CMakeFiles/kiosk.dir/src/platform/v4l2/v4l2camera.cpp.o: \
  /usr/include/c++/11/bits/shared_ptr.h \
  /usr/include/c++/11/bits/shared_ptr_base.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/ext/concurrence.h \
+ /usr/include/c++/11/bits/refwrap.h /usr/include/c++/11/ext/concurrence.h \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/bits/ranges_uninitialized.h \
+ /usr/include/c++/11/bits/ranges_algobase.h \
  /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringview.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearray.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qrefcount.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearrayalgorithms.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearrayview.h \
+ /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/bits/ranges_algo.h \
+ /usr/include/c++/11/bits/ranges_util.h \
+ /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
+ /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h \
+ /usr/include/c++/11/bits/node_handle.h \
+ /usr/include/c++/11/bits/unordered_map.h \
+ /usr/include/c++/11/bits/erase_if.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qhashfunctions.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstring.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qchar.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstringview.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbytearray.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qrefcount.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbytearrayalgorithms.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbytearrayview.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstringfwd.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/q20type_traits.h \
  /usr/include/c++/11/stdlib.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringliteral.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringalgorithms.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringtokenizer.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstringliteral.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstringalgorithms.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qanystringview.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qutf8stringview.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstringtokenizer.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstringbuilder.h \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbytearraylist.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpaintdevice.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs_impl.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qrect.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h /usr/include/fcntl.h \
- /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qiterator.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbytearraylist.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qalgorithms.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstringmatcher.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qrgba64.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qpaintdevice.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qwindowdefs.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobjectdefs.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qobjectdefs_impl.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qrect.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qmargins.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qsize.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qpoint.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qpixelformat.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qtransform.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qpolygon.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qregion.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qdatastream.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qscopedpointer.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qiodevicebase.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qline.h \
+ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \

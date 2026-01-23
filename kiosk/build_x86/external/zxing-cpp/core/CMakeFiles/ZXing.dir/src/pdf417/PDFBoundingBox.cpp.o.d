@@ -1,8 +1,8 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBoundingBox.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBoundingBox.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBoundingBox.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBoundingBox.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXNullable.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFBoundingBox.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXNullable.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -140,8 +140,8 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFBoundingBox.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \

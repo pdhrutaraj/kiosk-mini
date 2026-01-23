@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/src/controller/printcontroller.cpp \
+ /home/prakash/kiosk-mini/kiosk/src/controller/printcontroller.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/src/controller/printcontroller.h \
+ /home/prakash/kiosk-mini/kiosk/src/controller/printcontroller.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtGui/QImage \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtGui/qimage.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtGui/qtguiglobal.h \

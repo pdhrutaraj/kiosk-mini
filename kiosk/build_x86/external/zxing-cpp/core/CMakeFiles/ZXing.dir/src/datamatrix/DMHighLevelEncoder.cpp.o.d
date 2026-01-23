@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMHighLevelEncoder.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMHighLevelEncoder.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMHighLevelEncoder.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMHighLevelEncoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMHighLevelEncoder.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -134,16 +134,16 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMHighLevelEncoder.c
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMEncoderContext.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMSymbolInfo.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMSymbolShape.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMEncoderContext.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMSymbolInfo.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMSymbolShape.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -182,7 +182,7 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMHighLevelEncoder.c
  /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextEncoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextEncoder.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \

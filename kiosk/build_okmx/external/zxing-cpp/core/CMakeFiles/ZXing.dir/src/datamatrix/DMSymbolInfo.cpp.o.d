@@ -1,9 +1,9 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMSymbolInfo.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMSymbolInfo.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMSymbolInfo.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMSymbolInfo.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMSymbolShape.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMSymbolInfo.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMSymbolShape.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/algorithm \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_algobase.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++config.h \
@@ -208,5 +208,5 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/datamatrix/DMSymbolInfo.cpp.o: 
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_numeric.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bit \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/pstl/glue_numeric_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXTestSupport.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXTestSupport.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cstddef

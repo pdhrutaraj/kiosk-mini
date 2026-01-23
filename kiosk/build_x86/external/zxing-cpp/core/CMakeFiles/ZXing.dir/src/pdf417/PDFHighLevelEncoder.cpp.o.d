@@ -1,7 +1,7 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFHighLevelEncoder.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFHighLevelEncoder.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFHighLevelEncoder.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFHighLevelEncoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFHighLevelEncoder.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -138,13 +138,13 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/pdf417/PDFHighLevelEncoder.cpp.
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCompaction.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextEncoder.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXBigInteger.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFCompaction.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ECI.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextEncoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXBigInteger.h \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \

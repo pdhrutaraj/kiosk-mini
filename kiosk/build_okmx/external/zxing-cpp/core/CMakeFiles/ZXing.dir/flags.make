@@ -4,7 +4,7 @@
 # compile CXX with /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/forlinx/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/ZXing_autogen/include -I/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src
+CXX_INCLUDES = -I/home/prakash/kiosk-mini/kiosk/build_okmx/external/zxing-cpp/core/ZXing_autogen/include -I/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src
 
 CXX_FLAGS =  -O2 -pipe -g -feliminate-unused-debug-types  -O3 -DNDEBUG -fPIC -DZXING_BUILD_READERS -DZXING_BUILD_WRITERS -DZX_USE_UTF8 -Wall -Wextra -Wno-missing-braces -Werror=undef -Werror=return-type -ffloat-store -std=c++17
 

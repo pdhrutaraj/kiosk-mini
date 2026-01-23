@@ -1,52 +1,90 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'barcodescanner.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.2.4)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include <memory>
 #include "../../../src/controller/barcodescanner.h"
-#include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
+
+#if __has_include(<QtCore/qtmochelpers.h>)
+#include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
+
+#include <memory>
+
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'barcodescanner.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.2.4. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-QT_BEGIN_MOC_NAMESPACE
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_BarcodeScanner_t {
-    const uint offsetsAndSize[14];
-    char stringdata0[57];
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSBarcodeScannerENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSBarcodeScannerENDCLASS = QtMocHelpers::stringData(
+    "BarcodeScanner",
+    "barcodeDetected",
+    "",
+    "text",
+    "format",
+    "onFrame",
+    "gray"
+);
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSBarcodeScannerENDCLASS_t {
+    uint offsetsAndSizes[14];
+    char stringdata0[15];
+    char stringdata1[16];
+    char stringdata2[1];
+    char stringdata3[5];
+    char stringdata4[7];
+    char stringdata5[8];
+    char stringdata6[5];
 };
 #define QT_MOC_LITERAL(ofs, len) \
-    uint(offsetof(qt_meta_stringdata_BarcodeScanner_t, stringdata0) + ofs), len 
-static const qt_meta_stringdata_BarcodeScanner_t qt_meta_stringdata_BarcodeScanner = {
+    uint(sizeof(qt_meta_stringdata_CLASSBarcodeScannerENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSBarcodeScannerENDCLASS_t qt_meta_stringdata_CLASSBarcodeScannerENDCLASS = {
     {
-QT_MOC_LITERAL(0, 14), // "BarcodeScanner"
-QT_MOC_LITERAL(15, 15), // "barcodeDetected"
-QT_MOC_LITERAL(31, 0), // ""
-QT_MOC_LITERAL(32, 4), // "text"
-QT_MOC_LITERAL(37, 6), // "format"
-QT_MOC_LITERAL(44, 7), // "onFrame"
-QT_MOC_LITERAL(52, 4) // "gray"
-
+        QT_MOC_LITERAL(0, 14),  // "BarcodeScanner"
+        QT_MOC_LITERAL(15, 15),  // "barcodeDetected"
+        QT_MOC_LITERAL(31, 0),  // ""
+        QT_MOC_LITERAL(32, 4),  // "text"
+        QT_MOC_LITERAL(37, 6),  // "format"
+        QT_MOC_LITERAL(44, 7),  // "onFrame"
+        QT_MOC_LITERAL(52, 4)   // "gray"
     },
-    "BarcodeScanner\0barcodeDetected\0\0text\0"
-    "format\0onFrame\0gray"
+    "BarcodeScanner",
+    "barcodeDetected",
+    "",
+    "text",
+    "format",
+    "onFrame",
+    "gray"
 };
 #undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
+} // unnamed namespace
 
-static const uint qt_meta_data_BarcodeScanner[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSBarcodeScannerENDCLASS[] = {
 
  // content:
-      10,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        2,   14, // methods
@@ -71,6 +109,26 @@ static const uint qt_meta_data_BarcodeScanner[] = {
        0        // eod
 };
 
+Q_CONSTINIT const QMetaObject BarcodeScanner::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_CLASSBarcodeScannerENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSBarcodeScannerENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSBarcodeScannerENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<BarcodeScanner, std::true_type>,
+        // method 'barcodeDetected'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'onFrame'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QImage &, std::false_type>
+    >,
+    nullptr
+} };
+
 void BarcodeScanner::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -85,29 +143,13 @@ void BarcodeScanner::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
         int *result = reinterpret_cast<int *>(_a[0]);
         {
             using _t = void (BarcodeScanner::*)(const QString & , const QString & );
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&BarcodeScanner::barcodeDetected)) {
+            if (_t _q_method = &BarcodeScanner::barcodeDetected; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
         }
     }
 }
-
-const QMetaObject BarcodeScanner::staticMetaObject = { {
-    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_BarcodeScanner.offsetsAndSize,
-    qt_meta_data_BarcodeScanner,
-    qt_static_metacall,
-    nullptr,
-qt_incomplete_metaTypeArray<qt_meta_stringdata_BarcodeScanner_t
-, QtPrivate::TypeAndForceComplete<BarcodeScanner, std::true_type>, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QImage &, std::false_type>
-
-
->,
-    nullptr
-} };
-
 
 const QMetaObject *BarcodeScanner::metaObject() const
 {
@@ -117,7 +159,7 @@ const QMetaObject *BarcodeScanner::metaObject() const
 void *BarcodeScanner::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_BarcodeScanner.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSBarcodeScannerENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
@@ -146,4 +188,3 @@ void BarcodeScanner::barcodeDetected(const QString & _t1, const QString & _t2)
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP
-QT_END_MOC_NAMESPACE

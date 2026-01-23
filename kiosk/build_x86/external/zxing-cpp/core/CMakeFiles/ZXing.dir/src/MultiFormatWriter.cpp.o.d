@@ -1,10 +1,10 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/MultiFormatWriter.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/MultiFormatWriter.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/MultiFormatWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/MultiFormatWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
  /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -152,10 +152,10 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o: \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/streambuf.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -199,25 +199,25 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/bit /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCodabarWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Writer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode39Writer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode93Writer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODEAN13Writer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODEAN8Writer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODITFWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODUPCAWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODUPCEWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCodabarWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Writer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode39Writer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode93Writer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODEAN13Writer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODEAN8Writer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODITFWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODUPCAWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODUPCEWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFWriter.h \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bits/unique_ptr.h \
@@ -230,6 +230,6 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h

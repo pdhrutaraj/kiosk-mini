@@ -1,5 +1,5 @@
-/home/forlinx/kiosk-mini/kiosk/build_okmx/kiosk_autogen/F2ESZRYZMC/moc_sqliterecorder.cpp: /home/forlinx/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
-  /home/forlinx/kiosk-mini/kiosk/build_okmx/kiosk_autogen/moc_predefs.h \
+/home/prakash/kiosk-mini/kiosk/build_okmx/kiosk_autogen/F2ESZRYZMC/moc_sqliterecorder.cpp: /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
+  /home/prakash/kiosk-mini/kiosk/build_okmx/kiosk_autogen/moc_predefs.h \
   /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/QObject \
   /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/q20type_traits.h \
   /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/qalgorithms.h \

@@ -1,12 +1,12 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetector.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetector.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetector.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetectorResult.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DetectorResult.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetector.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetectorResult.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DetectorResult.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/algorithm \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_algobase.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++config.h \
@@ -129,7 +129,7 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/tr1/poly_hermite.tcc \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/tr1/poly_laguerre.tcc \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/tr1/riemann_zeta.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cstring \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/string.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/strings.h \
@@ -245,18 +245,18 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZDetector.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_vector.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_bvector.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/vector.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/utility \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_relops.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/array \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/compare \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGF.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGFPoly.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGF.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GenericGFPoly.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cstddef \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GridSampler.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReedSolomonDecoder.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/WhiteRectDetector.h
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GridSampler.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/PerspectiveTransform.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ReedSolomonDecoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ResultPoint.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/WhiteRectDetector.h

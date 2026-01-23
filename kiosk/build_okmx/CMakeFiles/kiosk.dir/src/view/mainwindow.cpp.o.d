@@ -1,7 +1,7 @@
 CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/src/view/mainwindow.cpp \
+ /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/src/view/mainwindow.h \
+ /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets/QMainWindow \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets/qmainwindow.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets/qtwidgetsglobal.h \
@@ -488,7 +488,7 @@ CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtGui/qimage.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/QString \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/qstring.h \
- /home/forlinx/kiosk-mini/kiosk/src/controller/cameracontroller.h \
+ /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/QThread \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/qthread.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/qdeadlinetimer.h \
@@ -508,11 +508,11 @@ CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/bits/semaphore.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/bits/semaphore-64.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/atomic_futex.h \
- /home/forlinx/kiosk-mini/kiosk/src/controller/barcodescanner.h \
+ /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/QObject \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore/qobject.h \
- /home/forlinx/kiosk-mini/kiosk/src/model/barcodemodel.h \
- /home/forlinx/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
+ /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h \
+ /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/sqlite3.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets/QVBoxLayout \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets/qboxlayout.h \
@@ -566,5 +566,5 @@ CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets/qframe.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets/QSpacerItem \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets/qlayoutitem.h \
- /home/forlinx/kiosk-mini/kiosk/src/model/qrgenerator.h \
- /home/forlinx/kiosk-mini/kiosk/src/controller/printcontroller.h
+ /home/prakash/kiosk-mini/kiosk/src/model/qrgenerator.h \
+ /home/prakash/kiosk-mini/kiosk/src/controller/printcontroller.h

@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "/home/forlinx/kiosk-mini/kiosk/build_okmx/kiosk_autogen",
-	"CMAKE_BINARY_DIR" : "/home/forlinx/kiosk-mini/kiosk/build_okmx",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/forlinx/kiosk-mini/kiosk/build_okmx",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/forlinx/kiosk-mini/kiosk",
+	"BUILD_DIR" : "/home/prakash/kiosk-mini/kiosk/build_okmx/kiosk_autogen",
+	"CMAKE_BINARY_DIR" : "/home/prakash/kiosk-mini/kiosk/build_okmx",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/prakash/kiosk-mini/kiosk/build_okmx",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/prakash/kiosk-mini/kiosk",
 	"CMAKE_EXECUTABLE" : "/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/forlinx/kiosk-mini/kiosk/CMakeLists.txt",
+		"/home/prakash/kiosk-mini/kiosk/CMakeLists.txt",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake/OEToolchainConfig.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake/OEToolchainConfig.cmake.d/OEQt6Toolchain.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeSystem.cmake.in",
-		"/home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles/3.25.2/CMakeSystem.cmake",
+		"/home/prakash/kiosk-mini/kiosk/build_okmx/CMakeFiles/3.25.2/CMakeSystem.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake/OEToolchainConfig.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake/OEToolchainConfig.cmake.d/OEQt6Toolchain.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeUnixFindMake.cmake",
@@ -65,7 +65,7 @@
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in",
-		"/home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles/3.25.2/CMakeCCompiler.cmake",
+		"/home/prakash/kiosk-mini/kiosk/build_okmx/CMakeFiles/3.25.2/CMakeCCompiler.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeDetermineCXXCompiler.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/Platform/Linux-Determine-CXX.cmake",
@@ -114,7 +114,7 @@
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake",
+		"/home/prakash/kiosk-mini/kiosk/build_okmx/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeGenericSystem.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake",
@@ -139,7 +139,7 @@
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in",
-		"/home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles/3.25.2/CMakeCCompiler.cmake",
+		"/home/prakash/kiosk-mini/kiosk/build_okmx/CMakeFiles/3.25.2/CMakeCCompiler.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeCXXInformation.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake",
@@ -158,7 +158,7 @@
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake",
+		"/home/prakash/kiosk-mini/kiosk/build_okmx/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/lib/cmake/Qt6/Qt6Config.cmake",
@@ -448,63 +448,63 @@
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/FindPackageMessage.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/forlinx/kiosk-mini/kiosk",
+	"CMAKE_SOURCE_DIR" : "/home/prakash/kiosk-mini/kiosk",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/controller/barcodescanner.h",
+			"/home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.h",
 			"MU",
 			"KECQXMYYOW/moc_barcodescanner.cpp",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/controller/cameracontroller.h",
+			"/home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.h",
 			"MU",
 			"KECQXMYYOW/moc_cameracontroller.cpp",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/controller/printcontroller.h",
+			"/home/prakash/kiosk-mini/kiosk/src/controller/printcontroller.h",
 			"MU",
 			"KECQXMYYOW/moc_printcontroller.cpp",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/model/barcodemodel.h",
+			"/home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h",
 			"MU",
 			"VNQA4LF4BW/moc_barcodemodel.cpp",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/model/qrgenerator.h",
+			"/home/prakash/kiosk-mini/kiosk/src/model/qrgenerator.h",
 			"MU",
 			"VNQA4LF4BW/moc_qrgenerator.cpp",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h",
+			"/home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.h",
 			"MU",
 			"RJB2OXRZWO/moc_v4l2camera.cpp",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/storage/sqliterecorder.h",
+			"/home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.h",
 			"MU",
 			"F2ESZRYZMC/moc_sqliterecorder.cpp",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/view/mainwindow.h",
+			"/home/prakash/kiosk-mini/kiosk/src/view/mainwindow.h",
 			"MU",
 			"3JYSCEOBDA/moc_mainwindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/forlinx/kiosk-mini/kiosk/build_okmx/kiosk_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/forlinx/kiosk-mini/kiosk/build_okmx/kiosk_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/prakash/kiosk-mini/kiosk/build_okmx/kiosk_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/prakash/kiosk-mini/kiosk/build_okmx/kiosk_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -515,9 +515,9 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/forlinx/kiosk-mini/kiosk/src",
-		"/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core",
-		"/home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src",
+		"/home/prakash/kiosk-mini/kiosk/src",
+		"/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core",
+		"/home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtWidgets",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/QtCore",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/lib/mkspecs/linux-g++",
@@ -556,56 +556,56 @@
 		"-c",
 		"/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/forlinx/kiosk-mini/kiosk/build_okmx/kiosk_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/prakash/kiosk-mini/kiosk/build_okmx/kiosk_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles/kiosk_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/prakash/kiosk-mini/kiosk/build_okmx/CMakeFiles/kiosk_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/opt/fsl-imx-xwayland/6.1-mickledore/sysroots/x86_64-pokysdk-linux/usr/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 5,
-	"SETTINGS_FILE" : "/home/forlinx/kiosk-mini/kiosk/build_okmx/CMakeFiles/kiosk_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/prakash/kiosk-mini/kiosk/build_okmx/CMakeFiles/kiosk_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/controller/barcodescanner.cpp",
+			"/home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/controller/cameracontroller.cpp",
+			"/home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/controller/printcontroller.cpp",
+			"/home/prakash/kiosk-mini/kiosk/src/controller/printcontroller.cpp",
 			"MU",
 			null
 		],
-		[ "/home/forlinx/kiosk-mini/kiosk/src/main.cpp", "MU", null ],
+		[ "/home/prakash/kiosk-mini/kiosk/src/main.cpp", "MU", null ],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/model/barcodemodel.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/forlinx/kiosk-mini/kiosk/src/model/qrgenerator.cpp",
+			"/home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp",
+			"/home/prakash/kiosk-mini/kiosk/src/model/qrgenerator.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/forlinx/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp",
+			"/home/prakash/kiosk-mini/kiosk/src/platform/v4l2/v4l2camera.cpp",
 			"MU",
 			null
 		],
-		[ "/home/forlinx/kiosk-mini/kiosk/src/view/mainwindow.cpp", "MU", null ]
+		[
+			"/home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.cpp",
+			"MU",
+			null
+		],
+		[ "/home/prakash/kiosk-mini/kiosk/src/view/mainwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

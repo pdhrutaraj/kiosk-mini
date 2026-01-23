@@ -1,11 +1,11 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarReader.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODDataBarReader.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODDataBarReader.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODDataBarReader.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODRowReader.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitArray.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODDataBarReader.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODRowReader.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitArray.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -177,7 +177,7 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarReader.cpp.o: \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
  /usr/include/c++/11/pstl/glue_numeric_defs.h /usr/include/c++/11/cassert \
  /usr/include/assert.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Pattern.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Pattern.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -213,21 +213,21 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/oned/ODDataBarReader.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecoderResult.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/StructuredAppend.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GTIN.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODDataBarCommon.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Result.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeStatus.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextDecoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecoderResult.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/StructuredAppend.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GTIN.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODDataBarCommon.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Result.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeStatus.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextDecoder.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
  /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \

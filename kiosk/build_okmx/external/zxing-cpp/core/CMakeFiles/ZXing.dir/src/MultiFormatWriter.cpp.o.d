@@ -1,10 +1,10 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/MultiFormatWriter.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/MultiFormatWriter.cpp \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/MultiFormatWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/MultiFormatWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cassert \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/c++config.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/aarch64-poky-linux/bits/os_defines.h \
@@ -200,10 +200,10 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/typeinfo \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/nested_exception.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/streambuf.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/CharacterSet.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/algorithm \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_algo.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/algorithmfwd.h \
@@ -238,7 +238,7 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/tr1/poly_hermite.tcc \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/tr1/poly_laguerre.tcc \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/tr1/riemann_zeta.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/cstring \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/string.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/strings.h \
@@ -248,21 +248,21 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_numeric.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bit \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/pstl/glue_numeric_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/utility \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_relops.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCodabarWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Writer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode39Writer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode93Writer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODEAN13Writer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODEAN8Writer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODITFWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODUPCAWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODUPCEWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/datamatrix/DMWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCodabarWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode128Writer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode39Writer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODCode93Writer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODEAN13Writer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODEAN8Writer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODITFWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODUPCAWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/oned/ODUPCEWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/pdf417/PDFWriter.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/memory \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/stl_raw_storage_iter.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/align.h \
@@ -279,6 +279,6 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/MultiFormatWriter.cpp.o: \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/bits/atomic_lockfree_defines.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/backward/auto_ptr.h \
  /opt/fsl-imx-xwayland/6.1-mickledore/sysroots/armv8a-poky-linux/usr/include/c++/12.3.0/pstl/glue_memory_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRWriter.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRErrorCorrectionLevel.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/qrcode/QRWriter.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/TextUtfEncoding.h

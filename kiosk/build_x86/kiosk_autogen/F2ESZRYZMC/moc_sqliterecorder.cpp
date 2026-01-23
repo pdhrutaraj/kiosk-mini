@@ -1,49 +1,82 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'sqliterecorder.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.2.4)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include <memory>
 #include "../../../src/storage/sqliterecorder.h"
-#include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
+
+#if __has_include(<QtCore/qtmochelpers.h>)
+#include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
+
+#include <memory>
+
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'sqliterecorder.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.2.4. It"
+#error "This file was generated using the moc from 6.5.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-QT_BEGIN_MOC_NAMESPACE
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_SQLiteRecorder_t {
-    const uint offsetsAndSize[10];
-    char stringdata0[34];
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSSQLiteRecorderENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSSQLiteRecorderENDCLASS = QtMocHelpers::stringData(
+    "SQLiteRecorder",
+    "store",
+    "",
+    "text",
+    "format"
+);
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSSQLiteRecorderENDCLASS_t {
+    uint offsetsAndSizes[10];
+    char stringdata0[15];
+    char stringdata1[6];
+    char stringdata2[1];
+    char stringdata3[5];
+    char stringdata4[7];
 };
 #define QT_MOC_LITERAL(ofs, len) \
-    uint(offsetof(qt_meta_stringdata_SQLiteRecorder_t, stringdata0) + ofs), len 
-static const qt_meta_stringdata_SQLiteRecorder_t qt_meta_stringdata_SQLiteRecorder = {
+    uint(sizeof(qt_meta_stringdata_CLASSSQLiteRecorderENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSSQLiteRecorderENDCLASS_t qt_meta_stringdata_CLASSSQLiteRecorderENDCLASS = {
     {
-QT_MOC_LITERAL(0, 14), // "SQLiteRecorder"
-QT_MOC_LITERAL(15, 5), // "store"
-QT_MOC_LITERAL(21, 0), // ""
-QT_MOC_LITERAL(22, 4), // "text"
-QT_MOC_LITERAL(27, 6) // "format"
-
+        QT_MOC_LITERAL(0, 14),  // "SQLiteRecorder"
+        QT_MOC_LITERAL(15, 5),  // "store"
+        QT_MOC_LITERAL(21, 0),  // ""
+        QT_MOC_LITERAL(22, 4),  // "text"
+        QT_MOC_LITERAL(27, 6)   // "format"
     },
-    "SQLiteRecorder\0store\0\0text\0format"
+    "SQLiteRecorder",
+    "store",
+    "",
+    "text",
+    "format"
 };
 #undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
+} // unnamed namespace
 
-static const uint qt_meta_data_SQLiteRecorder[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSSQLiteRecorderENDCLASS[] = {
 
  // content:
-      10,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        1,   14, // methods
@@ -62,6 +95,23 @@ static const uint qt_meta_data_SQLiteRecorder[] = {
        0        // eod
 };
 
+Q_CONSTINIT const QMetaObject SQLiteRecorder::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_CLASSSQLiteRecorderENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSSQLiteRecorderENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSSQLiteRecorderENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<SQLiteRecorder, std::true_type>,
+        // method 'store'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
+    >,
+    nullptr
+} };
+
 void SQLiteRecorder::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
@@ -74,22 +124,6 @@ void SQLiteRecorder::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
     }
 }
 
-const QMetaObject SQLiteRecorder::staticMetaObject = { {
-    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_SQLiteRecorder.offsetsAndSize,
-    qt_meta_data_SQLiteRecorder,
-    qt_static_metacall,
-    nullptr,
-qt_incomplete_metaTypeArray<qt_meta_stringdata_SQLiteRecorder_t
-, QtPrivate::TypeAndForceComplete<SQLiteRecorder, std::true_type>
-, QtPrivate::TypeAndForceComplete<void, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>, QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
-
-
->,
-    nullptr
-} };
-
-
 const QMetaObject *SQLiteRecorder::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
@@ -98,7 +132,7 @@ const QMetaObject *SQLiteRecorder::metaObject() const
 void *SQLiteRecorder::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_SQLiteRecorder.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSSQLiteRecorderENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
@@ -120,4 +154,3 @@ int SQLiteRecorder::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_WARNING_POP
-QT_END_MOC_NAMESPACE

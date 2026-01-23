@@ -1,12 +1,12 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZReader.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZReader.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZReader.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZReader.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Reader.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZReader.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Reader.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeHints.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BarcodeFormat.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Flags.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitHacks.h \
  /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -155,13 +155,13 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZReader.cpp.o: \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Result.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeStatus.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Result.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Content.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecodeStatus.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Error.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Quadrilateral.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
@@ -203,22 +203,22 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZReader.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/bit /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/StructuredAppend.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDecoder.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetector.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetectorResult.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DetectorResult.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/StructuredAppend.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDecoder.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetector.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/aztec/AZDetectorResult.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DetectorResult.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bits/unique_ptr.h \
@@ -231,4 +231,4 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/aztec/AZReader.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecoderResult.h
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/DecoderResult.h

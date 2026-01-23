@@ -1,10 +1,10 @@
 external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.o: \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/HybridBinarizer.cpp \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/HybridBinarizer.cpp \
  /usr/include/stdc-predef.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/HybridBinarizer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/GlobalHistogramBinarizer.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/HybridBinarizer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/GlobalHistogramBinarizer.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BinaryBitmap.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ImageView.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -150,9 +150,9 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Matrix.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/Point.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -177,7 +177,7 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXAlgorithms.h \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
@@ -214,9 +214,9 @@ external/zxing-cpp/core/CMakeFiles/ZXing.dir/src/HybridBinarizer.cpp.o: \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/streambuf.tcc \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrixIO.h \
- /home/forlinx/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ZXConfig.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/BitMatrixIO.h \
+ /home/prakash/kiosk-mini/kiosk/external/zxing-cpp/core/src/ByteArray.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
