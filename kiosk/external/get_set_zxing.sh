@@ -1,4 +1,4 @@
-
+rm -rf zxing-cpp
 git clone --branch v1.4.0 --single-branch https://github.com/zxing-cpp/zxing-cpp.git
 cd zxing-cpp
 mkdir build

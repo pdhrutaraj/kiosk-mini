@@ -1,8 +1,10 @@
 /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/3JYSCEOBDA/moc_mainwindow.cpp: /home/prakash/kiosk-mini/kiosk/src/view/mainwindow.h \
   /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/moc_predefs.h \
+  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QByteArray \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QObject \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QString \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QThread \
+  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QTimer \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/q20memory.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/q20type_traits.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qalgorithms.h \
@@ -14,6 +16,7 @@
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qatomic.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbasicatomic.h \
+  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbasictimer.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbindingstorage.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbytearray.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbytearrayalgorithms.h \
@@ -44,6 +47,7 @@
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qglobalstatic.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qhash.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qiodevice.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qiodevicebase.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qiterable.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qiterator.h \
@@ -99,6 +103,7 @@
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtenvironmentvariables.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtextstream.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qthread.h \
+  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtimer.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtmetamacros.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtnoop.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtpreprocessorsupport.h \
@@ -139,6 +144,10 @@
   /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qtguiglobal.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qtransform.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/QSerialPort \
+  /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/qserialport.h \
+  /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/qserialportglobal.h \
+  /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/qtserialportexports.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/QMainWindow \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qsizepolicy.h \
@@ -149,7 +158,11 @@
   /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qwidget.h \
   /home/prakash/kiosk-mini/kiosk/src/controller/barcodescanner.h \
   /home/prakash/kiosk-mini/kiosk/src/controller/cameracontroller.h \
+  /home/prakash/kiosk-mini/kiosk/src/controller/protocolcontroller.h \
+  /home/prakash/kiosk-mini/kiosk/src/controller/protocolparser.h \
   /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h \
+  /home/prakash/kiosk-mini/kiosk/src/model/vitalsmodel.h \
+  /home/prakash/kiosk-mini/kiosk/src/platform/uart/uartdevice.h \
   /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \

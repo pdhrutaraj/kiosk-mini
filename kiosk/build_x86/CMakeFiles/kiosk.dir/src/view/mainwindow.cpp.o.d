@@ -424,6 +424,20 @@ CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: \
  /home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h \
  /home/prakash/kiosk-mini/kiosk/src/storage/sqliterecorder.h \
  /usr/include/sqlite3.h \
+ /home/prakash/kiosk-mini/kiosk/src/platform/uart/uartdevice.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/QSerialPort \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/qserialport.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qiodevice.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/qserialportglobal.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/qtserialportexports.h \
+ /home/prakash/kiosk-mini/kiosk/src/controller/protocolparser.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QByteArray \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbytearray.h \
+ /home/prakash/kiosk-mini/kiosk/src/controller/protocolcontroller.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QTimer \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtimer.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbasictimer.h \
+ /home/prakash/kiosk-mini/kiosk/src/model/vitalsmodel.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/QVBoxLayout \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qboxlayout.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qlayout.h \
@@ -434,7 +448,6 @@ CMakeFiles/kiosk.dir/src/view/mainwindow.cpp.o: \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qlabel.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/qframe.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qpicture.h \
- /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qiodevice.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtGui/qtextdocument.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qurl.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtWidgets/QLineEdit \

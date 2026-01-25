@@ -24,7 +24,7 @@ endif()
 # --------------------------------------------------
 # Qt
 # --------------------------------------------------
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Widgets SerialPort)
 
 # --------------------------------------------------
 # SQLite3 (from Yocto sysroot)
@@ -47,6 +47,7 @@ set(BUILD_TESTING OFF CACHE BOOL "" FORCE)
 set(ZXING_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
 add_subdirectory(external/zxing-cpp)
+add_compile_definitions(ZX_USE_UTF8)
 
 # --------------------------------------------------
 # Source files
@@ -59,6 +60,8 @@ set(SRC
     src/model/barcodemodel.cpp
     src/model/qrgenerator.h
     src/model/qrgenerator.cpp
+    src/model/vitalsmodel.h
+    src/model/vitalsmodel.cpp
 
     # Controllers
     src/controller/cameracontroller.h
@@ -67,10 +70,16 @@ set(SRC
     src/controller/barcodescanner.cpp
     src/controller/printcontroller.h
     src/controller/printcontroller.cpp
+    src/controller/protocolparser.h
+    src/controller/protocolparser.cpp
+    src/controller/protocolcontroller.h
+    src/controller/protocolcontroller.cpp
 
     # Platform
     src/platform/v4l2/v4l2camera.h
     src/platform/v4l2/v4l2camera.cpp
+    src/platform/uart/uartdevice.h
+    src/platform/uart/uartdevice.cpp
 
     # Storage
     src/storage/sqliterecorder.h
@@ -103,6 +112,7 @@ target_link_libraries(kiosk
         Qt6::Widgets
         ZXing::ZXing
         SQLite::SQLite3
+	Qt6::SerialPort
 )
 
 # --------------------------------------------------

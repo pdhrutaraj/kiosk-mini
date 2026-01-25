@@ -448,6 +448,15 @@
 		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake",
 		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake",
 		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
+		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake",
+		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake",
+		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6SerialPort/Qt6SerialPortDependencies.cmake",
+		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets.cmake",
+		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets-relwithdebinfo.cmake",
+		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6SerialPort/Qt6SerialPortAdditionalTargetInfo.cmake",
+		"/home/prakash/Qt/6.5.3/gcc_64/lib/cmake/Qt6SerialPort/Qt6SerialPortVersionlessTargets.cmake",
 		"/usr/share/cmake-3.22/Modules/FindSQLite3.cmake",
 		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
@@ -476,6 +485,18 @@
 			null
 		],
 		[
+			"/home/prakash/kiosk-mini/kiosk/src/controller/protocolcontroller.h",
+			"MU",
+			"KECQXMYYOW/moc_protocolcontroller.cpp",
+			null
+		],
+		[
+			"/home/prakash/kiosk-mini/kiosk/src/controller/protocolparser.h",
+			"MU",
+			"KECQXMYYOW/moc_protocolparser.cpp",
+			null
+		],
+		[
 			"/home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.h",
 			"MU",
 			"VNQA4LF4BW/moc_barcodemodel.cpp",
@@ -485,6 +506,18 @@
 			"/home/prakash/kiosk-mini/kiosk/src/model/qrgenerator.h",
 			"MU",
 			"VNQA4LF4BW/moc_qrgenerator.cpp",
+			null
+		],
+		[
+			"/home/prakash/kiosk-mini/kiosk/src/model/vitalsmodel.h",
+			"MU",
+			"VNQA4LF4BW/moc_vitalsmodel.cpp",
+			null
+		],
+		[
+			"/home/prakash/kiosk-mini/kiosk/src/platform/uart/uartdevice.h",
+			"MU",
+			"I6UGBHFDKN/moc_uartdevice.cpp",
 			null
 		],
 		[
@@ -509,7 +542,15 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SERIALPORT_LIB",
+		"QT_WIDGETS_LIB",
+		"ZX_USE_UTF8"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -527,6 +568,7 @@
 		"/home/prakash/Qt/6.5.3/gcc_64/include/QtCore",
 		"/home/prakash/Qt/6.5.3/gcc_64/mkspecs/linux-g++",
 		"/home/prakash/Qt/6.5.3/gcc_64/include/QtGui",
+		"/home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort",
 		"/usr/include",
 		"/usr/include/c++/11",
 		"/usr/include/x86_64-linux-gnu/c++/11",
@@ -581,6 +623,16 @@
 			"MU",
 			null
 		],
+		[
+			"/home/prakash/kiosk-mini/kiosk/src/controller/protocolcontroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/prakash/kiosk-mini/kiosk/src/controller/protocolparser.cpp",
+			"MU",
+			null
+		],
 		[ "/home/prakash/kiosk-mini/kiosk/src/main.cpp", "MU", null ],
 		[
 			"/home/prakash/kiosk-mini/kiosk/src/model/barcodemodel.cpp",
@@ -589,6 +641,16 @@
 		],
 		[
 			"/home/prakash/kiosk-mini/kiosk/src/model/qrgenerator.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/prakash/kiosk-mini/kiosk/src/model/vitalsmodel.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/prakash/kiosk-mini/kiosk/src/platform/uart/uartdevice.cpp",
 			"MU",
 			null
 		],

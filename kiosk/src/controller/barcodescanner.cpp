@@ -20,8 +20,8 @@ void BarcodeScanner::onFrame(const QImage& gray)
         return;
 
     emit barcodeDetected(
-        //QString::fromStdString(result.text()),
-	QString::fromStdWString(result.text()),
+        QString::fromStdString(result.text()),
+	//QString::fromStdWString(result.text()),
         QString::fromStdString(ZXing::ToString(result.format()))
     );
 }

@@ -389,8 +389,26 @@ CMakeFiles/kiosk.dir/kiosk_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/bits/atomic_futex.h \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QString \
  /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qstring.h \
+ /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/KECQXMYYOW/moc_protocolcontroller.cpp \
+ /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/KECQXMYYOW/../../../src/controller/protocolcontroller.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QTimer \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qtimer.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbasictimer.h \
+ /home/prakash/kiosk-mini/kiosk/src/platform/uart/uartdevice.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/QSerialPort \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/qserialport.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qiodevice.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/qserialportglobal.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtSerialPort/qtserialportexports.h \
+ /home/prakash/kiosk-mini/kiosk/src/controller/protocolparser.h \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/QByteArray \
+ /home/prakash/Qt/6.5.3/gcc_64/include/QtCore/qbytearray.h \
+ /home/prakash/kiosk-mini/kiosk/src/model/vitalsmodel.h \
+ /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/KECQXMYYOW/moc_protocolparser.cpp \
  /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/VNQA4LF4BW/moc_barcodemodel.cpp \
  /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/VNQA4LF4BW/../../../src/model/barcodemodel.h \
+ /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/VNQA4LF4BW/moc_vitalsmodel.cpp \
+ /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/I6UGBHFDKN/moc_uartdevice.cpp \
  /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/F2ESZRYZMC/moc_sqliterecorder.cpp \
  /home/prakash/kiosk-mini/kiosk/build_x86/kiosk_autogen/F2ESZRYZMC/../../../src/storage/sqliterecorder.h \
  /usr/include/sqlite3.h \

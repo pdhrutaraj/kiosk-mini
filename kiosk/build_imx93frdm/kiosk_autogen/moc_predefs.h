@@ -29,6 +29,7 @@
 #define __GCC_IEC_559 2
 #define __FLT32X_DECIMAL_DIG__ 17
 #define __FLT_EVAL_METHOD__ 0
+#define ZX_USE_UTF8 1
 #define __cpp_binary_literals 201304L
 #define __FLT64_DECIMAL_DIG__ 17
 #define __cpp_noexcept_function_type 201510L
@@ -64,6 +65,7 @@
 #define __ARM_FEATURE_IDIV 1
 #define __FLT64X_MAX_10_EXP__ 4932
 #define __cpp_if_constexpr 201606L
+#define QT_SERIALPORT_LIB 1
 #define __BFLT16_MAX_EXP__ 128
 #define __FLT64_NORM_MAX__ 1.79769313486231570814527423731704357e+308F64
 #define __LDBL_IS_IEC_60559__ 1

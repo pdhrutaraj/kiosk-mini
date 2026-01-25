@@ -335,6 +335,54 @@ src/controller/printcontroller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/controller/printcontroller.cpp.s
 .PHONY : src/controller/printcontroller.cpp.s
 
+src/controller/protocolcontroller.o: src/controller/protocolcontroller.cpp.o
+.PHONY : src/controller/protocolcontroller.o
+
+# target to build an object file
+src/controller/protocolcontroller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/controller/protocolcontroller.cpp.o
+.PHONY : src/controller/protocolcontroller.cpp.o
+
+src/controller/protocolcontroller.i: src/controller/protocolcontroller.cpp.i
+.PHONY : src/controller/protocolcontroller.i
+
+# target to preprocess a source file
+src/controller/protocolcontroller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/controller/protocolcontroller.cpp.i
+.PHONY : src/controller/protocolcontroller.cpp.i
+
+src/controller/protocolcontroller.s: src/controller/protocolcontroller.cpp.s
+.PHONY : src/controller/protocolcontroller.s
+
+# target to generate assembly for a file
+src/controller/protocolcontroller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/controller/protocolcontroller.cpp.s
+.PHONY : src/controller/protocolcontroller.cpp.s
+
+src/controller/protocolparser.o: src/controller/protocolparser.cpp.o
+.PHONY : src/controller/protocolparser.o
+
+# target to build an object file
+src/controller/protocolparser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/controller/protocolparser.cpp.o
+.PHONY : src/controller/protocolparser.cpp.o
+
+src/controller/protocolparser.i: src/controller/protocolparser.cpp.i
+.PHONY : src/controller/protocolparser.i
+
+# target to preprocess a source file
+src/controller/protocolparser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/controller/protocolparser.cpp.i
+.PHONY : src/controller/protocolparser.cpp.i
+
+src/controller/protocolparser.s: src/controller/protocolparser.cpp.s
+.PHONY : src/controller/protocolparser.s
+
+# target to generate assembly for a file
+src/controller/protocolparser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/controller/protocolparser.cpp.s
+.PHONY : src/controller/protocolparser.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -406,6 +454,54 @@ src/model/qrgenerator.s: src/model/qrgenerator.cpp.s
 src/model/qrgenerator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/model/qrgenerator.cpp.s
 .PHONY : src/model/qrgenerator.cpp.s
+
+src/model/vitalsmodel.o: src/model/vitalsmodel.cpp.o
+.PHONY : src/model/vitalsmodel.o
+
+# target to build an object file
+src/model/vitalsmodel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/model/vitalsmodel.cpp.o
+.PHONY : src/model/vitalsmodel.cpp.o
+
+src/model/vitalsmodel.i: src/model/vitalsmodel.cpp.i
+.PHONY : src/model/vitalsmodel.i
+
+# target to preprocess a source file
+src/model/vitalsmodel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/model/vitalsmodel.cpp.i
+.PHONY : src/model/vitalsmodel.cpp.i
+
+src/model/vitalsmodel.s: src/model/vitalsmodel.cpp.s
+.PHONY : src/model/vitalsmodel.s
+
+# target to generate assembly for a file
+src/model/vitalsmodel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/model/vitalsmodel.cpp.s
+.PHONY : src/model/vitalsmodel.cpp.s
+
+src/platform/uart/uartdevice.o: src/platform/uart/uartdevice.cpp.o
+.PHONY : src/platform/uart/uartdevice.o
+
+# target to build an object file
+src/platform/uart/uartdevice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/platform/uart/uartdevice.cpp.o
+.PHONY : src/platform/uart/uartdevice.cpp.o
+
+src/platform/uart/uartdevice.i: src/platform/uart/uartdevice.cpp.i
+.PHONY : src/platform/uart/uartdevice.i
+
+# target to preprocess a source file
+src/platform/uart/uartdevice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/platform/uart/uartdevice.cpp.i
+.PHONY : src/platform/uart/uartdevice.cpp.i
+
+src/platform/uart/uartdevice.s: src/platform/uart/uartdevice.cpp.s
+.PHONY : src/platform/uart/uartdevice.s
+
+# target to generate assembly for a file
+src/platform/uart/uartdevice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kiosk.dir/build.make CMakeFiles/kiosk.dir/src/platform/uart/uartdevice.cpp.s
+.PHONY : src/platform/uart/uartdevice.cpp.s
 
 src/platform/v4l2/v4l2camera.o: src/platform/v4l2/v4l2camera.cpp.o
 .PHONY : src/platform/v4l2/v4l2camera.o
@@ -509,6 +605,12 @@ help:
 	@echo "... src/controller/printcontroller.o"
 	@echo "... src/controller/printcontroller.i"
 	@echo "... src/controller/printcontroller.s"
+	@echo "... src/controller/protocolcontroller.o"
+	@echo "... src/controller/protocolcontroller.i"
+	@echo "... src/controller/protocolcontroller.s"
+	@echo "... src/controller/protocolparser.o"
+	@echo "... src/controller/protocolparser.i"
+	@echo "... src/controller/protocolparser.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -518,6 +620,12 @@ help:
 	@echo "... src/model/qrgenerator.o"
 	@echo "... src/model/qrgenerator.i"
 	@echo "... src/model/qrgenerator.s"
+	@echo "... src/model/vitalsmodel.o"
+	@echo "... src/model/vitalsmodel.i"
+	@echo "... src/model/vitalsmodel.s"
+	@echo "... src/platform/uart/uartdevice.o"
+	@echo "... src/platform/uart/uartdevice.i"
+	@echo "... src/platform/uart/uartdevice.s"
 	@echo "... src/platform/v4l2/v4l2camera.o"
 	@echo "... src/platform/v4l2/v4l2camera.i"
 	@echo "... src/platform/v4l2/v4l2camera.s"
